@@ -6,37 +6,38 @@ body {
 	font-size: 2.3rem;
 }
 
-body h1,
-body a.toc {
+/* Table of contents */
+body span.section-header,
+body a.toc-item {
 	display: block;
 	font-size: 1.5em;
 	color: #000000;
 	text-decoration: none;
 }
 
-body div#one,
-body div#two,
-body div#three {
-	padding: 2rem;
-	line-height: 1.5;
+body a.toc-item {
+	position: fixed;
 }
 
-body div#one {
+body a.hidden {
+	visibility: hidden;
 }
 
-body div#two {
+/* Set background colours for section headers and sections */
+section#one,
+section#one span.section-header {
 }
 
-body div#three {
+section#two,
+section#two span.section-header {
+}
+
+section#three,
+section#three span.section-header {
 }
 
 body div.inner {
 	width: 60%;
 	margin: auto;
-}
-
-#bla {
-	color: red;
-	position: -webkit-sticky;
-	bottom: 0;
+	line-height: 1.5;
 }
