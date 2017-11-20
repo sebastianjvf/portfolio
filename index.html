@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+
+	<title></title>
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/typography.css">
+	<link rel="stylesheet" href="css/presentation.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<script>
+	// Load function on load
+	window.addEventListener('load', function () {
+		
+		// Find all headings
+		let headings = Array.from(document.getElementsByTagName('h1'));
+		
+		// Fill elements with their offset before position sticky
+		headings = headings.map(function (element) {
+				return {dom: element, from: element.offsetTop, to: element.offsetTop + element.offsetHeight};
+		});
+		
+		// Add an id to every heading
+		headings.forEach(function (element) {
+			element.dom.id = element.dom.innerText.toLowerCase().replace(' ', '-');
+			element.id = element.dom.id;
+		});
+		
+		// Create a nav tag and add it to the dom
+		let nav = document.createElement('nav');
+		document.body.appendChild(nav);
+		
+		// Copy their styles and content and create an a tag for them
+		// Change their position to fixed
+		// Stack them on top of each other
+		let tableOfContents = headings.map(function(element, i) {
+			let newElement = document.createElement('a');
+			newElement.innerText = element.dom.innerText;
+			newElement.setAttribute('href', element.id);
+			newElement.className = 'toc';
+			newElement.style.position = 'fixed';
+			newElement.style.bottom = (headings.length - i-1) * element.dom.offsetHeight + "px";
+			
+			return newElement;
+		});
+		
+		tableOfContents.forEach(function(element) {
+			nav.appendChild(element);
+		});
+		
+		// If one has surpassed their corresponding heading, make it disappear
+		// offsetTop will be fixed for the element so calculate the static headings relative to the viewport and compare those
+		function updateTableOfContents(event) {	
+			tableOfContents.forEach(function(element, i) {
+		
+				console.log(element.offsetTop + " >= " + (headings[i].from - window.pageYOffset));
+							
+				if (element.offsetTop >= (headings[i].from - window.pageYOffset)) {
+					element.style.visibility = 'hidden';
+				} else {
+					element.style.visibility = 'visible';
+				}
+						
+			});
+		}
+		
+		// Call the function once on load
+		updateTableOfContents();
+		
+		// Update the values of headings and table of contents
+		window.addEventListener('scroll', updateTableOfContents);
+		
+		let resizeTimer;
+		// Update the values when resizing is done
+		window.addEventListener('resize', function() {
+		
+			clearTimeout(resizeTimer);
+			resizeTimer = setTimeout(function() {
+		
+		    	console.log('resized');
+		    	updateValues();
+		    	updateTableOfContents();
+		            
+			}, 200);
+			
+		});
+			
+	});
+	</script>
+	
+</head>
+<body>
+	
+	<h1>Projects</h1>
+	<div id="one">
+		<div class="inner">
+		
+			Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet.
+		</div>
+	</div>
+	
+	<h1>CV</h1>
+	<div id="two">
+		<div class="inner">
+		
+			Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet.
+		</div>
+	</div>
+	
+	<h1>About</h1>
+	<div  id="three">
+		<div class="inner">
+		
+			Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet.
+		</div>	
+	</div>
+	
+	<h1>Last</h1>
+	<div  id="three">
+		<div class="inner">
+		
+			Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet.
+		</div>	
+	</div>
+	
+</body>
+</html>

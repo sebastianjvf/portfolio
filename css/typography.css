@@ -1,0 +1,40 @@
+/* AFTEN SCREEN */
+@font-face {
+    font-family: 'Aften Screen';
+    src: url(typefaces/aften-screen/regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aften Screen';
+    src: url(typefaces/aften-screen/italic.woff);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aften Screen';
+    src: url(typefaces/aften-screen/bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ALMA MONO */
+@font-face {
+    font-family: 'Alma Mono';
+    src: url(typefaces/alma-mono/regular.woff);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Alma Mono';
+    src: url(typefaces/alma-mono/bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Alma Mono';
+    src: url(typefaces/alma-mono/heavy.woff);
+    font-weight: 900;
+}
