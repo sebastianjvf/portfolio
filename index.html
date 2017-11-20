@@ -16,7 +16,7 @@
 		// Save function value in variable to properly remove the event listener later
 		let updateTableOfContents;
 		
-		function buildToC() {
+		function buildTableOfContents() {
 			
 			// Find all headings
 			let headings = Array.from(document.getElementsByTagName('h1'));
@@ -80,8 +80,20 @@
 			window.addEventListener('scroll', updateTableOfContents);
 		}
 		
+		function reloadTableOfContents() {
+			// Remove the old event listener on scroll
+			window.removeEventListener('scroll', updateTableOfContents);
+			
+			// Remove the old nav
+			let nav = document.getElementsByTagName('nav')[0];
+			document.body.removeChild(nav);
+			
+			// Build it again
+			buildTableOfContents();
+		}
+		
 		// LOAD ON LOAD
-		window.addEventListener('load', buildToC);
+		window.addEventListener('load', buildTableOfContents);
 	
 		// RECALCULATE ON RESIZE
 		// Update the values when resizing is done
@@ -92,18 +104,11 @@
 			resizeTimer = setTimeout(function() {
 		    	// console.log('resized');
 		    	
-		    	// Remove the old event listener on scroll
-		    	window.removeEventListener('scroll', updateTableOfContents);
-		    	
-		    	// Remove the old nav
-		    	let nav = document.getElementsByTagName('nav')[0];
-		    	document.body.removeChild(nav);
-		    	
-		    	// Build it again
-		    	buildToC();
+		    	reloadTableOfContents();
 		            
 			}, 200);
 		});
+		
 	})();
 	</script>
 	
