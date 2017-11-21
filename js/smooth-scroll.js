@@ -1,13 +1,3 @@
-(function() {
-	
-	window.addEventListener('load', smoothScroll);
-	window.addEventListener(labelSmoothScroll, smoothScroll);
-
-	function smoothScroll() {
-		// Find all a tags which link to an anchor on the page
-		let anchors = document.querySelectorAll('a[href*=\"#\"]');
-		console.log(anchors);
-		
 		/*
 			Adapted, from Pawel Grzybek (https://pawelgrzybek.com/)
 		*/
@@ -52,6 +42,16 @@
 		
 		    scrollHelper();
 		}
+
+(function() {
+	
+	window.addEventListener('load', smoothScroll);
+	window.addEventListener(labelSmoothScroll, smoothScroll);
+
+	function smoothScroll() {
+		// Find all a tags which link to an anchor on the page
+		let anchors = document.querySelectorAll('a[href*=\"#\"]');
+		console.log(anchors);
 		
 		anchors.forEach(function(element) {
 			// Find the event we need to scroll to
