@@ -86,8 +86,8 @@ a.toc-item:focus {
 header {
 	position: fixed;
 	width: 100%;
-	top: 0;
 	background-color: rgba(23, 24, 29, 0.9);
+	transition: top 0.2s ease-out;
 }
 
 header div.inner {
