@@ -51,10 +51,10 @@
 			
 			// Add a z-index to each element, last elements have a higher one.
 			// Add 20 to allow for enough space for z-index values in the content
-			newElement.style.zIndex = (20 + i) + "";
+			newElement.style.zIndex = (20 + i) + '';
 			
 			// Add page link to the ids set earlier
-			newElement.setAttribute('href', "#" + element.id);
+			newElement.setAttribute('href', '#' + element.id);
 			newElement.classList.add('toc-item');
 			
 			return newElement;
@@ -65,7 +65,7 @@
 			nav.appendChild(element);
 			
 			// Update height
-			element.style.bottom = (headings.length - i-1) * element.offsetHeight+ "px";
+			element.style.bottom = (headings.length - i-1) * element.offsetHeight+ 'px';
 		});
 		
 		// If one has surpassed their corresponding heading, make it disappear
@@ -73,7 +73,7 @@
 		updateTableOfContents = function (event) {	
 			tableOfContents.forEach(function(element, i) {
 		
-				// console.log(element.offsetTop + " >= " + (headings[i].from - window.pageYOffset));
+				// console.log(element.offsetTop + ' >= ' + (headings[i].from - window.pageYOffset));
 					
 				// Set visibility to hidden and not to display block = leads to calculation toggle issues
 				if (element.offsetTop >= (headings[i].from - window.pageYOffset)) {
@@ -117,8 +117,11 @@
 	    	// console.log('resized');
 	    	
 	    	reloadTableOfContents();
+	    	
+	    	// Dispatch event to trigger smooth scrolling recalculation
+	    	dispatchEvent(recalculateSmoothScroll);
 	            
-		}, 200);
+		}, 100);
 	});
 	
 })();
