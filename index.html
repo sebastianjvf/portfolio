@@ -41,7 +41,7 @@
 			
 			// Add an id to every heading
 			headings.forEach(function (element) {
-				element.dom.id = element.dom.innerText.toLowerCase().replace(' ', '-');
+				element.dom.id = element.dom.innerText.toLowerCase().replace(' ', '-').replace('\n', '');
 				element.id = element.dom.id;
 			});
 			
@@ -65,7 +65,7 @@
 				
 				// Add page link to the ids set earlier
 				newElement.setAttribute('href', "#" + element.id);
-				newElement.className = 'toc-item';
+				newElement.classList.add('toc-item');
 				
 				return newElement;
 			});
