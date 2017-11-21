@@ -11,7 +11,7 @@ body span.section-header,
 body a.toc-item {
 	display: block;
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: #000000;
 	text-decoration: none;
 }
@@ -41,8 +41,23 @@ section#three span.section-header {
 	background-color: #ffffff;
 }
 
+/* 
+	Padding of the inner divs composed of
+	margin-bottom on section-header
+	padding-top and padding-bottom on section-header
+	padding-left and padding-right on div.inner
+	padding-bottom on section-header
+*/
+/* Width of the layout */
 body div.inner {
 	width: 60%;
 	margin: auto;
 	line-height: 1.5;
+	padding: 3.5rem;
+}
+
+span.section-header div.inner,
+a.toc-item div.inner {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 }
