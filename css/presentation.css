@@ -86,7 +86,8 @@ a.toc-item:focus {
 header {
 	position: fixed;
 	width: 100%;
-	background-color: rgba(23, 24, 29, 0.9);
+	cursor: pointer;
+	background-color: rgba(23, 24, 29, 1);
 	transition: top 0.2s ease-out;
 }
 
