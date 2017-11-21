@@ -61,3 +61,12 @@ a.toc-item div.inner {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
+
+a.toc-item {
+	transition: padding-bottom 0.2s ease-in-out;
+}
+
+a.toc-item:hover,
+a.toc-item:focus {
+	padding-bottom: 0.7rem;
+}
