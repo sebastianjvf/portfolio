@@ -63,6 +63,10 @@
 				newElement.style.backgroundColor = getStyle(element.dom, 'backgroundColor');
 				newElement.style.color = getStyle(element.dom, 'color');
 				
+				// Add a z-index to each element, last elements have a higher one.
+				// Add 20 to allow for enough space for z-index values in the content
+				newElement.style.zIndex = (20 + i) + "";
+				
 				// Add page link to the ids set earlier
 				newElement.setAttribute('href', "#" + element.id);
 				newElement.classList.add('toc-item');
