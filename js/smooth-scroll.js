@@ -22,7 +22,8 @@
 		    
 		    const documentHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
 		    const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
-		    const destinationOffset = typeof destination === 'number' ? destination : destination.offsetTop;
+		    // Adapt scroll target position by the height of the header navigation
+		    const destinationOffset = typeof destination === 'number' ? destination : (destination.offsetTop - document.getElementsByTagName('header')[0].offsetHeight);
 		    const destinationOffsetToScroll = Math.round(documentHeight - destinationOffset < windowHeight ? documentHeight - windowHeight : destinationOffset);
 		
 		    if ('requestAnimationFrame' in window === false) {
