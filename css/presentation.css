@@ -27,15 +27,18 @@ body a.hidden {
 /* Set background colours for section headers and sections */
 section#one,
 section#one span.section-header {
+	color: #ffffff;
+	background-color: #212121;
 }
 
 section#two,
 section#two span.section-header {
-	background-color: #d0d0d0;
+	background-color: #ededed;
 }
 
 section#three,
 section#three span.section-header {
+	background-color: #ffffff;
 }
 
 body div.inner {
