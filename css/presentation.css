@@ -25,20 +25,23 @@ body a.hidden {
 }
 
 /* Set background colours for section headers and sections */
+section#one {
+	min-height: 100vh;
+}
+
 section#one,
 section#one span.section-header {
-	color: #ffffff;
-	background-color: #212121;
+	background-color: #ededed;
 }
 
 section#two,
 section#two span.section-header {
-	background-color: #ededed;
+	background-color: #ffffff;
 }
 
 section#three,
 section#three span.section-header {
-	background-color: #ffffff;
+	background-color: #ededed;
 }
 
 /* 
@@ -50,10 +53,14 @@ section#three span.section-header {
 */
 /* Width of the layout */
 body div.inner {
-	width: 60%;
+	width: 100%;
 	margin: auto;
 	line-height: 1.5;
 	padding: 3.5rem;
+}
+
+body div.inner {
+	padding-top: 0;
 }
 
 span.section-header div.inner,
