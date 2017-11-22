@@ -52,7 +52,7 @@ function scrollIt(destination, duration = 300, callback) {
 	function smoothScroll() {
 		// Find all a tags which link to an anchor on the page
 		let anchors = document.querySelectorAll('a[href*=\"#\"]');
-		console.log(anchors);
+		// console.log(anchors);
 		
 		anchors.forEach(function(element) {
 			// Find the event we need to scroll to

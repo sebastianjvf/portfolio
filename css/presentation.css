@@ -83,22 +83,21 @@ a.toc-item:focus {
 /* HEADER */
 header {
 	position: fixed;
-	width: calc(100% - 4rem);
+	width: 100%;
 	cursor: pointer;
 	transition: top 0.2s ease-out;
-	margin: 0 2rem;
 	border-bottom: 0.2rem solid #000000;
 }
 
 header div.inner {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-	font: 2.5rem 'Aften screen';
+	text-transform: uppercase;
 }
 
 header div.inner span {
 	display: block;
 	font-size: 1.8rem;
 	padding-top: 0.3rem;
-	font-family: 'Aften screen';
+	font-family: 'Aften Screen';
 }

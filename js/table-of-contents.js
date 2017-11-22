@@ -63,9 +63,19 @@
 		// Add the elements to the DOM and updated the computed height including inner elements
 		tableOfContents.forEach(function(element, i) {
 			nav.appendChild(element);
-			
+		});
+		
+		// Update the height independantly, after the element was added to the DOM. Otherwise, no calculation can be made for the height.
+		tableOfContents.forEach(function(element, i) {		
 			// Update height
-			element.style.bottom = (headings.length - i-1) * element.offsetHeight+ 'px';
+			let distanceFromBottom = 0;
+			
+			if(tableOfContents[i+1]) {
+				distanceFromBottom = (headings.length - i-1) * tableOfContents[i+1].offsetHeight;
+				console.log(element.offsetHeight);
+			}
+			
+			element.style.bottom = distanceFromBottom + 'px';
 		});
 		
 		// If one has surpassed their corresponding heading, make it disappear
