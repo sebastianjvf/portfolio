@@ -1,18 +1,19 @@
 html {
-	font:  normal 62.5% 'Aften Screen';
+	font: normal 62.5% 'Roboto Mono';
 }
 
 body {
-	font-size: 2.3rem;
+	font-size: 2rem;
 }
 
-/* Table of contents */
-body span.section-header,
-body a.toc-item {
+/* TABLE OF CONTENTS */
+body span.section-header, body a.toc-item {
 	display: block;
 	width: 100%;
-	font-size: 1.2em;
+	font-size: 2rem;
 	color: #000000;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono';
 	text-decoration: none;
 }
 
@@ -26,48 +27,45 @@ body a.hidden {
 }
 
 /* Set background colours for section headers and sections */
-section#one,
-section#two,
+section#one, 
+section#two, 
 section#three {
 	min-height: 100vh;
 }
 
-section#one,
+section#one, 
 section#one span.section-header {
 	color: #ffffff;
-	background-color: #23242C;
+	background-color: #ffffff;
 }
 
-section#two,
+section#two, 
 section#two span.section-header {
-	background-color: #ffffff;
+	background-color: #ededed;
 }
 
 section#three,
 section#three span.section-header {
-	background-color: #EDEDF0;
+	background-color: #ffffff;
 }
 
 /* 
 	Padding of the inner divs composed of
-	margin-bottom on section-header
 	padding-top and padding-bottom on section-header
 	padding-left and padding-right on div.inner
 	padding-bottom on section-header
 */
-/* Width of the layout */
+/* WIDTH OF THE LAYOUT */
 body div.inner {
 	width: 80%;
 	margin: auto;
 	line-height: 1.5;
 	padding: 3.5rem;
-}
-
-body div.inner {
 	padding-top: 0;
 }
 
-span.section-header div.inner,
+/* Give the section headers and menu items the same styling */
+span.section-header div.inner, 
 a.toc-item div.inner {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -77,7 +75,7 @@ a.toc-item {
 	transition: padding-bottom 0.2s ease-in-out;
 }
 
-a.toc-item:hover,
+a.toc-item:hover, 
 a.toc-item:focus {
 	padding-bottom: 0.7rem;
 }
@@ -85,13 +83,22 @@ a.toc-item:focus {
 /* HEADER */
 header {
 	position: fixed;
-	width: 100%;
+	width: calc(100% - 4rem);
 	cursor: pointer;
-	background-color: rgba(23, 24, 29, 1);
 	transition: top 0.2s ease-out;
+	margin: 0 2rem;
+	border-bottom: 0.2rem solid #000000;
 }
 
 header div.inner {
-	color: #ffffff;
-	padding-bottom: 0;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	font: 2.5rem 'Aften screen';
+}
+
+header div.inner span {
+	display: block;
+	font-size: 1.8rem;
+	padding-top: 0.3rem;
+	font-family: 'Aften screen';
 }

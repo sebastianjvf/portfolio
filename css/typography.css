@@ -38,3 +38,16 @@
     src: url(typefaces/alma-mono/heavy.woff);
     font-weight: 900;
 }
+
+/* ROBOTO MONO */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(typefaces/roboto-mono/light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(typefaces/roboto-mono/regular.ttf);
+    font-weight: normal;
+}
