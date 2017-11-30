@@ -116,5 +116,14 @@ section#one div.inner div#welcome {
 }
 
 section#one div.inner p {
-	margin-bottom: 5rem;
+	margin-bottom: 2.5rem;
+}
+
+div#picture {
+	width: 15rem;
+	height: 15rem;
+	margin: 0 auto 5rem auto;
+	border-radius: 9999rem;
+	filter: ;
+	background: url('../img/picture.png') no-repeat left top/100%;
 }
