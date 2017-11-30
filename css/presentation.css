@@ -34,8 +34,7 @@ body div.inner {
 	width: 80%;
 	margin: auto;
 	line-height: 1.5;
-	padding: 3.5rem;
-	padding-top: 0;
+	overflow: hidden;
 }
 
 /* Give the section headers and menu items the same styling */

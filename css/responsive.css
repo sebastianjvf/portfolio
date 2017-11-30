@@ -16,6 +16,7 @@
 @media (max-width: 1200px) {
 	body div.inner {
 		width: 100%;
+		padding: 0 2rem 0 2rem;
 	}
 	
 	section#one div.inner div#welcome {
@@ -47,7 +48,7 @@
 	
 	div#circle div#location {
 		position: absolute;
-		top: 67%;
+		top: 65%;
 		left: 20%;
 	}
 	
