@@ -1,5 +1,5 @@
 html {
-	font: normal 62.5% 'Roboto Mono';
+	font: normal 62.5% 'Aften Screen';
 }
 
 body {
@@ -7,14 +7,16 @@ body {
 }
 
 /* TABLE OF CONTENTS */
-body span.section-header, body a.toc-item {
+body span.section-header, 
+body a.toc-item,
+header {
 	display: block;
-	width: 100%;
+	width: calc(100% - 4rem);
 	font-size: 2rem;
 	color: #000000;
-	text-transform: uppercase;
-	font-family: 'Roboto Mono';
+	margin: 0 2rem;
 	text-decoration: none;
+	border-top: 0.1rem solid #ededed;
 }
 
 body a.toc-item {
@@ -35,13 +37,12 @@ section#three {
 
 section#one, 
 section#one span.section-header {
-	color: #ffffff;
 	background-color: #ffffff;
 }
 
 section#two, 
 section#two span.section-header {
-	background-color: #ededed;
+	background-color: #ffffff;
 }
 
 section#three,
@@ -83,16 +84,15 @@ a.toc-item:focus {
 /* HEADER */
 header {
 	position: fixed;
-	width: 100%;
 	cursor: pointer;
 	transition: top 0.2s ease-out;
-	border-bottom: 0.2rem solid #000000;
+	background-color: #ffffff;
+	border-bottom: 0.1rem solid #ededed;
 }
 
 header div.inner {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-	text-transform: uppercase;
 }
 
 header div.inner span {
@@ -100,4 +100,21 @@ header div.inner span {
 	font-size: 1.8rem;
 	padding-top: 0.3rem;
 	font-family: 'Aften Screen';
+}
+
+section#one div.inner {
+	padding: 20rem 5.5rem 0 5.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+section#one div.inner div#welcome {
+	width: 50%;
+	line-height: 1.8;
+}
+
+section#one div.inner p {
+	margin-bottom: 5rem;
 }
