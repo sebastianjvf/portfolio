@@ -45,6 +45,12 @@ a.toc-item div.inner {
 	padding-bottom: 1.5rem;
 }
 
+body span.section-header, 
+body a.toc-item,
+header {
+	text-transform: none;
+}
+
 body a.toc-item {
 	position: fixed;
 	cursor: pointer;
@@ -103,13 +109,6 @@ header:hover {
 header div.inner {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-}
-
-header div.inner span {
-	display: block;
-	font-size: 1.8rem;
-	padding-top: 0.3rem;
-	font-family: 'Aften Screen';
 }
 
 /* CONTENT */
