@@ -1,3 +1,8 @@
+::selection {
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, .2);
+}
+
 html {
 	font: normal 62.5% 'Aften Screen';
 }
@@ -13,41 +18,9 @@ header {
 	display: block;
 	width: calc(100% - 4rem);
 	font-size: 2rem;
-	color: #000000;
 	margin: 0 2rem;
 	text-decoration: none;
 	border-top: 0.1rem solid #ededed;
-}
-
-body a.toc-item {
-	position: fixed;
-	cursor: pointer;
-}
-
-body a.hidden {
-	visibility: hidden;
-}
-
-/* Set background colours for section headers and sections */
-section#one, 
-section#two, 
-section#three {
-	min-height: 100vh;
-}
-
-section#one, 
-section#one span.section-header {
-	background-color: #ffffff;
-}
-
-section#two, 
-section#two span.section-header {
-	background-color: #ffffff;
-}
-
-section#three,
-section#three span.section-header {
-	background-color: #ffffff;
 }
 
 /* 
@@ -72,6 +45,38 @@ a.toc-item div.inner {
 	padding-bottom: 1.5rem;
 }
 
+body a.toc-item {
+	position: fixed;
+	cursor: pointer;
+}
+
+body a.hidden {
+	visibility: hidden;
+}
+
+/* Set background colours for section headers and sections */
+section#one, 
+section#two, 
+section#three {
+	min-height: 100vh;
+}
+
+section#one, 
+section#one span.section-header {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+section#two, 
+section#two span.section-header {
+	background-color: #ffffff;
+}
+
+section#three,
+section#three span.section-header {
+	background-color: #ffffff;
+}
+
 a.toc-item {
 	transition: padding-bottom 0.2s ease-in-out;
 }
@@ -88,6 +93,11 @@ header {
 	transition: top 0.2s ease-out;
 	background-color: #ffffff;
 	border-bottom: 0.1rem solid #ededed;
+	transition: padding 0.2s ease-in-out;
+}
+
+header:hover {
+	padding-top: 0.5rem;
 }
 
 header div.inner {
@@ -102,28 +112,75 @@ header div.inner span {
 	font-family: 'Aften Screen';
 }
 
-section#one div.inner {
-	padding: 20rem 5.5rem 0 5.5rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-}
-
+/* CONTENT */
+/* Welcome */
 section#one div.inner div#welcome {
 	width: 50%;
-	line-height: 1.8;
+	line-height: 1.6;
+	margin: 0 auto;
 }
 
 section#one div.inner p {
 	margin-bottom: 2.5rem;
 }
 
+div.inner p a {
+	color: #7FCFFA;
+	position: relative;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+div.inner p a:hover {
+	color: #B95858;
+}
+
+div.inner p a:hover:before {
+	bottom: -10%;
+}
+
 div#picture {
 	width: 15rem;
 	height: 15rem;
-	margin: 0 auto 5rem auto;
+	margin: 0 auto 4rem auto;
 	border-radius: 9999rem;
 	filter: ;
 	background: url('../img/picture.png') no-repeat left top/100%;
+}
+
+/* Location circle */
+div#circle {
+	width: 40rem;
+	height: 40rem;
+	top: -23rem;
+	right: 0;
+	position: relative;
+	margin: 0 0 -23rem auto;
+	border-radius: 9999rem;
+	background: linear-gradient(to bottom right, #E0F3FE 50%, #EDFDF9 100%);
+}
+
+div#circle div#location {
+	position: absolute;
+	top: 63%;
+	left: 23%;
+}
+
+div#circle div#location span {
+	display: block;
+	color: rgba(0, 0, 0, .25);
+}
+
+div#circle div#location span#place {
+	font-size: 3.5rem;
+	line-height: 1;
+}
+
+div#circle div#location span#time {
+	font-size: 2.5rem;
+	text-align: left;
+}
+
+div#welcome span {
+	color: #979797;
 }
