@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	font-size: 2rem;
+	font-size: 2.3rem;
 }
 
 /* TABLE OF CONTENTS */
@@ -16,9 +16,8 @@ body span.section-header,
 body a.toc-item,
 header {
 	display: block;
-	width: calc(100% - 4rem);
 	font-size: 2rem;
-	margin: 0 2rem;
+	width: 100%;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 	text-decoration: none;
@@ -41,6 +40,8 @@ body div.inner {
 	margin: auto;
 	line-height: 1.5;
 	overflow: hidden;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 /* Give the section headers and menu items the same styling */
@@ -127,8 +128,8 @@ div.inner p a:hover:before {
 }
 
 div#picture {
-	width: 15rem;
-	height: 15rem;
+	width: 17rem;
+	height: 17rem;
 	margin: 0 auto 4rem auto;
 	border-radius: 9999rem;
 	filter: ;
@@ -137,19 +138,20 @@ div#picture {
 
 /* Location circle */
 div#circle {
-	width: 40rem;
-	height: 40rem;
-	top: -23rem;
+	width: 50rem;
+	height: 50rem;
+	top: -33rem;
 	right: 0;
 	position: relative;
-	margin: 0 0 -23rem auto;
+	margin: 0 0 -33rem auto;
+	margin-bottom: -33rem;
 	border-radius: 9999rem;
 	background: linear-gradient(to bottom right, #E0F3FE 50%, #EDFDF9 100%);
 }
 
 div#circle div#location {
 	position: absolute;
-	top: 63%;
+	top: 70%;
 	left: 23%;
 }
 
@@ -159,12 +161,12 @@ div#circle div#location span {
 }
 
 div#circle div#location span#place {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	line-height: 1;
 }
 
 div#circle div#location span#time {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	text-align: left;
 }
 

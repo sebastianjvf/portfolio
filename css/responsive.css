@@ -1,22 +1,6 @@
-@media (min-width: 1201px) {
-	div#circle {
-		width: 50rem;
-		height: 50rem;
-		top: -33rem;
-		margin-bottom: -33rem;
-	}
-	
-	div#circle div#location {
-		position: absolute;
-		top: 70%;
-		left: 23%;
-	}
-}
-	
 @media (max-width: 1200px) {
 	body div.inner {
 		width: 100%;
-		padding: 0 2rem 0 2rem;
 	}
 	
 	section#one div.inner div#welcome {
@@ -24,13 +8,42 @@
 	}
 	
 	div#circle {
-		right: -3.5rem;
+		width: 40rem;
+		height: 40rem;
+		top: -23rem;
+		margin-bottom: -23rem;
 	}
+	
+	body,
+	body span.section-header, 
+	body a.toc-item,
+	header {
+		font-size: 2rem;
+	}
+	
+	div#circle div#location {
+		top: 63%;
+		left: 23%;
+	}
+	
+	div#circle div#location span#place {
+		font-size: 3.5rem;
+	}
+	
+	div#circle div#location span#time {
+		font-size: 2.5rem;
+	}
+	
 }
 
 @media (max-width: 1000px) {
 	section#one div.inner div#welcome {
 		width: 70%;
+	}
+	
+	div#picture {
+		width: 15rem;
+		height: 15rem;
 	}
 }
 
@@ -66,15 +79,16 @@
 	div#circle div#location span#time {
 		font-size: 1.5rem;
 	}
-	
-	section div.inner {
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
 }
 
 @media (max-width: 600px) {
 	section#one div.inner div#welcome {
 		width: 100%;
+	}
+	
+	div#picture {
+		margin-top: 2rem;
+		width: 14rem;
+		height: 14rem;
 	}
 }
