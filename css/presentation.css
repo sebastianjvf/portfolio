@@ -25,6 +25,10 @@ header {
 	border-top: 0.1rem solid #ededed;
 }
 
+header {
+	border-top: 0;
+}
+
 /* 
 	Padding of the inner divs composed of
 	padding-top and padding-bottom on section-header
