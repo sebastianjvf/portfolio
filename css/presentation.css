@@ -90,10 +90,11 @@ a.toc-item:focus {
 header {
 	position: fixed;
 	cursor: pointer;
+	z-index: 300;
 	transition: top 0.2s ease-out;
-	background-color: #ffffff;
-	border-bottom: 0.1rem solid #ededed;
-	transition: padding 0.2s ease-in-out;
+	background-color: rgba(255, 255, 255, .95);
+	border-bottom: 0.1rem solid rgba(0, 0, 0, .08);
+	transition: all 0.2s ease-in-out;
 }
 
 header:hover {

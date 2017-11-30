@@ -60,6 +60,10 @@
 		margin-bottom: -18rem;
 	}
 	
+	div#picture {
+		margin-bottom: 3rem;
+	}
+	
 	div#circle div#location {
 		position: absolute;
 		top: 65%;
