@@ -154,6 +154,8 @@ div#circle div#location {
 	position: absolute;
 	top: 70%;
 	left: 23%;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
 }
 
 div#circle div#location span {

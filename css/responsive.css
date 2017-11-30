@@ -45,6 +45,10 @@
 		width: 15rem;
 		height: 15rem;
 	}
+	
+	div#circle div#location {
+		opacity: 1;
+	}
 }
 
 @media (max-width: 750px) {
