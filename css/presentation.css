@@ -133,7 +133,6 @@ div#picture {
 	height: 17rem;
 	margin: 0 auto 4rem auto;
 	border-radius: 9999rem;
-	filter: ;
 	background: url('../img/picture.png') no-repeat left top/100%;
 }
 
@@ -156,6 +155,7 @@ div#circle div#location {
 	position: absolute;
 	top: 70%;
 	left: 23%;
+	opacity: 0;
 	transition: opacity 0.2s ease-in-out;
 }
 
