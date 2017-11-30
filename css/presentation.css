@@ -149,7 +149,6 @@ div#circle {
 	border-radius: 9999rem;
 	color: rgba(0, 0, 0, .25);
 	background: linear-gradient(to bottom right, #E0F3FE 50%, #EDFDF9 100%);
-	/* linear-gradient(to bottom right, #fbd8bd 50%, #fdf7ed 100%); */
 	transition: all 0.3s ease-in-out;
 }
 
