@@ -130,30 +130,33 @@ section#projects-experience > div.inner {
 	flex-direction: row;
 }
 
-section#projects-experience div.inner div {
+section#projects-experience div.inner a {
 	padding: 0.8em 1.3em 0.8em 1.4em;
 	background-color: #ffffff;
 	flex: 0 0 calc(50% - 2em);
 	text-align: right;
 	margin-right: 2em;
 	margin-bottom: 2em;
+	display: block;
+	text-decoration: none;
+	color: #282829;
 	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
 }
 
-section#projects-experience div.inner div:last-of-type {
+section#projects-experience div.inner a:last-of-type {
 	margin-bottom: 0;
 }
 
-section#projects-experience div.inner div:nth-child(2n) {
+section#projects-experience div.inner a:nth-child(2n) {
 	break-after: always;
 }
 
-section#projects-experience div.inner div h1 {
+section#projects-experience div.inner a h1 {
 	font-size: 1.5em;
 	text-align: left;
 }
 
-section#projects-experience div.inner div span {
+section#projects-experience div.inner a span {
 	font-family: 'Alma Mono';
 	font-size: 0.8em;
 	position: relative;
@@ -161,7 +164,7 @@ section#projects-experience div.inner div span {
 	letter-spacing: -0.05em;
 }
 
-section#projects-experience div.inner div span:before {
+section#projects-experience div.inner a span:before {
 	content: '';
 	position: absolute;
 	width: 2.5rem;
@@ -175,7 +178,7 @@ section#projects-experience div.inner div span:before {
 	transition: all 0.2s ease-in-out;
 }
 
-section#projects-experience div.inner div:hover span:before {
+section#projects-experience div.inner a:hover span:before {
 	transform: scale(1);
 	background-color: #F9C776;
 }
