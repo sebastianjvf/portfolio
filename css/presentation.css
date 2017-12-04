@@ -167,7 +167,7 @@ section#projects-experience div.inner div span:before {
 	width: 2.5rem;
 	height: 2.5rem;
 	top: calc(50% - 1.25rem);
-	left: 50%;
+	left: calc(50% - 1.25rem);
 	z-index: -1;
 	border-radius: 9999rem;
 	transform: scale(0.5);
@@ -199,7 +199,7 @@ section#contact a:before {
 	width: 4rem;
 	height: 4rem;
 	top: calc(50% - 2rem);
-	left: 50%;
+	left: calc(50% - 1.9rem);
 	z-index: -1;
 	border-radius: 9999rem;
 	transform: scale(0.5);
