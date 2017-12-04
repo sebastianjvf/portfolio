@@ -44,13 +44,13 @@
 	
 	/* Show circles */
 	section#projects-experience div.inner div > span:before {
-		transform: scale(8);
+		transform: scale(1);
 		background-color: #F9C776;
 	}
 	
 	section#contact div#icons a,
 	section#contact div#icons a {
-		transform: scale(1.05);
+		transform: scale(1);
 		background-color: #2854A7;
 	}
 	

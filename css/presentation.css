@@ -28,8 +28,8 @@ body div.inner {
 	margin: auto;
 	line-height: 1.5;
 	overflow: hidden;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 /* Give the section headers and menu items the same styling */
@@ -43,9 +43,13 @@ body a.hidden {
 }
 
 /* Set background colours for section headers and sections */
+body span.section-header {
+	margin-bottom: -1em;
+}
+
 section > div.inner {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 section#one, 
@@ -129,10 +133,10 @@ section#projects-experience > div.inner {
 section#projects-experience div.inner div {
 	padding: 0.8em 1.3em 0.8em 1.4em;
 	background-color: #ffffff;
-	flex: 0 0 calc(50% - 0.9em);
+	flex: 0 0 calc(50% - 2em);
 	text-align: right;
-	margin-right: 0.9em;
-	margin-bottom: 0.9em;
+	margin-right: 2em;
+	margin-bottom: 2em;
 	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
 }
 
@@ -142,7 +146,6 @@ section#projects-experience div.inner div:last-of-type {
 
 section#projects-experience div.inner div:nth-child(2n) {
 	break-after: always;
-	margin-right: 0;
 }
 
 section#projects-experience div.inner div h1 {
