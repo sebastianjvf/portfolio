@@ -14,7 +14,7 @@ function scrollIt(destination, duration = 300, callback) {
     const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
 
     // Adapt scroll target position by the height of the header navigation
-    const destinationOffset = typeof destination === 'number' ? destination : (destination.offsetTop - document.getElementsByTagName('header')[0].offsetHeight + 1); // + 1 for the border
+    const destinationOffset = typeof destination === 'number' ? destination : (destination.offsetTop - document.getElementsByTagName('header')[0].offsetHeight); // + 1 for the border
     const destinationOffsetToScroll = Math.round(documentHeight - destinationOffset < windowHeight ? documentHeight - windowHeight : destinationOffset);
 
     if ('requestAnimationFrame' in window === false) {
