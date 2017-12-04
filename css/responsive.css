@@ -10,6 +10,12 @@
 		font-size: 2rem;
 	}
 	
+	section#contact div#icons a {
+		width: 7.5rem;
+		height: 7.5rem;
+		padding: 1.8rem;
+	}
+	
 }
 
 @media (max-width: 750px) {
@@ -22,6 +28,12 @@
 	
 	div#welcome {
 		width: 100%;
+	}
+	
+	section#contact div#icons a {
+		width: 6.5rem;
+		height: 6.5rem;
+		padding: 1.8rem;
 	}
 }
 
