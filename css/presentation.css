@@ -45,7 +45,7 @@ body a.hidden {
 /* Set background colours for section headers and sections */
 section > div.inner {
 	padding-top: 2rem;
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 }
 
 section#one, 
@@ -94,16 +94,12 @@ header:hover {
 div#welcome {
 	width: 70%;
 	margin: 0 auto;
-	padding-top: 10rem;
+	padding-top: 5rem;
 }
 
 section#one div.inner {
 	line-height: 1.8;
-	font-size: 1.5em;
-}
-
-section#one div.inner p {
-	margin-bottom: 2.5rem;
+	font-size: 1.4em;
 }
 
 section#one div.inner p a {
@@ -121,6 +117,59 @@ section#one div#picture {
 	margin: 0 auto 4rem auto;
 	border-radius: 9999rem;
 	background: url('../img/picture.png') no-repeat left top/100%;
+}
+
+/* PROJECTS AND EXPERIENCE */
+section#projects-experience > div.inner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+section#projects-experience div.inner div {
+	padding: 0.8em 1.3em 0.8em 1.4em;
+	background-color: #ffffff;
+	flex: 0 0 calc(50% - 0.9em);
+	text-align: right;
+	margin-right: 0.9em;
+	margin-bottom: 0.9em;
+	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
+}
+
+section#projects-experience div.inner div:nth-child(2n) {
+  break-after: always; /* New syntax */
+  margin-right: 0;
+}
+
+section#projects-experience div.inner div h1 {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+section#projects-experience div.inner div span {
+	font-family: 'Alma Mono';
+	font-size: 0.8em;
+	position: relative;
+	z-index: 0;
+	letter-spacing: -0.05em;
+}
+
+section#projects-experience div.inner div span:before {
+	content: '';
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	top: calc(50% -  0.2rem);
+	left: 50%;
+	z-index: -1;
+	border-radius: 9999rem;
+	background-color: transparent;
+	transition: all 0.2s ease-in-out;
+}
+
+section#projects-experience div.inner div:hover span:before {
+	transform: scale(8);
+	background-color: #F9C776;
 }
 
 /* CONTACT */
