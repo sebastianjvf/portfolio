@@ -3,13 +3,6 @@
 		width: 100%;
 	}
 	
-	div#circle {
-		width: 40rem;
-		height: 40rem;
-		top: -23rem;
-		margin-bottom: -23rem;
-	}
-	
 	body,
 	body span.section-header, 
 	body a.toc-item,
@@ -17,52 +10,9 @@
 		font-size: 2rem;
 	}
 	
-	div#circle div#location {
-		top: 63%;
-		left: 23%;
-	}
-	
-	div#circle div#location span#place {
-		font-size: 3.5rem;
-	}
-	
-	div#circle div#location span#time {
-		font-size: 2.5rem;
-	}
-	
-}
-
-@media (max-width: 1000px) {
-	div#picture {
-		width: 15rem;
-		height: 15rem;
-	}
-	
-	div#circle div#location {
-		opacity: 1;
-	}
 }
 
 @media (max-width: 750px) {
-	div#circle {
-		width: 30rem;
-		height: 30rem;
-		top: -18rem;
-		right: -3rem;
-		margin-bottom: -18rem;
-	}
-	
-	div#picture {
-		margin-bottom: 3rem;
-	}
-	
-	div#circle div#location {
-		position: absolute;
-		top: 65%;
-		left: 20%;
-		opacity: 1;
-	}
-	
 	body,
 	body span.section-header, 
 	body a.toc-item,
@@ -70,19 +20,10 @@
 		font-size: 1.7rem;
 	}
 	
-	div#circle div#location span#place {
-		font-size: 2.5rem;
-	}
-	
-	div#circle div#location span#time {
-		font-size: 1.5rem;
+	div#welcome {
+		width: 100%;
 	}
 }
 
 @media (max-width: 600px) {
-	div#picture {
-		margin-top: 2rem;
-		width: 14rem;
-		height: 14rem;
-	}
 }
