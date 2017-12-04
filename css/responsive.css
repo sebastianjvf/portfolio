@@ -43,7 +43,7 @@
 	}
 	
 	/* Show circles */
-	section#projects-experience div.inner div span:before {
+	section#projects-experience div.inner div > span:before {
 		transform: scale(8);
 		background-color: #F9C776;
 	}
