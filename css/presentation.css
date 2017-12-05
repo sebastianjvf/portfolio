@@ -147,8 +147,9 @@ section#projects-experience div.inner a:last-of-type {
 	margin-bottom: 0;
 }
 
-section#projects-experience div.inner a:nth-child(2n) {
+section#projects-experience div.inner a:nth-of-type(2n) {
 	break-after: always;
+	margin-right: 0;
 }
 
 section#projects-experience div.inner a h1 {

@@ -30,10 +30,9 @@
 		width: 100%;
 	}
 	
-	section#projects-experience div.inner div {
+	section#projects-experience div.inner a {
 		flex: 0 0 100%;
 		margin-right: 0;
-		margin-bottom: 0.9em;
 	}
 	
 	section#contact div#icons a {
