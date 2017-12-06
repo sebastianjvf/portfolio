@@ -22,8 +22,8 @@ body a.toc-item,
 header {
 	display: block;
 	width: 100%;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
 	text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ a.toc-item:focus {
 header {
 	position: fixed;
 	cursor: pointer;
-	z-index: 10;
+	z-index: 20;
 	top: 0;
 	transition: top 0.2s ease-out;
 	background-color: rgba(255, 255, 255, .95);
@@ -353,32 +353,4 @@ section#contact div#icons a:focus svg.logo-path {
 
 section#contact div#icons a:last-of-type {
 	margin: 0;
-}
-
-/* PROJECTS */
-section.content {
-}
-
-section.content div.inner {
-}
-
-section#content-top,
-section#content-top span.section-header {
-	min-height: 100vh;
-	background-color: #e7e9eb;
-}
-
-section#content-one,
-section#content-one span.section-header {
-	background-color: #EEEFF1;
-}
-
-section#content-two,
-section#content-two span.section-header {
-	background-color: #f5f6f7;
-}
-
-section#content-three,
-section#content-three span.section-header {
-	background-color: #ffffff;
 }

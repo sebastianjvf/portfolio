@@ -1,0 +1,27 @@
+/* PROJECT PAGE */
+section.content {
+}
+
+section.content div.inner {
+}
+
+section#project-top,
+section#project-top span.section-header {
+	min-height: 100vh;
+	background-color: #e7e9eb;
+}
+
+section#project-one,
+section#project-one span.section-header {
+	background-color: #EEEFF1;
+}
+
+section#project-two,
+section#project-two span.section-header {
+	background-color: #f5f6f7;
+}
+
+section#project-three,
+section#project-three span.section-header {
+	background-color: #ffffff;
+}
