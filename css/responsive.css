@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
 	body div.inner {
 		width: 100%;
 	}
@@ -11,7 +11,7 @@
 	body span.section-header, 
 	body a.toc-item,
 	header {
-		font-size: 1.9rem;
+		font-size: 2rem;
 	}
 	
 	section#contact div#icons a {
@@ -27,7 +27,7 @@
 	body span.section-header, 
 	body a.toc-item,
 	header {
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 	}
 	
 	div#welcome-text {
