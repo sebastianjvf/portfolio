@@ -3,6 +3,10 @@
 		width: 100%;
 	}
 	
+	section.content div.inner {
+		width: 100%;
+	}
+	
 	body,
 	body span.section-header, 
 	body a.toc-item,

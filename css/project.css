@@ -3,22 +3,26 @@ section.content {
 }
 
 section.content div.inner {
+	width: 65%;
 }
 
-section#project-top,
-section#project-top span.section-header {
-	min-height: 100vh;
-	background-color: #e7e9eb;
+section.content div.inner h1 {
+	font-size: 1.5em;
+}
+
+section#project-top {
+	color: #ffffff;
+	background-color: #2854A7;
 }
 
 section#project-one,
 section#project-one span.section-header {
-	background-color: #EEEFF1;
+	background-color: #e7e8eb;
 }
 
 section#project-two,
 section#project-two span.section-header {
-	background-color: #f5f6f7;
+	background-color: #eff0f2;
 }
 
 section#project-three,
