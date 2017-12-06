@@ -9,7 +9,7 @@
 			let scrollPos = window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
 			
 			console.log('Scroll!');
-			lines.style.top = scrollPos * - 0.15 + 'px';
+			lines.style.top = scrollPos * - 0.2 + 'px';
 			
 		});
 
