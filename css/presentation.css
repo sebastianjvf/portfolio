@@ -30,7 +30,7 @@ header {
 
 /* WIDTH OF THE LAYOUT */
 body div.inner {
-	width: 75%;
+	width: 65%;
 	margin: auto;
 	line-height: 1.5;
 	overflow: hidden;
@@ -108,7 +108,7 @@ section#introduction {
 }
 
 div#welcome-text {
-	width: 58%;
+	width: 80%;
 	margin: 0 auto;
 	line-height: 1.6;
 	text-align: center;
