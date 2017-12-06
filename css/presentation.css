@@ -33,8 +33,8 @@ body div.inner {
 	margin: auto;
 	line-height: 1.5;
 	overflow: hidden;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 /* Give the section headers and menu items the same styling */
@@ -208,7 +208,7 @@ section#projects-experience div.inner a:nth-of-type(2n) {
 }
 
 section#projects-experience div.inner a h1 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	text-align: left;
 	position: relative;
 }
