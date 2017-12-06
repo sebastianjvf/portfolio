@@ -255,6 +255,10 @@ section#projects-experience div.inner a:hover span:before {
 	background-color: #F9C776;
 }
 
+section#projects-experience div.inner a:hover span.internship:before {
+	background-color: #2854A7;
+}
+
 section#projects-experience div.inner a span.date {
 	color: #888888;
 	display: table;
