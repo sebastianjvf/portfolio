@@ -97,18 +97,21 @@ header:hover {
 /* INTRODUCTION */
 section#introduction {
 	position: relative;
+	overflow: hidden;
 }
 
 div#welcome-text {
-	width: 70%;
+	width: 58%;
 	margin: 0 auto;
 	line-height: 1.8;
+	text-align: center;
 }
 
 section#introduction div.inner div#welcome-text p {
 	font-size: 1.3em;
 	z-index: 1;
 	position: relative;
+	text-align: left;
 }
 
 section#introduction div#picture {
@@ -129,7 +132,7 @@ section#introduction div#lines {
 	z-index: 0;
 	top: 0;
 	opacity: 0.15;
-	overflow: hidden;
+	transition: all 0.1s ease-in-out;
 }
 
 section#introduction div#lines img {
