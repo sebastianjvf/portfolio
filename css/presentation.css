@@ -143,7 +143,6 @@ section#introduction div#lines {
 	z-index: 0;
 	top: 0;
 	opacity: 0.15;
-	transition: all 0.1s ease-in-out;
 }
 
 section#introduction div#lines img {
