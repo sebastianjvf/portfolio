@@ -11,6 +11,11 @@ body {
 	line-height: 1.5;
 }
 
+a {
+	color: #282829;
+	text-decoration: none;
+}
+
 /* TABLE OF CONTENTS */
 body span.section-header, 
 body a.toc-item,
@@ -84,6 +89,7 @@ header {
 	position: fixed;
 	cursor: pointer;
 	z-index: 10;
+	top: 0;
 	transition: top 0.2s ease-out;
 	background-color: rgba(255, 255, 255, .95);
 	transition: all 0.2s ease-in-out;
@@ -256,16 +262,16 @@ section#projects-experience div.inner a:hover span:before {
 }
 
 section#projects-experience div.inner a:hover span.internship:before {
-	background-color: #2854A7;
+	background-color: #76a8f9;
 }
 
-section#projects-experience div.inner a span.date {
+section#projects-experience div.inner a span.type {
 	color: #888888;
 	display: table;
 	font-weight: normal;
 }
 
-section#projects-experience div.inner a span.date:before {
+section#projects-experience div.inner a span.type:before {
 	display: none;
 }
 
@@ -347,4 +353,32 @@ section#contact div#icons a:focus svg.logo-path {
 
 section#contact div#icons a:last-of-type {
 	margin: 0;
+}
+
+/* PROJECTS */
+section.content {
+}
+
+section.content div.inner {
+}
+
+section#content-top,
+section#content-top span.section-header {
+	min-height: 100vh;
+	background-color: #e7e9eb;
+}
+
+section#content-one,
+section#content-one span.section-header {
+	background-color: #EEEFF1;
+}
+
+section#content-two,
+section#content-two span.section-header {
+	background-color: #f5f6f7;
+}
+
+section#content-three,
+section#content-three span.section-header {
+	background-color: #ffffff;
 }
