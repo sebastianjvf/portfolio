@@ -189,6 +189,7 @@ section#projects-experience div.inner a {
 	display: block;
 	text-decoration: none;
 	color: #282829;
+	position: relative;
 	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
 }
 
@@ -230,6 +231,7 @@ section#projects-experience div.inner a span {
 	font-size: 0.8em;
 	position: relative;
 	z-index: 0;
+	font-size: 0.6em;
 	letter-spacing: -0.05em;
 }
 
@@ -250,6 +252,22 @@ section#projects-experience div.inner a span:before {
 section#projects-experience div.inner a:hover span:before {
 	transform: scale(1);
 	background-color: #F9C776;
+}
+
+section#projects-experience div.inner a span.type {
+	color: #ffffff;
+	display: table;
+	border-radius: 9999rem;
+	padding: 0.3em 0.7em 0.1em 0.7em;
+	background-color: #2854A7;
+}
+
+section#projects-experience div.inner a span.project {
+	background-color: #f7bb59;
+}
+
+section#projects-experience div.inner a span.type:before {
+	display: none;
 }
 
 /* CONTACT */
