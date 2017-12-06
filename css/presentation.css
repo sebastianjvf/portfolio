@@ -52,8 +52,8 @@ section > div.inner {
 	padding-bottom: 2em;
 }
 
-section#one, 
-section#one span.section-header {
+section#introduction, 
+section#introduction span.section-header {
 	color: #ffffff;
 	background-color: #2854A7;
 }
@@ -83,7 +83,7 @@ a.toc-item:focus {
 header {
 	position: fixed;
 	cursor: pointer;
-	z-index: 300;
+	z-index: 10;
 	transition: top 0.2s ease-out;
 	background-color: rgba(255, 255, 255, .95);
 	transition: all 0.2s ease-in-out;
@@ -94,33 +94,54 @@ header:hover {
 }
 
 /* CONTENT */
-/* WELCOME */
-div#welcome {
+/* INTRODUCTION */
+section#introduction {
+	position: relative;
+}
+
+div#welcome-text {
 	width: 70%;
 	margin: 0 auto;
 	line-height: 1.8;
 }
 
-section#one div.inner div#welcome p {
-	font-size: 1.4em;
-	margin-bottom: 1em;
+section#introduction div.inner div#welcome-text p {
+	font-size: 1.3em;
 }
 
-section#one div.inner p a {
+section#introduction div.inner p a {
 	color: inherit;
 	position: relative;
+	z-index: 100;
 	text-decoration: none;
 	transition: all 0.2s ease-in-out;
 }
 
-section#one div#picture {
+section#introduction div#picture {
 	width: 8em;
 	height: 8em;
 	position: relative;
 	z-index: 0;
-	margin: 0 auto 4rem auto;
+	margin: 0 auto 2em auto;
 	border-radius: 9999rem;
 	background: url('../img/picture.png') no-repeat left top/100%;
+	z-index: 1;
+}
+
+section#introduction div#lines {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	top: 0;
+	opacity: 0.15;
+	overflow: hidden;
+}
+
+section#introduction div#lines img {
+	display: block;
+	position: absolute;
+	width: 7em;
 }
 
 /* PROJECTS AND EXPERIENCE */
@@ -155,7 +176,26 @@ section#projects-experience div.inner a:nth-of-type(2n) {
 section#projects-experience div.inner a h1 {
 	font-size: 1.5em;
 	text-align: left;
+	position: relative;
 }
+
+/*
+section#projects-experience div.inner a h1 {
+	margin-bottom: 2rem;
+}
+
+section#projects-experience div.inner a h1:after {
+	content: '';
+	text-align: left;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 2rem;
+	background: url('../img/ziz-zag.svg') no-repeat left top;
+	position: absolute;
+	display: block;
+}
+*/
 
 section#projects-experience div.inner a span {
 	font-family: 'Alma Mono';
