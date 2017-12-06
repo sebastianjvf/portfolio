@@ -110,6 +110,7 @@ section#introduction div.inner div#welcome-text p {
 	z-index: 1;
 	position: relative;
 }
+
 section#introduction div#picture {
 	width: 8em;
 	height: 8em;
@@ -135,6 +136,32 @@ section#introduction div#lines img {
 	display: block;
 	position: absolute;
 	width: 7em;
+}
+
+section#introduction a {
+	color: #ffffff;
+	text-decoration: underline;
+	position: relative;
+}
+
+section#introduction a#more {
+	display: inline-block;
+	color: #ffffff;
+	margin-top: 2em;
+	font-size: 1.1em;
+	padding: 0.3em 0.8em;
+	text-decoration: none;
+	z-index: 5;
+	position: relative;
+	background-color: #f7bb59;
+	box-shadow: 0.4em 0.4em 0 rgba(0, 0, 0, 0.15);
+	transition: all 0.2s ease-in-out;
+}
+
+section#introduction a#more:hover,
+section#introduction a#more:focus {
+	transform: translateX(0.1em) translateY(0.1em);
+	box-shadow: 0.3em 0.3em 0 rgba(0, 0, 0, 0.15);
 }
 
 /* PROJECTS AND EXPERIENCE */
