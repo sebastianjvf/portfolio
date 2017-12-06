@@ -7,8 +7,8 @@ html {
 }
 
 body {
-	font-size: 2.2rem;
-	line-height: 1.5;
+	font-size: 2.3rem;
+	line-height: 1.7;
 }
 
 a {
@@ -32,7 +32,6 @@ header {
 body div.inner {
 	width: 65%;
 	margin: auto;
-	line-height: 1.5;
 	overflow: hidden;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
@@ -110,7 +109,6 @@ section#introduction {
 div#welcome-text {
 	width: 80%;
 	margin: 0 auto;
-	line-height: 1.6;
 	text-align: center;
 }
 
@@ -118,7 +116,7 @@ section#introduction div.inner div#welcome-text p {
 	z-index: 1;
 	position: relative;
 	text-align: left;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 section#introduction div#picture {
@@ -211,7 +209,7 @@ section#projects-experience div.inner a:nth-of-type(2n) {
 
 div.inner h1,
 div.inner h2 {
-	font-size: 1.2em;
+	font-size: 1.0em;
 }
 
 section#projects-experience div.inner a h1 {
@@ -239,12 +237,11 @@ section#projects-experience div.inner a h1:after {
 
 section#projects-experience div.inner a span {
 	font-family: 'Alma Mono';
-	font-size: 0.8em;
 	position: relative;
 	z-index: 0;
 	font-size: 0.7em;
 	font-weight: bold;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.08em;
 }
 
 section#projects-experience div.inner a span:before {
