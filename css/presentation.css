@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 	line-height: 1.7;
 }
 
@@ -51,8 +51,8 @@ body span.section-header {
 }
 
 section > div.inner {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 section#introduction, 
@@ -142,7 +142,7 @@ section#introduction div#picture {
 section#introduction div#picture + span {
 	display: block;
 	font-size: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 div#lines {
@@ -169,7 +169,7 @@ section#introduction a {
 section#introduction a#more {
 	display: inline-block;
 	color: #ffffff;
-	margin-top: 1em;
+	margin-top: 2em;
 	font-size: 1em;
 	padding: 0.3em 0.8em;
 	text-decoration: none;
@@ -196,10 +196,10 @@ section#projects-experience > div.inner {
 section#projects-experience div.inner a {
 	padding: 1em 1.3em 0.8em 1.4em;
 	background-color: #ffffff;
-	flex: 0 0 calc(50% - 1.5em);
+	flex: 0 0 calc(50% - 2em);
 	text-align: right;
-	margin-right: 1.5em;
-	margin-bottom: 1.5em;
+	margin-right: 2em;
+	margin-bottom: 2em;
 	display: block;
 	text-decoration: none;
 	color: #282829;

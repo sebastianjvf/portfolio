@@ -4,7 +4,16 @@ section#project-top {
 	background-color: #2854A7;
 	position: relative;
 	overflow: hidden;
-	padding-top: 2em;
+	padding-top: 4em;
+	padding-bottom: 2.5em;
+}
+
+section#project-top:after {
+	content: url(../img/arrow-down.svg);
+	width: 1.5em;
+	position: absolute;
+	bottom: 1em;
+	left: calc(50% - 0.75em);
 }
 
 section#project-one,
@@ -37,7 +46,7 @@ section.content div.inner img {
 }
 
 section.content div.inner .img-caption {
-	margin: 1.5em auto;
+	margin: 2em auto;
 	position: relative;
 }
 
