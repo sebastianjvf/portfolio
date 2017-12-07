@@ -27,7 +27,17 @@
 	body span.section-header, 
 	body a.toc-item,
 	header {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
+	}
+	
+	body div.inner {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	
+	section > div.inner {
+		padding-top: 1em;
+		padding-bottom: 1em;
 	}
 	
 	div#welcome-text {
@@ -35,8 +45,9 @@
 	}
 	
 	section#projects-experience div.inner a {
-		flex: 0 0 100%;
+		flex: 0 0 calc(100%);
 		margin-right: 0;
+		margin-bottom: 1em;
 	}
 	
 	section#contact div#icons a {

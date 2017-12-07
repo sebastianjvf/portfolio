@@ -35,6 +35,8 @@ body div.inner {
 	overflow: hidden;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
+	position: relative;
+	z-index: 1;
 }
 
 /* Give the section headers and menu items the same styling */
@@ -53,8 +55,8 @@ body span.section-header {
 }
 
 section > div.inner {
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 section#introduction, 
@@ -136,7 +138,7 @@ section#introduction div#picture + span {
 	margin-bottom: 1.5em;
 }
 
-section#introduction div#lines {
+div#lines {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -145,7 +147,7 @@ section#introduction div#lines {
 	opacity: 0.15;
 }
 
-section#introduction div#lines img {
+div#lines img {
 	display: block;
 	position: absolute;
 	width: 7em;
@@ -187,10 +189,10 @@ section#projects-experience > div.inner {
 section#projects-experience div.inner a {
 	padding: 0.8em 1.3em 0.8em 1.4em;
 	background-color: #ffffff;
-	flex: 0 0 calc(50% - 2em);
+	flex: 0 0 calc(50% - 1.5em);
 	text-align: right;
-	margin-right: 2em;
-	margin-bottom: 2em;
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
 	display: block;
 	text-decoration: none;
 	color: #282829;
@@ -242,6 +244,7 @@ section#projects-experience div.inner a span {
 	font-size: 0.7em;
 	font-weight: bold;
 	letter-spacing: -0.08em;
+	text-align: left;
 }
 
 section#projects-experience div.inner a span:before {

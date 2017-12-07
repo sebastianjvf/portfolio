@@ -2,9 +2,6 @@
 section.content {
 }
 
-section.content div.inner {
-}
-
 section#project-top div.inner h1 {
 	position: relative;
 	text-align: left;
@@ -15,6 +12,8 @@ section#project-top div.inner h1 {
 section#project-top {
 	color: #ffffff;
 	background-color: #2854A7;
+	position: relative;
+	overflow: hidden;
 }
 
 section#project-one,
