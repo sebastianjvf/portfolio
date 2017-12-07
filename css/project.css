@@ -12,7 +12,7 @@ section#project-top:after {
 	content: url(../img/arrow-down.svg);
 	width: 1.5em;
 	position: absolute;
-	bottom: 1em;
+	bottom: 0.8em;
 	left: calc(50% - 0.75em);
 }
 

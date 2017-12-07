@@ -20,7 +20,7 @@
 		// Find all headings
 		let headings = Array.from(document.getElementsByClassName('section-header'));
 		
-		// Fill elements with their offset before position sticky
+		// Fill elements with their offset before position fixed
 		headings = headings.map(function (element) {
 				return {dom: element, from: element.offsetTop, to: element.offsetTop + element.offsetHeight};
 		});
@@ -75,7 +75,11 @@
 				console.log(element.offsetHeight);
 			}
 			
-			element.style.bottom = distanceFromBottom + 'px';
+			if (distanceFromBottom === 0) {
+				element.style.bottom = (distanceFromBottom) + 'px';
+			} else {
+				element.style.bottom = (distanceFromBottom-1) + 'px';
+			}
 		});
 		
 		// If one has surpassed their corresponding heading, make it disappear
