@@ -1,5 +1,4 @@
 @media (min-width: 900px) {
-
 	/* IMAGE CAPTIONS */
 	section.content div.inner .img-caption {
 		position: relative;
@@ -13,12 +12,12 @@
 		left: 0;
 		z-index: 1;
 		width: 50%;
-		height: auto;
+		height: 50%;
 		color: #ffffff;
 		line-height: 1.1;
 		font-size: 0.9em;
 		text-align: left;
-		padding: 1em 9em 0 1em;
+		padding: 2em 9em 0 2em;
 		background-color: transparent;
 	}
 	
@@ -32,16 +31,16 @@
 		content: url(../img/caption-left-blue.svg);
 	}
 	
-	section.content div.inner .left span {
+	section.content div.inner .right span {
 		top: auto;
 		left: auto;
 		bottom: 0;
 		right: 0;
 		text-align: right;
-		padding: 2em 1.5em 1.5em 7em;
+		padding: 2em 2em 2em 7em;
 	}
 	
-	section.content div.inner .left span:before {
+	section.content div.inner .right span:before {
 		top: auto;
 		bottom: 0;
 		left: auto;
@@ -49,7 +48,6 @@
 		bottom: -1em;
 		content: url(../img/caption-right-blue.svg);
 	}
-
 }	
 	
 @media (max-width: 1000px) {
