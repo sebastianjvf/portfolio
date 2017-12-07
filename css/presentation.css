@@ -26,7 +26,7 @@ header {
 
 /* WIDTH OF THE LAYOUT */
 body div.inner {
-	width: 65%;
+	width: 1000px;
 	margin: auto;
 	overflow: hidden;
 	padding-left: 1.5em;
@@ -195,7 +195,7 @@ section#projects-experience > div.inner {
 }
 
 section#projects-experience div.inner a {
-	padding: 0.8em 1.3em 0.8em 1.4em;
+	padding: 1em 1.3em 0.8em 1.4em;
 	background-color: #ffffff;
 	flex: 0 0 calc(50% - 1.5em);
 	text-align: right;
