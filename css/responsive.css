@@ -1,3 +1,57 @@
+@media (min-width: 900px) {
+
+	/* IMAGE CAPTIONS */
+	section.content div.inner .img-caption {
+		position: relative;
+		z-index: 0;
+		margin: 2em 1em;
+	}
+	
+	section.content div.inner .img-caption span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 50%;
+		height: auto;
+		color: #ffffff;
+		line-height: 1.1;
+		font-size: 0.9em;
+		text-align: left;
+		padding: 1em 9em 0 1em;
+		background-color: transparent;
+	}
+	
+	section.content div.inner .img-caption span:before {
+		display: block;
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		top: -2em;
+		left: -1.5em;
+		content: url(../img/caption-left-blue.svg);
+	}
+	
+	section.content div.inner .left span {
+		top: auto;
+		left: auto;
+		bottom: 0;
+		right: 0;
+		text-align: right;
+		padding: 2em 1.5em 1.5em 7em;
+	}
+	
+	section.content div.inner .left span:before {
+		top: auto;
+		bottom: 0;
+		left: auto;
+		right: -2em;
+		bottom: -1em;
+		content: url(../img/caption-right-blue.svg);
+	}
+
+}	
+	
 @media (max-width: 1000px) {
 	body div.inner {
 		width: 100%;
