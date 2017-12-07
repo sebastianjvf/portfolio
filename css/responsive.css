@@ -30,16 +30,6 @@
 		font-size: 1.7rem;
 	}
 	
-	body div.inner {
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-	
-	section > div.inner {
-		padding-top: 1em;
-		padding-bottom: 1em;
-	}
-	
 	div#welcome-text {
 		width: 100%;
 	}
