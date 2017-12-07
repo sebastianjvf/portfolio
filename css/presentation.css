@@ -19,8 +19,8 @@ header {
 	display: block;
 	width: 100%;
 	font-size: 1em;
-	padding-top: 0.7em;
-	padding-bottom: 0.7em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ a.toc-item {
 
 a.toc-item:hover, 
 a.toc-item:focus {
-	padding-bottom: 2.5rem;
+	padding-bottom: 2rem;
 }
 
 /* HEADER */
@@ -91,10 +91,21 @@ header {
 	transition: top 0.2s ease-out;
 	background-color: rgba(255, 255, 255, .95);
 	transition: all 0.2s ease-in-out;
+	animation: animationName 0.2s ease-in-out;
+}
+
+@keyframes animationName {
+	from {
+		top: -3em;
+	}
+	
+	to {
+		top: 0;
+	}
 }
 
 header:hover {
-	padding-top: 2.5rem;
+	padding-top: 2rem;
 }
 
 /* CONTENT */
@@ -122,7 +133,7 @@ section#introduction div#picture {
 	height: 8em;
 	position: relative;
 	z-index: 1;
-	margin: 0 auto 1em auto;
+	margin: 1em auto 1em auto;
 	border-radius: 9999rem;
 	background: url('../img/picture.png') no-repeat left top/100%;
 	z-index: 1;
@@ -131,7 +142,7 @@ section#introduction div#picture {
 section#introduction div#picture + span {
 	display: block;
 	font-size: 1em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 div#lines {
@@ -158,7 +169,8 @@ section#introduction a {
 section#introduction a#more {
 	display: inline-block;
 	color: #ffffff;
-	margin-top: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	font-size: 1em;
 	padding: 0.3em 0.8em;
 	text-decoration: none;
@@ -213,6 +225,7 @@ div.inner h2 {
 section#projects-experience div.inner a h1 {
 	text-align: left;
 	position: relative;
+	line-height: 1.5;
 }
 
 /*
@@ -234,12 +247,11 @@ section#projects-experience div.inner a h1:after {
 */
 
 section#projects-experience div.inner a span {
-	font-family: 'Alma Mono';
+	font-family: 'Aften Screen';
 	position: relative;
 	z-index: 0;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-weight: bold;
-	letter-spacing: -0.08em;
 	text-align: left;
 }
 
