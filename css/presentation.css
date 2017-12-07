@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-size: 2.3rem;
+	font-size: 2.2rem;
 	line-height: 1.7;
 }
 
@@ -19,8 +19,8 @@ header {
 	display: block;
 	width: 100%;
 	font-size: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
 	text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ a.toc-item {
 
 a.toc-item:hover, 
 a.toc-item:focus {
-	padding-bottom: 2rem;
+	padding-bottom: 1.5rem;
 }
 
 /* HEADER */
@@ -105,7 +105,7 @@ header {
 }
 
 header:hover {
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 
 /* CONTENT */
@@ -125,7 +125,7 @@ section#introduction div.inner div#welcome-text p {
 	z-index: 1;
 	position: relative;
 	text-align: left;
-	font-size: 1.25em;
+	font-size: 1.2em;
 }
 
 section#introduction div#picture {
