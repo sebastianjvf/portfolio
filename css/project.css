@@ -2,6 +2,39 @@
 section.content {
 }
 
+section.content div.inner img {
+	max-width: 100%;
+	z-index: 0;
+}
+
+section.content div.inner .img-caption {
+	position: relative;
+	z-index: 0;
+	margin: 2em 1.5em;
+}
+
+section.content div.inner .img-caption span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 50%;
+	height: auto;
+	color: #ffffff;
+	line-height: 1.1;
+	padding: 0.5% 5em 0 0.5%;
+}
+
+section.content div.inner .img-caption span:before {
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	top: -2em;
+	left: -1.5em;
+	content: url(../img/caption-left-blue.svg);
+}
+
 section#project-top div.inner h1 {
 	position: relative;
 	text-align: left;
