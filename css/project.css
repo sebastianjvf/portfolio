@@ -1,7 +1,4 @@
 /* PROJECT PAGE */
-section.content {
-}
-
 section#project-top {
 	color: #ffffff;
 	background-color: #2854A7;
@@ -25,25 +22,32 @@ section#project-three span.section-header {
 	background-color: #ffffff;
 }
 
-section#project-top div.inner h1 {
+section.content div.inner h1 {
 	position: relative;
 	text-align: left;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.1em;
 	font-size: 1.5em;
 }
 
 section.content div.inner img {
 	max-width: 100%;
+	margin-bottom: 0;
 	z-index: 0;
+	display: block;
+}
+
+section.content div.inner .img-caption {
+	margin: 1.5em auto;
+	position: relative;
 }
 
 section.content div.inner .img-caption span {
 	position: absolute;
 	top: auto;
 	left: auto;
-	bottom: 2em;
-	right: 1.5em;
-	width: calc(100% - 3em);
+	bottom: 0;
+	right: 0;
+	width: 100%;
 	text-align: center;
 	font-style: italic;
 	color: #ffffff;
