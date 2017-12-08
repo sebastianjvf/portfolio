@@ -171,7 +171,7 @@ section a.more {
 	color: #ffffff !important;
 	margin: 2em auto 0 auto;
 	font-size: 1em;
-	padding: 0.3em 0.8em;
+	padding: 0.3em 0.8em !important;
 	text-decoration: none !important;
 	z-index: 5;
 	border: 0 !important;
