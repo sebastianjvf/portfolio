@@ -113,6 +113,9 @@ header:hover {
 section#introduction {
 	position: relative;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 div#welcome-text {
