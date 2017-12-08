@@ -76,7 +76,7 @@
 
 @media (max-width: 750px) {
 	section#introduction {
-		min-height: 90vh;
+		min-height: 85vh;
 	}
 	
 	body,
