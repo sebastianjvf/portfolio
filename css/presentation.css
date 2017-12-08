@@ -168,12 +168,13 @@ section#introduction a {
 
 section a.more {
 	display: table;
-	color: #ffffff;
+	color: #ffffff !important;
 	margin: 2em auto 0 auto;
 	font-size: 1em;
 	padding: 0.3em 0.8em;
 	text-decoration: none !important;
 	z-index: 5;
+	border: 0 !important;
 	position: relative;
 	background-color: #f7bb59;
 	box-shadow: 0.4em 0.4em 0 rgba(0, 0, 0, 0.15);
