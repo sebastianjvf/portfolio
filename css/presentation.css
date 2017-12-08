@@ -166,13 +166,13 @@ section#introduction a {
 	position: relative;
 }
 
-section#introduction a#more {
-	display: inline-block;
+section a.more {
+	display: table;
 	color: #ffffff;
-	margin-top: 2em;
+	margin: 2em auto 0 auto;
 	font-size: 1em;
 	padding: 0.3em 0.8em;
-	text-decoration: none;
+	text-decoration: none !important;
 	z-index: 5;
 	position: relative;
 	background-color: #f7bb59;
@@ -180,8 +180,8 @@ section#introduction a#more {
 	transition: all 0.2s ease-in-out;
 }
 
-section#introduction a#more:hover,
-section#introduction a#more:focus {
+section a.more:hover,
+section a.more:focus {
 	transform: translateX(0.1em) translateY(0.1em);
 	box-shadow: 0.3em 0.3em 0 rgba(0, 0, 0, 0.15);
 }
