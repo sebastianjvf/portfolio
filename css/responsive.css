@@ -79,6 +79,10 @@
 		min-height: 89vh;
 	}
 	
+	section > div.inner {
+		padding-top: 2.5em;
+	}
+	
 	body,
 	body span.section-header, 
 	body a.toc-item,
