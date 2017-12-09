@@ -19,8 +19,8 @@ header {
 	display: block;
 	width: 100%;
 	font-size: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
 	text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ body div.inner {
 body a.toc-item {
 	position: fixed;
 	cursor: pointer;
-	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 body a.hidden {
@@ -93,7 +93,7 @@ header {
 	background-color: rgba(255, 255, 255, .95);
 	transition: all 0.2s ease-in-out;
 	animation: animationName 0.2s ease-in-out;
-	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes animationName {
@@ -222,11 +222,14 @@ section#projects-experience div.inner a img {
 	transition: opacity 0.2s ease-in-out;
 }
 
+/*
 section#projects-experience div.inner a:hover img,
 section#projects-experience div.inner a:focus img {
 	width: 100%;
 	opacity: 1;
 }
+
+*/
 
 section#projects-experience div.inner a:last-of-type {
 	margin-bottom: 0;
