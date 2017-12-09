@@ -85,6 +85,8 @@ section.content div.inner .img-caption span {
 	z-index: 1;
 	padding: 0.5em 1em;
 	background-color: rgba(40, 84, 167, .9);
+	line-height: 1.3;
+	font-size: 0.95em;
 }
 
 footer {
@@ -101,22 +103,24 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	
+	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
 }
 
 footer a {
 	display: block;
 	width: 50%;
-	color: #ffffff;
-	padding: 0.5em 1.5em;
+	color: #282829;
+	padding: 0.8em 1.5em;
 	border-bottom: 0;
-	background-color: rgba(40, 84, 167, .95);
+	background-color: rgba(255, 255, 255, .95);
 	transition: all 0.2s ease-in-out;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #282829;
-	background-color: rgba(255, 255, 255, .95);
+	color: #ffffff;
+	background-color: rgba(40, 84, 167, .95);
 }
 
 footer a:nth-of-type(2) {
