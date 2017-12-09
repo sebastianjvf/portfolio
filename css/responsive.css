@@ -134,4 +134,8 @@
 		padding-top: 1.5em;
 		padding-bottom: 2em;
 	}
+	
+	footer a {
+		padding: 0.8em 1em;
+	}
 }
