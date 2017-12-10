@@ -46,5 +46,6 @@ table {
 
 /* No flickering in Webkit for css3 animations/transformations/transitions */
 * {
+	-webkit-backface-visibility: hidden;
 	-webkit-transform-style: preserve-3d;
 }
