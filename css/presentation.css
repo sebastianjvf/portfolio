@@ -52,8 +52,8 @@ body span.section-header {
 }
 
 section > div.inner {
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 }
 
 section#introduction, 
@@ -80,7 +80,7 @@ a.toc-item {
 
 a.toc-item:hover, 
 a.toc-item:focus {
-	padding-bottom: 1.5rem;
+	padding-bottom: 2rem;
 }
 
 /* HEADER */
@@ -107,7 +107,7 @@ header {
 }
 
 header:hover {
-	padding-top: 1.5rem;
+	padding-top: 2rem;
 }
 
 /* CONTENT */
@@ -211,14 +211,16 @@ section#projects-experience div.inner a {
 	text-decoration: none;
 	color: #282829;
 	position: relative;
+	overflow: hidden;
 	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
 }
 
 section#projects-experience div.inner a img {
-	width: 100%;
+	width: calc(100% + 1.4em + 1.31em);
 	opacity: 0.8;
 	margin: 0.7em 0;
-	border-radius: 0.1em;
+	margin-left: -1.4em;
+	margin-right: -1.3em;
 	transition: opacity 0.2s ease-in-out;
 }
 
@@ -250,24 +252,6 @@ section#projects-experience div.inner a h1 {
 	position: relative;
 	line-height: 1.5;
 }
-
-/*
-section#projects-experience div.inner a h1 {
-	margin-bottom: 2rem;
-}
-
-section#projects-experience div.inner a h1:after {
-	content: '';
-	text-align: left;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 2rem;
-	background: url('../img/ziz-zag.svg') no-repeat left top;
-	position: absolute;
-	display: block;
-}
-*/
 
 section#projects-experience div.inner a span {
 	font-family: 'Aften Screen';

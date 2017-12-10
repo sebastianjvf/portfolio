@@ -36,7 +36,7 @@ section.content div.inner h1 {
 	text-align: left;
 	line-height: 1;
 	font-size: 1.5em;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.9em;
 }
 
 section.content div.inner h2 {
@@ -44,7 +44,7 @@ section.content div.inner h2 {
 	text-align: left;
 	font-size: 1.3em;
 	line-height: 1;
-	margin-bottom: 0.6em;
+	margin-bottom: 0.8em;
 }
 
 section.content a {
@@ -68,7 +68,7 @@ section.content div.inner img {
 }
 
 section.content div.inner .img-caption {
-	margin: 2em auto;
+	margin: 2.5em auto;
 	position: relative;
 }
 
