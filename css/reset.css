@@ -43,3 +43,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* No flickering in Webkit for css3 animations/transformations/transitions */
+* {
+	-webkit-transform-style: preserve-3d;
+}

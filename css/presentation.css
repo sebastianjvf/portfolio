@@ -224,15 +224,6 @@ section#projects-experience div.inner a img {
 	transition: opacity 0.2s ease-in-out;
 }
 
-/*
-section#projects-experience div.inner a:hover img,
-section#projects-experience div.inner a:focus img {
-	width: 100%;
-	opacity: 1;
-}
-
-*/
-
 section#projects-experience div.inner a:last-of-type {
 	margin-bottom: 0;
 }
