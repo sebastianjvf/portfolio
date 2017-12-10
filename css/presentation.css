@@ -216,11 +216,14 @@ section#projects-experience div.inner a {
 }
 
 section#projects-experience div.inner a img {
-	width: calc(100% + 1.4em + 1.31em);
+	width: calc(100% + 1.4em + 1.5em);
 	opacity: 0.8;
+	display: block;
 	margin: 0.7em 0;
 	margin-left: -1.4em;
 	margin-right: -1.3em;
+	border-top: 0.3em solid #EEEFF1;
+	border-bottom: 0.3em solid #EEEFF1;
 	transition: opacity 0.2s ease-in-out;
 }
 
