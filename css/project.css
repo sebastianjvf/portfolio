@@ -31,6 +31,31 @@ section#project-three span.section-header {
 	background-color: #ffffff;
 }
 
+section.content div.inner p {
+	margin-bottom: 1em;
+}
+
+section.content div.inner ol {
+	margin: 1em 0;
+	counter-reset: section;
+}
+
+section.content div.inner ol li {
+	margin: 0 0 0.2em 0.7em;
+	text-indent: 0;
+}
+
+section.content div.inner ol li:before {
+	font-size: 1em;
+	color: #aaaaaa;
+	position: relative;
+	left: -1.1rem;
+	line-height: 1em;
+	transition: all 0.1s ease-in-out;
+	counter-increment: section;
+	content: counters(section, "") "";
+}
+
 section.content div.inner h1 {
 	position: relative;
 	text-align: left;
