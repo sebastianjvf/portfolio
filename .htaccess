@@ -2,7 +2,10 @@ RewriteEngine On
 
 # redirect project/something/ to project/something.php
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^/?project/([^/d]+)/?$ project/$1.php [L,QSA]
+RewriteRule ^/?project/([^/]+)/?$ project/$1.php [L,QSA]
+
+# redirect about page
+RewriteRule ^/?about/?$ about.html [L,QSA]
 
 # redirect html pages to the root domain
 RewriteRule ^index\.html$ / [NC,R,L]
