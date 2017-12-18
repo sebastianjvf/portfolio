@@ -233,18 +233,15 @@ section#projects-experience div.inner a {
 	color: #282829;
 	position: relative;
 	overflow: hidden;
-	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
+	box-shadow: 0.4em 0.4em rgba(0, 0, 0, 0.04);
 }
 
 section#projects-experience div.inner a img {
 	width: calc(100% + 1.4em + 1.5em);
-	opacity: 0.8;
 	display: block;
 	margin: 0.7em 0;
 	margin-left: -1.4em;
 	margin-right: -1.3em;
-	border-top: 0.3em solid #EEEFF1;
-	border-bottom: 0.3em solid #EEEFF1;
 	transition: opacity 0.2s ease-in-out;
 }
 
