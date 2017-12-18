@@ -16,6 +16,22 @@ section#project-top:after {
 	left: calc(50% - 0.75em);
 }
 
+section#project-top div.inner ul.topics {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: -1em;
+}
+
+section#project-top div.inner ul.topics li {
+	display: inline-block;
+	padding: 0.2em 1em;
+	margin: 0 1em 1em 0;
+	border-radius: 9999rem;
+	white-space: nowrap;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 section#project-one,
 section#project-one span.section-header {
 	background-color: #E1E3E6;
@@ -83,6 +99,29 @@ section.content a:hover,
 section.content a:focus {
 	color: #000000;
 	padding-bottom: 0.3rem;
+}
+
+section.content div.inner blockquote {
+	font-size: 1.7em;
+	width: 80%;
+	font-style: italic;
+	margin: 1.5em auto 2.5em auto;
+	position: relative;
+	padding-bottom: 1.2em;
+}
+
+section.content div.inner blockquote:before,
+section.content div.inner blockquote:after {
+	content: "\"";
+}
+
+section.content div.inner blockquote span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.5882352941em;
 }
 
 section.content div.inner img {

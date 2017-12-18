@@ -7,7 +7,7 @@
 	$project_description = '<h1>Val App</h1>
 	
 	<p>
-		Val, meaning choice in Swedish, is an application designed to improve the decision-making process in meetings. Users can set up a simple peer-to-peer network to vote anonymously. A host guides connected users through the meeting and creates questions. After voting the results are shown on connected peers.
+		Val, meaning choice in Swedish, is a mobile application designed to improve the decision-making process in meetings. Users can easily set up a peer-to-peer network to vote anonymously. A host guides connected users through the meeting and creates questions. After voting, the results are shown on connected devices.
 	</p>
 	';
 	
@@ -24,8 +24,13 @@
 <section id="project-one" class="content">
 	<div class="inner">
 		<h1>User research</h1>
-		<h2>Personas</h2>
+		<h2>Observations</h2>
 		<p>
+			The project was part of a class called 'Developing Mobile Applications'. The task was to design a mobile application which solves a common user problem. Therefore, user research began by observing users in our daily environment, independently from one another.
+		</p>
+		
+		<p>
+			
 		</p>
 		
 		<div class="img-caption">
@@ -36,7 +41,7 @@
 
 <section id="project-two" class="content">
 	<div class="inner">
-		<h1>User research</h1>
+		<h1>Iterative prototyping</h1>
 		<h2>Personas</h2>
 		<p>
 		</p>
@@ -49,7 +54,7 @@
 
 <section id="project-three" class="content">
 	<div class="inner">
-		<h1>User research</h1>
+		<h1>Evaluation</h1>
 		<h2>Personas</h2>
 		<p>
 		</p>
