@@ -16,19 +16,25 @@ section#project-top:after {
 	left: calc(50% - 0.75em);
 }
 
-section#project-top div.inner ul.topics {
+section.content div.inner ul.topics {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin-bottom: -1em;
 }
 
-section#project-top div.inner ul.topics li {
+section.content div.inner span.date,
+section.content div.inner ul.topics li {
 	display: inline-block;
 	padding: 0.2em 1em;
 	margin: 0 1em 1em 0;
 	border-radius: 9999rem;
 	white-space: nowrap;
+	color: #ffffff;
+	background-color: #2854A7;
+}
+
+section.content div.inner span.date {
+	margin-bottom: -1em;
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -39,11 +45,16 @@ section#project-one span.section-header {
 
 section#project-two,
 section#project-two span.section-header {
-	background-color: #EFF1F3;
+	background-color: #eceef0;
 }
 
 section#project-three,
 section#project-three span.section-header {
+	background-color: #f3f5f6;
+}
+
+section#project-four,
+section#project-four span.section-header {
 	background-color: #ffffff;
 }
 
