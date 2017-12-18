@@ -75,6 +75,10 @@
 		padding: 1.8rem;
 	}
 	
+	section.content div.inner span.date {
+		margin-bottom: 3em;
+	}
+	
 }
 
 @media (max-width: 750px) {
