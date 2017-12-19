@@ -62,6 +62,10 @@ section#project-four span.section-header {
 }
 
 section.content div.inner p {
+	margin-bottom: 3em;
+}
+
+section.content div.inner p:last-of-type {
 	margin-bottom: 2em;
 }
 
