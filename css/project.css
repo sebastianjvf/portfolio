@@ -16,6 +16,11 @@ section#project-top:after {
 	left: calc(50% - 0.75em);
 }
 
+section.content div.inner img.scaled {
+	width: 60%;
+	margin: 2em auto 0 auto;
+}
+
 section.content div.inner ul.topics {
 	display: flex;
 	flex-direction: row;

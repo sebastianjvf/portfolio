@@ -56,6 +56,11 @@ section > div.inner {
 	padding-bottom: 3em;
 }
 
+section#introduction div.inner,
+section#project-top div.inner {
+	padding-bottom: 2.5em;
+}
+
 section#introduction, 
 section#introduction span.section-header {
 	color: #ffffff;
