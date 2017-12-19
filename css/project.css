@@ -66,7 +66,11 @@ section.content div.inner p {
 }
 
 section.content div.inner p:last-of-type {
-	margin-bottom: 2em;
+	margin-bottom: 0;
+}
+
+section.content div.inner p:first-of-type {
+	margin-bottom: 3em !important;
 }
 
 section.content div.inner ol {
