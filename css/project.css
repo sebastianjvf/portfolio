@@ -25,6 +25,7 @@ section.content div.inner ul.topics {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin-bottom: 3em;
 }
 
 section.content div.inner span.date,
