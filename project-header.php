@@ -2,13 +2,13 @@
 <html>
 <head>
 
-	<title>Sebastian John von Freyend - Project <?php echo $project_title; ?></title>
+	<title>Sebastian John von Freyend - User experience design student - Project <?php echo $project_title; ?></title>
 	
-	<link rel="stylesheet" href="../../css/reset.css">
-	<link rel="stylesheet" href="../../css/typography.css">
-	<link rel="stylesheet" href="../../css/presentation.css">
-	<link rel="stylesheet" href="../../css/project.css">
-	<link rel="stylesheet" href="../../css/responsive.css">
+	<link rel="stylesheet" href="../../css/reset.css?version=new">
+	<link rel="stylesheet" href="../../css/typography.css?version=new">
+	<link rel="stylesheet" href="../../css/presentation.css?version=new">
+	<link rel="stylesheet" href="../../css/project.css?version=new">
+	<link rel="stylesheet" href="../../css/responsive.css?version=new">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="../../js/events.js" type="text/javascript"></script>

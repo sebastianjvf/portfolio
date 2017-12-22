@@ -74,10 +74,6 @@ section.content div.inner p + p {
 	margin-top: -1em;
 }
 
-section.content div.inner p:last-of-type {
-	margin-bottom: 0;
-}
-
 section.content div.inner p:first-of-type {
 	margin-bottom: 3em !important;
 }
@@ -172,8 +168,12 @@ section.content div.inner img {
 }
 
 section.content div.inner .img-caption {
-	margin: 2.5em auto;
+	margin: -1em auto 3em auto;
 	position: relative;
+}
+
+section.content div.inner .img-caption img {
+	width: 100%;
 }
 
 section.content div.inner .img-caption span {
