@@ -110,7 +110,7 @@
 		
 		<blockquote>
 			Wait, I just voted 'no'?
-			<span>A participant after mistaking an answer of a shape</span>
+			<span>A participant after mistaking an answer related a shape for another</span>
 		</blockquote>
 		
 		<h2>Medium-fidelity prototyping</h2>
