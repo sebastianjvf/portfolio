@@ -13,8 +13,8 @@
 	';
 	
 	// Set the links
-	$previous_project = '/projects/tick-tock/';
-	$next_project = '/projects/trip-lense/';
+	$previous_project = '/project/tick-tock/';
+	$next_project = '/project/trip-lense/';
 	
 	// include header
 	include('project-header.php');
@@ -123,7 +123,7 @@
 		
 		<div class="img-caption">
 			<img src="../../img/content/val-app-final.png" alt="A screenshot of a phone showing the start screen of the app.">
-			<span>The medium-fidelity prototype was created using Sketch and Invision before implementation.</span>
+			<span>A medium-fidelity prototype was created and tested using Sketch and Invision.</span>
 		</div>
 		
 		<p>
