@@ -27,8 +27,9 @@
 		<h1>Role</h1>
 		<h2>Tasks</h2>
 		<p>
-			Carried out in a group of four, my tasks included drafting the design concept, sketching/wireframing and the physical realisation of the project, together with a design partner. At times, I also assembled physical Arduino components and did light programming tasks. As the goal of the class was to learn about physical prototyping, no user testing was carried out. Instead, guidelines for industrial design and physical interaction were used.
+			The project was executed in a group of four. My tasks included drafting the design concept, sketching/wireframing and the physical realisation of the project, together with a design partner. At times, I also assembled physical Arduino components and did light programming tasks. As the goal of the class was to learn about physical prototyping, no user testing was carried out. Instead, guidelines for industrial design and physical interaction were used.
 		</p>
+		
 		<h2>Methods and tools</h2>
 		<ul class="topics">
 			<li>Wireframing</li>
@@ -56,16 +57,31 @@
 		<p>
 			The idea was to enhance the nature of an existing physical device using technology and materials. Having noticed a nearby group rehearsing a presentation and setting a timer on a laptop we noticed several problems.
 		</p>
+		<ol>
+			<li>Stopping the timer required focused attention to look for the pause button</li>
+			<li>People wanted to quickly check an approximate time rather than the exact count</li>
+			<li>People were constantly watching the timer</li>
+		</ol>
 		
 		<h2>Sketching</h2>
 		<p>
 			The group wanted to resolve all three problems. The timer was redesigned and augmented with several interactions and a new information structure. From the first sketches on, tick tock was drawn as a round device, inspired by an egg clock. Holes in the shape of numbers in the dial would light up from LEDs below. Sketches were drawn to keep track of ideas and to add requirements during the design process.
-		<p>
+		</p>
+		
+		<div class="img-caption right">
+			<img src="../../img/content/tick-tock-1.png" alt="Image of a mock up sketched on paper.">
+			<span>According to a first sketch, a simple Arduino mockup was built using a breadboard.</span>
+		</div>
 		
 		<h2>Interaction design</h2>
 		<p>	
 			First, we added a flip interaction to the device, stopping the count. When it was flipped back to show the dial, the device would start counting again. Appropriate feedback would be given by letting the LEDs pulse once before the timer restarted. As a second step, numbers were removed from the dial. The holes would indicate what fraction was left of the time, even from a wider distance. Finally, inspired by Swedish nature, we wanted the case to be built of natural materials making the device appear less stressful to the user. We used wood for the case and, to add signifiers to existing affordances, used fine layers of cork to mark touch spots where interaction could take place.
 		</p>
+		
+		<div class="img-caption">
+			<img src="../../img/content/tick-tock-2.gif" alt="Animated gif of a user turning the dial of the device.">
+			<span>Turning the dial will set the timer and light up the numbers.</span>
+		</div>
 	</div>
 </section>
 
@@ -82,8 +98,8 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/content/tick-tock-4.png">
-			<span>A build plan was sketched prior to fabrication.</span>
+			<img src="../../img/content/tick-tock-3.png" alt="A sketch of a build plan showing all of the device's components.">
+			<span>A build plan was sketched prior to fabrication showing how components fit together.</span>
 		</div>
 		
 		<h2>Laser cutting and 3D printing</h2>
@@ -92,7 +108,9 @@
 		</p>
 		
 		<h2>Arduino implementation</h2>
-		The concept of circuiting with Arduino was new to us. Thus, we assembled all components using removable jumper wires and a breadboard first. Then, after fine-tuning, we soldered components onto round boards. We used 12 RGB LEDs, a rotary encoder and a 5V battery to power the device. Coding was done in the native Arduino IDE.
+		<p>
+			The concept of circuiting with Arduino was new to us. Thus, we assembled all components using removable jumper wires and a breadboard first. Then, after fine-tuning, we soldered components onto round boards. We used 12 RGB LEDs, a rotary encoder and a 5V battery to power the device. Coding was done in the native Arduino IDE.
+		</p>
 </section>
 
 <section id="project-four" class="content">
@@ -101,8 +119,12 @@
 		<p>
 			The project presented several challenges. The group was unfamiliar with industrial design techniques such as laser cutting, circuiting and soldering. While the device was designed to be hand-sized, it turned out to be about 30% bigger, as components took more space than expected. Fabrication of the individual parts were done in a trial-and-error manner, having to adjust parameters slightly. For instance, the distance of the laser and the speed were adjusted several times in order for the laser cutter to cut properly through the wood.
 		</p>
+		
+		<div class="img-caption">
+			<img src="../../img/content/tick-tock-final.png" alt="The final device with a few numbers lighted up.">
+			<span>The final device, showing lighted numbers while the user is turning the dial.</span>
+		</div>
 </section>
-
 
 <?php 
 

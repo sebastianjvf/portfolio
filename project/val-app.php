@@ -82,7 +82,7 @@
 		<p>
 		First, a user flow was created to specify the steps a user takes to accomplish their role as either host or participant. While a host creates a meeting and corresponding questions, participants join this meeting and choose responses when a question comes up. Finally, the result is shown on all devices.
 		
-		  <img src="../../img/content/val-app-1.svg" class="scaled">
+		  <img src="../../img/content/val-app-1.svg" alt="A flow diagram describing the actions of host and participants." class="scaled">
 		</p>
 		
 		<h2>Wireframing and paper prototyping</h2>
@@ -100,7 +100,7 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/content/val-app-2.png">
+			<img src="../../img/content/val-app-2.png" alt="A sketch of two screens showing shapes which were mapped to answers.">
 			<span>Initially, shapes were mapped to answers.<br>(Here: phone screen)</span>
 		</div>
 		
@@ -122,7 +122,7 @@
 		</p>
 		
 		<div class="img-caption">
-			<img src="../../img/content/val-app-final.png">
+			<img src="../../img/content/val-app-final.png" alt="A screenshot of a phone showing the start screen of the app.">
 			<span>The medium-fidelity prototype was created using Sketch and Invision before implementation.</span>
 		</div>
 		
