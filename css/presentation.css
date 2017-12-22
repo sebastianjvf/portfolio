@@ -56,11 +56,6 @@ section > div.inner {
 	padding-bottom: 3em;
 }
 
-section.content > div.inner {
-	padding-top: 3em;
-	padding-bottom: 0;
-}
-
 section#introduction div.inner,
 section#project-top div.inner {
 	padding-bottom: 2.5em;

@@ -25,7 +25,6 @@ section.content div.inner ul.topics {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin-bottom: 3em;
 }
 
 section.content div.inner span.date,
@@ -73,6 +72,10 @@ section.content div.inner p {
 
 section.content div.inner p + p {
 	margin-top: -1em;
+}
+
+section.content div.inner p:last-of-type {
+	margin-bottom: 0;
 }
 
 section.content div.inner p:first-of-type {
@@ -169,7 +172,7 @@ section.content div.inner img {
 }
 
 section.content div.inner .img-caption {
-	margin: -1em auto 3em auto;
+	margin: 3em auto;
 	position: relative;
 }
 
@@ -192,6 +195,11 @@ section.content div.inner .img-caption span {
 	background-color: rgba(40, 84, 167, .9);
 	line-height: 1.3;
 	font-size: 0.95em;
+}
+
+/* Set the margin bottom of the last element to 0 */
+section.content div.inner *:last-child  {
+	margin-bottom: 0;
 }
 
 footer {
