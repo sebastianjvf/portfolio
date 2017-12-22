@@ -8,7 +8,7 @@
 	<span class="date">August - Oktober 2017</span>
 	<h1>Tick Tock</h1>
 	<p>
-		Set in the domain of industrial design, Tick tock is a tangible time-keeping device. Build using Arduino, 3D printing and a laser cutter, the device was designed to help users focus on the task at hand. The time can be set by turning the dial, flipping the device over stops the time from running out.
+		Set in the domain of industrial design, Tick tock is a tangible time-keeping device. Build using Arduino, a 3D printer and a laser cutter, the device was designed to help users focus on the task at hand. The time can be set by turning the dial, flipping the device over stops the time from running out.
 	</p>
 	';
 	
@@ -32,9 +32,9 @@
 		
 		<h2>Methods and tools</h2>
 		<ul class="topics">
+			<li>Industrial design</li>
 			<li>Wireframing</li>
 			<li>Sketching</li>
-			<li>Interaction design guidelines</li>
 			<li>Physical prototyping</li>
 			<li>Laser cutting</li>
 			<li>Arduino</li>
@@ -75,7 +75,7 @@
 		
 		<h2>Interaction design</h2>
 		<p>	
-			First, we added a flip interaction to the device, stopping the count. When it was flipped back to show the dial, the device would start counting again. Appropriate feedback would be given by letting the LEDs pulse once before the timer restarted. As a second step, numbers were removed from the dial. The holes would indicate what fraction was left of the time, even from a wider distance. Finally, inspired by Swedish nature, we wanted the case to be built of natural materials making the device appear less stressful to the user. We used wood for the case and, to add signifiers to existing affordances, used fine layers of cork to mark touch spots where interaction could take place.
+			First, we added a flip interaction to the device, stopping the count. When it was flipped back to show the dial, the device would start counting again. Appropriate feedback would be given by letting the LEDs pulse once before the timer restarted. As a second step, numbers were removed from the dial. The holes would indicate what fraction was left of the time, even from a wider distance. Finally, inspired by Swedish nature, we wanted the case to be built of natural materials making the device appear less stressful to the user. We used wood for the case and, to add signifiers to existing affordances, fine layers of cork to mark touch spots where interaction could take place.
 		</p>
 		
 		<div class="img-caption">
@@ -104,7 +104,7 @@
 		
 		<h2>Laser cutting and 3D printing</h2>
 		<p>
-			We used 3mm birch wood to cut all parts of both cases: The dial, rings for both the small and big case, a lid for the small case (to which the rotary encoder would be glued) and a bottom plate. The holes for the numbers had to be adjusted twice, as, even though the laser cutter was quite precise, the numbers were to small. The bottom part was engraved with a small logo. The block was 3D printed using a solid, black PVC.
+			We used 3mm birch wood to cut all parts of both cases: The dial, rings for both the small and big case, a lid for the small case (to which the rotary encoder would be glued) and a bottom plate. The holes for the numbers had to be adjusted twice, as, even though the laser cutter was quite precise, the numbers were to small. The bottom part was engraved with a small logo. The block was 3D printed using a rigid black nylon.
 		</p>
 		
 		<h2>Arduino implementation</h2>
