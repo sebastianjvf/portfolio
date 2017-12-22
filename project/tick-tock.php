@@ -27,7 +27,7 @@
 		<h1>Role</h1>
 		<h2>Tasks</h2>
 		<p>
-			The project was executed in a group of four. My tasks included drafting the design concept, sketching/wireframing and the physical realisation of the project, together with a design partner. At times, I also assembled physical Arduino components and did light programming tasks. As the goal of the class was to learn about physical prototyping, no user testing was carried out. Instead, guidelines for industrial design and physical interaction were used.
+			The project was executed in a group of four. My tasks included drafting the design concept, sketching/wireframing and the physical realisation of the project, together with a design partner. At times, I also assembled physical Arduino components and did light programming tasks. As the goal of the class was to learn about physical prototyping, no user testing was carried out. Instead, guidelines and best practices for industrial design and physical interaction were adopted.
 		</p>
 		
 		<h2>Methods and tools</h2>
