@@ -4,7 +4,9 @@
 	$project_title = '- Val App';
 
 	// Set the description
-	$project_description = '<span class="date">Oktober 2017 - January 2018</span><h1>Val App</h1>
+	$project_description = '
+	<span class="date">Oktober 2017 - January 2018</span>
+	<h1>Val App</h1>
 	<p>
 		Val, meaning \'choice\' in Swedish, is a mobile application designed to improve the decision-making process in meetings. Users can easily set up a peer-to-peer network to vote anonymously. A host guides connected users through the meeting and creates questions. After voting, the results are shown on connected devices.
 	</p>
@@ -91,19 +93,25 @@
 		<h2>User testing</h2>
 		<p>
 			A number of users was then asked to test the paper prototype. They were given a task that they had to accomplish. We used a between-subjects design where the user played either the role of a host or a participant, while one to two team members played the remaining roles. The other two members of the group took notes and changed the paper interface according to the user's interactions. The group asked the participant to say out loud what she or he was thinking. 
-		</p>	
+		</p>
+		
 		<p>
 			In our initial design, the host would be provided with a 5-digit code upon creation of a meeting. The code could then be shared with participants who would join the meeting by entering the code into the application. Also, to facilitate voting, each answer for a question was represented with a shape.
+		</p>
+		
+		<div class="img-caption right">
+			<img src="../../img/content/val-app-2.png">
+			<span>Initially, shapes were mapped to answers.<br>(Here: phone screen)</span>
+		</div>
+		
+		<p>
+			Participants did not enjoy either of these two. Using a code turned out to be confusing and time-consuming. It required verbal communication between the party members to 'connect'. Secondly, participants had memorised certain shapes for certain answers, such as 'yes' and 'no'. These were then switched around in the following question. This resulted in confusion as participants voted for an option for which they wanted to give the inverse answer.
 		</p>
 		
 		<blockquote>
 			Wait, I just voted 'no'?
 			<span>A participant after mistaking an answer of a shape</span>
 		</blockquote>
-		
-		<p>
-			Participants did not enjoy either of these two. Using a code turned out to be confusing and time-consuming. It required verbal communication between the party members to 'connect'. Secondly, participants had memorised certain shapes for certain answers, such as 'yes' and 'no'. These were then switched around in the following question. This resulted in confusion as participants voted for an option for which they wanted to give the inverse answer.
-		</p>
 		
 		<h2>Medium-fidelity prototyping</h2>
 		<p>
