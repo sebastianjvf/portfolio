@@ -78,6 +78,16 @@ section.content div.inner p:first-of-type {
 	margin-bottom: 3em !important;
 }
 
+section.content div.inner p + ol {
+	margin-top: -2em;
+	margin-bottom: 3em;
+}
+
+section.content div.inner ol + p {
+	margin-top: 0;
+	margin-bottom: 3em;
+}
+
 section.content div.inner ol {
 	margin: 1em 0;
 	counter-reset: section;
