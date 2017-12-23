@@ -14,7 +14,7 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/trip-lense/';
+	$previous_project = '../../project/trip-lens/';
 	$next_project = '../../experience/stanley-robotics/';
 	
 	// include header

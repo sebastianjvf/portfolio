@@ -15,8 +15,8 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../projects/mixed-cuts/';
-	$next_project = '../../projects/tick-tock/';
+	$previous_project = '../../project/mixed-cuts/';
+	$next_project = '../../project/tick-tock/';
 	
 	// include header
 	include('../project-header.php');
@@ -28,7 +28,7 @@
 	<div class="inner">
 		<h1>My role</h1>
 		<p>
-			I will start my internship as a user experience design intern at Stanley Robotics in January 2018. Unfortunately, I cannot tell you about my role. Sorry! However, I can tell you that it involves lots of user testing, interviews, user flows, service and interaction design work.
+			I will start my internship as a user experience design intern at Stanley Robotics in January 2018. Unfortunately, I cannot tell you anything about my role as of yet. Sorry! However, I can tell you that it involves lots of user testing, interviews, user flows, service and interaction design work.
 		</p>
 		
 		<div class="img-caption">
