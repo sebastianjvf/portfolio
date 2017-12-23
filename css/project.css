@@ -127,15 +127,32 @@ section.content div.inner h2 {
 
 section.content a {
 	color: #888888;
+	display: inline-block;
 	position: relative;
-	border-bottom: 0.1rem solid;
+	transition: all 0.2s ease-in-out;
+}
+
+section.content a:after {
+	background-color: #888888;
 	transition: all 0.2s ease-in-out;
 }
 
 section.content a:hover,
 section.content a:focus {
 	color: #000000;
-	padding-bottom: 0.3rem;
+}
+
+section.content a:hover:after,
+section.content a:focus:after  {
+	background-color: #000000;
+}
+
+section#project-top a {
+	color: #ffffff;
+}
+
+section#project-top a:after {
+	background-color: #ffffff;
 }
 
 section.content div.inner blockquote {
