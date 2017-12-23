@@ -8,7 +8,7 @@ RewriteRule ^/?project/([^/d]+)/?$ project/$1.php [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/?experience/([^/d]+)/?$ experience/$1.php [L,QSA]
 
-# redirect experience/something/ to experience/something.php
+# redirect the about page
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/about/$ about.php [L,QSA]
 
