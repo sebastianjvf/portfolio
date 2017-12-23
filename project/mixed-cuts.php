@@ -10,11 +10,12 @@
 	
 	<p>
 	Mixed Cuts is a collaborative video development tool combining the advantages of tangible interaction and mixed reality to aid exploration of video sequencing and editing in groups. The system utilises software tracking of image targets attached to physical tokens. The modular, physical interface is arranged on a table, tracked by a camera and augmented with a projector. Users accomplish editing tasks by interacting with the tokens, the physical manipulations are mapped to digital commands by the system.
-	</p>';
+	</p>
+	';
 	
 	// Set the links
-	$previous_project = '/project/trip-lense/';
-	$next_project = '/experience/stanley-robotics/';
+	$previous_project = '../../project/trip-lense/';
+	$next_project = '../../experience/stanley-robotics/';
 	
 	// include header
 	include('../project-header.php');

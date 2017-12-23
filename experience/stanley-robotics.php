@@ -9,12 +9,14 @@
 	<h1>Stanley Robotics</h1>
 	
 	<p>
-		Stanley Robotics is a company based in Paris, France. Stan, their product, is a valet robotic plattform which autonomously parks cars at airport parking lots. The end-users of the system scan their boarding card at a vending machine, then leave their car in a designated garage. While away, the robot will safely park the car, optimise space in the parking lot and bring the car back to the garage, ready for the user to pick it up when returing.
-	</p>';
+		Stanley Robotics is a company based in Paris. Stan, their product, is a valet robotic plattform which autonomously parks cars at airport parking lots. The end-users of the system scan their boarding card at a vending machine, then leave their car in a designated garage. While away, the robot will safely park the car, optimise space in the parking lot and bring the car back to the garage, ready for the user to pick it up when returing.
+	</p>
+	<a href="http://www.stanley-robotics.com/" class="more">Go to website</a>
+	';
 	
 	// Set the links
-	$previous_project = '/projects/mixed-cuts/';
-	$next_project = '/projects/tick-tock/';
+	$previous_project = '../../projects/mixed-cuts/';
+	$next_project = '../../projects/tick-tock/';
 	
 	// include header
 	include('../project-header.php');
@@ -26,7 +28,7 @@
 	<div class="inner">
 		<h1>My role</h1>
 		<p>
-			Unfortunately, I cannot tell you about my role. Sorry! However, I can tell you that it involves lots of user testing, interviews, user flows, service and interaction design work.
+			I will start my internship as a user experience design intern at Stanley Robotics in January 2018. Unfortunately, I cannot tell you about my role. Sorry! However, I can tell you that it involves lots of user testing, interviews, user flows, service and interaction design work.
 		</p>
 		
 		<div class="img-caption">

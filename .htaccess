@@ -10,7 +10,7 @@ RewriteRule ^/?experience/([^/d]+)/?$ experience/$1.php [L,QSA]
 
 # redirect experience/something/ to experience/something.php
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^about/$ about.html$ [L,QSA]
+RewriteRule ^/about/$ about.php [L,QSA]
 
 # redirect html pages to the root domain
 RewriteRule ^index\.html$ / [NC,R,L]

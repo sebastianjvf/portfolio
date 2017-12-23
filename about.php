@@ -4,16 +4,16 @@
 
 	<title>Sebastian John von Freyend - User experience design student - About</title>
 	
-	<link rel="stylesheet" href="css/reset.css?version=new">
-	<link rel="stylesheet" href="css/typography.css?version=new">
-	<link rel="stylesheet" href="css/presentation.css?version=new">
-	<link rel="stylesheet" href="css/project.css?version=new">
-	<link rel="stylesheet" href="css/responsive.css?version=new">
+	<link rel="stylesheet" href="../css/reset.css?version=new">
+	<link rel="stylesheet" href="../css/typography.css?version=new">
+	<link rel="stylesheet" href="../css/presentation.css?version=new">
+	<link rel="stylesheet" href="../css/project.css?version=new">
+	<link rel="stylesheet" href="../css/responsive.css?version=new">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<script src="js/events.js" type="text/javascript"></script>
-	<script src="js/smooth-scroll.js" type="text/javascript"></script>
-	<script src="js/parallax.js" type="text/javascript"></script>
+	<script src="../js/events.js" type="text/javascript"></script>
+	<script src="../js/smooth-scroll.js" type="text/javascript"></script>
+	<script src="../js/parallax.js" type="text/javascript"></script>
 	
 </head>
 <body>
@@ -41,13 +41,13 @@
 		</div>
 		
 		<div id="lines">
-			<img src="img/wave.svg" style="top: 5%; left: 70%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 10%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 80%; left: 90%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 70%; left: -1%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 45%; left: 60%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 90%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 100%; left: 50%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 5%; left: 70%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 10%; left: 20%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 80%; left: 90%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 70%; left: -1%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 45%; left: 60%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 90%; left: 20%;" alt="Decorative wave">
+			<img src="../img/wave.svg" style="top: 100%; left: 50%;" alt="Decorative wave">
 		</div>
 	</section>
 	

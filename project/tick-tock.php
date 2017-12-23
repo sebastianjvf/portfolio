@@ -13,8 +13,8 @@
 	';
 	
 	// Set the links
-	$previous_project = '/experience/stanley-robotics/';
-	$next_project = '/project/val-app/';
+	$previous_project = '../../experience/stanley-robotics/';
+	$next_project = '../../project/val-app/';
 	
 	// include header
 	include('../project-header.php');
