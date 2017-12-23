@@ -5,13 +5,12 @@
 
 	// Set the description
 	$project_description = '
-	<span class="data">January 2018 - current</span>
+	<span class="date">January 2018 - current</span>
 	<h1>Stanley Robotics</h1>
 	
 	<p>
-		
-	</p>
-	';
+		Stanley Robotics is a company based in Paris, France. Stan, their product, is a valet robotic plattform which autonomously parks cars at airport parking lots. The end-users of the system scan their boarding card at a vending machine, then leave their car in a designated garage. While away, the robot will safely park the car, optimise space in the parking lot and bring the car back to the garage, ready for the user to pick it up when returing.
+	</p>';
 	
 	// Set the links
 	$previous_project = '/projects/mixed-cuts/';
@@ -27,11 +26,11 @@
 	<div class="inner">
 		<h1>My role</h1>
 		<p>
-			This website was greatly inspired by Scandinavia, Sweden and Stockholm, where I currently live. The main colours, royal blue and yellow, are a hint to the colours of the Swedish national flag. The wave symbol, which can be found on most pages, represents the baltic sea. In fact, the capitol of Stockholm uses the same symbol for an interactive statue indicating water quality of the sea in the bay of the city.
+			Unfortunately, I cannot tell you about my role. Sorry! However, I can tell you that it involves lots of user testing, interviews, user flows, service and interaction design work.
 		</p>
 		
-		<div class="img-caption right">
-			<img src="../../img/content/val-app-2.png" alt="A sketch of two screens showing shapes which were mapped to answers.">
+		<div class="img-caption">
+			<img src="../../img/experience/stanley-robotics-1.png" alt="A robotic plattforms picking up a car.">
 			<span>The robot, named Stan, picks up a car and parks it.</span>
 		</div>
 </section>
