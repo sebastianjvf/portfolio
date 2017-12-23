@@ -69,7 +69,7 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/content/tick-tock-1.png" alt="Image of a mock up sketched on paper.">
+			<img src="../../img/project/tick-tock-1.png" alt="Image of a mock up sketched on paper.">
 			<span>According to a first sketch, a simple Arduino mockup was built using a breadboard.</span>
 		</div>
 		
@@ -79,7 +79,7 @@
 		</p>
 		
 		<div class="img-caption">
-			<img src="../../img/content/tick-tock-2.gif" alt="Animated gif of a user turning the dial of the device.">
+			<img src="../../img/project/tick-tock-2.gif" alt="Animated gif of a user turning the dial of the device.">
 			<span>Turning the dial will set the timer and light up the numbers.</span>
 		</div>
 	</div>
@@ -98,7 +98,7 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/content/tick-tock-3.png" alt="A sketch of a build plan showing all of the device's components.">
+			<img src="../../img/project/tick-tock-3.png" alt="A sketch of a build plan showing all of the device's components.">
 			<span>A build plan was sketched prior to fabrication showing how components fit together.</span>
 		</div>
 		
@@ -121,7 +121,7 @@
 		</p>
 		
 		<div class="img-caption">
-			<img src="../../img/content/tick-tock-final.png" alt="The final device with a few numbers lighted up.">
+			<img src="../../img/project/tick-tock-final.png" alt="The final device with a few numbers lighted up.">
 			<span>The final device, showing lighted numbers while the user is turning the dial.</span>
 		</div>
 </section>

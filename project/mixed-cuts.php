@@ -85,7 +85,7 @@
 			<li>Reference point (<span>Used for the calculation of euclidean distances</span>)</li>
 		</ol>
 		
-		<img src="../../img/content/mixed-cuts-1.svg">
+		<img src="../../img/project/mixed-cuts-1.svg">
 	</div>
 </section>
 
@@ -124,7 +124,7 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/content/mixed-cuts-final.png">
+			<img src="../../img/project/mixed-cuts-final.png">
 			<span>System interface containing each of the interactive elements as exhibited.</span>
 		</div>
 </section>
