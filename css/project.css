@@ -151,6 +151,11 @@ section#project-top a {
 	color: #ffffff;
 }
 
+section#project-top a.more {
+	display: table;
+	margin: 0 auto;
+}
+
 section#project-top a:after {
 	background-color: #ffffff;
 }
