@@ -379,13 +379,14 @@ section#contact div#icons a {
 	transition: all 0.2s ease-in-out;
 }
 
+section#contact div#icons a:after,
 section#contact div#icons a:before {
 	display: none;
 }
 
 section#contact div#icons a:hover,
 section#contact div#icons a:focus {
-	transform: scale(1.05);
+	transform: scale(1.1);
 	background-color: #2854A7;
 }
 
