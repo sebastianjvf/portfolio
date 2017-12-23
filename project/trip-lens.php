@@ -1,10 +1,10 @@
 <?php 
 
 	// Set the title
-	$project_title = '- Travel Lens';
+	$project_title = '- Trip Lens';
 
 	// Set the description
-	$project_description = '<h1>Travel Lens</h1>
+	$project_description = '<h1>Trip Lens</h1>
 	
 	<p>
 	

@@ -47,26 +47,25 @@
 		</div>
 	</section>
 	
-	
 	<section id="project-one" class="content">
 		<div class="inner">
 			<h1>Role</h1>
 			<h2>Tasks</h2>
 			<p>
-				The project was executed in a group of four. My tasks included drafting the design concept, sketching/wireframing and the physical realisation of the project, together with a design partner. At times, I also assembled physical Arduino components and did light programming tasks. As the goal of the class was to learn about physical prototyping, no user testing was carried out. Instead, guidelines for industrial design and physical interaction were used.
+				Mixed Cuts was a project designed and implemented in a group of three. Going through a design cycle with two iterations, the project was executed over the course of three months. My tasks included conducting observations and interviews, paper prototyping and the implementation using Unity, Vuforia and C++.
 			</p>
-			
 			<h2>Methods and tools</h2>
 			<ul class="topics">
-				<li>Wireframing</li>
-				<li>Sketching</li>
-				<li>Interaction design guidelines</li>
-				<li>Physical prototyping</li>
+				<li>Cognitive Walkthroughs</li>
+				<li>Natural User Interface</li>
+				<li>Interviews</li>
+				<li>User flows</li>
+				<li>Groupware</li>
+				<li>Wizard-of-Oz prototyping</li>
+				<li>Unity</li>
+				<li>Vuforia</li>
 				<li>Laser cutting</li>
-				<li>Arduino</li>
-				<li>3D printing</li>
-				<li>Sketchup</li>
-				<li>MakerBot</li>
+				<li>C++</li>
 			</ul>
 		</div>
 	</section>
@@ -76,79 +75,82 @@
 			<h1>Ideation</h1>
 			<h2>Task</h2>
 			<p>
-				Tick tock was developed for a class called 'Physical Interaction Design and Realisation". The project's aim was to develop an understanding for tangible objects and how their fabrication and interaction influence one another. The project work was split into two parts: fabrication and circuiting/programming. Two group members were responsible for each of the tasks.
+				Mixed Cuts is the result of a project implemented in a class called 'Augmented Reality and Tangible interaction'. The task was to transform a common media software user interface into a tangible user interface using a user-centred design approach.
 			</p>
 			
-			<h2>Brainstorming and problem analysis</h2>
+			<h2>Problem analysis and brainstorming</h2>
 			<p>
-				The idea was to enhance the nature of an existing physical device using technology and materials. Having noticed a nearby group rehearsing a presentation and setting a timer on a laptop we noticed several problems.
+				As a first step, we used Cognitive Walkthroughs to analyse problems with existing software. Each group member used a different media editing tool, which they had not used before, to execute a task. We used a picture, music and video editing tool. They would record a screen video and note down problems we faced according to the Norman's and Nielsen's 10 Usability Heuristics. Then, using a Grounded Theory Analysis, the following problems were identified:
 			</p>
+			
 			<ol>
-				<li>Stopping the timer required focused attention to look for the pause button</li>
-				<li>People wanted to quickly check an approximate time rather than the exact count</li>
-				<li>People were constantly watching the timer</li>
+				<li>Common UIs used metaphors for tools, inspired by their traditional physical methods, to interact with objects on the screen; 3D commands were translated to 2D commands</li>
+				<li>Undoing single commands in the execution history quickly became confusing</li>
+				<li>Functionalities for collaborative editing were largely unavailable</li>
 			</ol>
 			
-			<h2>Sketching</h2>
 			<p>
-				The group wanted to resolve all three problems. The timer was redesigned and augmented with several interactions and a new information structure. From the first sketches on, tick tock was drawn as a round device, inspired by an egg clock. Holes in the shape of numbers in the dial would light up from LEDs below. Sketches were drawn to keep track of ideas and to add requirements during the design process.
+			Inspired by our course content, we wanted to take a virtual object and turn it into a physical object. Manipulation of the object's placement or orientation would be mapped to digital commands. The group aimed at facilitating the task at hand by translating a graphical user interface into a natural user interface where commands a direct and intuitive.</p>
+			
+			<p>
+			The video editor was chosen as a result of personal introspective. Having used collaborative video prototyping as a tool for other design projects, we decided that we would best understand the requirements a user has towards such a system.
 			</p>
 			
-			<div class="img-caption right">
-				<img src="img/content/tick-tock-1.png">
-				<span>According to a first sketch, a simple Arduino mockup was built using a breadboard.</span>
-			</div>
-			
-			<h2>Interaction design</h2>
-			<p>	
-				First, we added a flip interaction to the device, stopping the count. When it was flipped back to show the dial, the device would start counting again. Appropriate feedback would be given by letting the LEDs pulse once before the timer restarted. As a second step, numbers were removed from the dial. The holes would indicate what fraction was left of the time, even from a wider distance. Finally, inspired by Swedish nature, we wanted the case to be built of natural materials making the device appear less stressful to the user. We used wood for the case and, to add signifiers to existing affordances, used fine layers of cork to mark touch spots where interaction could take place.
+			<h2 name="interaction-design" id="interaction-design">Interaction design</h2>
+			<p>
+			Functionalities by the tokens were sketched out to include common video controls such as play/pause, play speed, volume, crop and black-and-white filter. A reference point is used to calculate the position and Euclidean distance of a token in the interface. Thus, users can adjust their workspace by arranging the tokens as desired on the surface. The system is composed of the following 6 tokens which are mapped to digital commands:
 			</p>
 			
-			<div class="img-caption">
-				<img src="img/content/tick-tock-2.gif">
-				<span>Turning the dial will set the timer and light up the numbers.</span>
-			</div>
+			<ol>
+				<li>Clip slider (<span>Expand or close to lengthen or shorten clip</span>)</li>
+				<li>Play/pause button (<span>Depending on which side is showing, flip to play or pause</span>)</li>
+				<li>Volume slider (<span>Bring tokens closer together to increase volume</span>)</li>
+				<li>Cropping points (<span>Arrange tokens on the top edge of the clip to crop</span>)</li>
+				<li>Filter (<span>Transparent piece of plastic, put on the video projection to add a black-and-white filter</span>)</li>
+				<li>Reference point (<span>Used for the calculation of euclidean distances</span>)</li>
+			</ol>
+			
+			<img src="img/content/mixed-cuts-1.svg">
 		</div>
 	</section>
 	
 	<section id="project-three" class="content">
 		<div class="inner">
-			<h1>Fabrication</h1>
-			<h2>Build plan</h2>
+			<h1>Iterative prototyping</h1>
+			<h2>Wizard-of-Oz prototyping and interviews</h2>
 			<p>
-				Prior to fabrication, a build plan was drawn. This not only helped us save time but prevented material waste. The case was build of two parts, two round cases of which one was smaller and fitted into its bigger counterpart. They were laser cut. As we were not aware of how much space we would need, the cases were designed to be assembled using several wooden rings. This way, the size of the device could easily be adapted by cutting and glueing additional rings.
-			</p>
-		
-			<p>
-				The rotary encoder used featured a pin pointing upwards. Turning this pin would result in a signal. We designed a 3D printed block with a hole. This block was glued to one case, while the rotary encoder was glued to the other. This not only ensured that the device could be turned infinitively, but also that it could be opened easily after assembly.
+				According to the sketches, a Wizard-of-Oz prototype was fabricated. The prototype featured a limited set of functionalities; only play/pause and volume were part of the prototype. The play/pause button and volume slider were made of paper, while the video was shown on a laptop screen. When a user interacted with the paper tokens, the group would execute the interactions on the laptop to imitate a working prototype.
 			</p>
 			
-			<div class="img-caption right">
-				<img src="img/content/tick-tock-3.png">
-				<span>A build plan was sketched prior to fabrication showing how components fit together.</span>
-			</div>
-			
-			<h2>Laser cutting and 3D printing</h2>
 			<p>
-				We used 3mm birch wood to cut all parts of both cases: The dial, rings for both the small and big case, a lid for the small case (to which the rotary encoder would be glued) and a bottom plate. The holes for the numbers had to be adjusted twice, as, even though the laser cutter was quite precise, the numbers were to small. The bottom part was engraved with a small logo. The block was 3D printed using a solid, black PVC.
+				People were surprisingly enthusiastic about the prototype. Both interactions proved to be easily understandable. Participants were not used to being able to move around user interface elements; a left-handed user enjoyed being able to adapt the user interface to her needs. We saw this as a proof of going into the right direction and decided to implement a medium-fidelity prototype.
 			</p>
 			
-			<h2>Arduino implementation</h2>
+			<h2>Implementation in Unity</h2>
 			<p>
-				The concept of circuiting with Arduino was new to us. Thus, we assembled all components using removable jumper wires and a breadboard first. Then, after fine-tuning, we soldered components onto round boards. We used 12 RGB LEDs, a rotary encoder and a 5V battery to power the device. Coding was done in the native Arduino IDE.
+				Unity and Vuforia were used as development environment and AR plugin, respectively, to implement the logic of the prototype. Unity received input via a 1080p webcam and created output by projecting GUI elements next to tokens. More specifically, markers were trained with the Vuforia library which were recognised by the webcam. Unity received the position of the markers, projecting elements to the appropriate locations.
+			</p>
+			
+			<h2>Fabrication of the tokens</h2>
+			<p>
+				The tokens were produced using a laser cutter and wood glue. While the clip slider, play/pause button, volume slider and cropping points were made of wood, the filter is made of a transparent plastic. This was inspired by the concept of natural user interaction: placing the square plastic over the video projection resulted in the video turning greyscale. 
 			</p>
 	</section>
 	
 	<section id="project-four" class="content">
 		<div class="inner">
-			<h1>Challenges</h1>
+			<h1>Lessons learnt</h1>
 			<p>
-				The project presented several challenges. The group was unfamiliar with industrial design techniques such as laser cutting, circuiting and soldering. While the device was designed to be hand-sized, it turned out to be about 30% bigger, as components took more space than expected. Fabrication of the individual parts were done in a trial-and-error manner, having to adjust parameters slightly. For instance, the distance of the laser and the speed were adjusted several times in order for the laser cutter to cut properly through the wood.
+				Mapping real-world to virtual positions turned out to be a challenging task. The set-up was quite sensitive to change; the webcam position had to be at an exact height of 30cm so that the position of each token could be calculated correctly. The group constructed a device to which the webcam was attached.
 			</p>
 			
-			<div class="img-caption">
-				<img src="img/content/tick-tock-final.png">
-				<span>The final device, showing lighted numbers while the user is turning the dial.</span>
+			<p>
+				Secondly, the implementation was quite complicated and took up most of our time. Even though we did not execute a second formal round of interviews due to the time restriction, we conducted another Cognitive Walkthrough with one of our teachers. As a result, we slightly changed the behaviour of the volume slider: since it could be moved around freely, some participants seemed to turn it upside down, resulting in wrong feedback and responses from the system. The volume slider now behaved slightly differently when the reference point was above the slider.
+			</p>
+			
+			<div class="img-caption right">
+				<img src="img/content/mixed-cuts-final.png">
+				<span>System interface containing each of the interactive elements as exhibited.</span>
 			</div>
 	</section>
 
