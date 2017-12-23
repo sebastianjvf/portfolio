@@ -101,6 +101,12 @@
 		width: 100%;
 	}
 	
+	section#project-top div#picture {
+		float: none;
+		position: static;
+		margin: 2em auto 2em auto;
+	}
+	
 	section#projects-experience div.inner a {
 		flex: 0 0 calc(100%);
 		margin-right: 0;

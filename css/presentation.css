@@ -138,7 +138,8 @@ section#introduction div.inner div#welcome-text p {
 	font-size: 1.2em;
 }
 
-section#introduction div#picture {
+section#introduction div#picture,
+section#project-top div#picture {
 	width: 8em;
 	height: 8em;
 	position: relative;
@@ -147,6 +148,16 @@ section#introduction div#picture {
 	border-radius: 9999rem;
 	background: url('../img/picture.png') no-repeat left top/100%;
 	z-index: 1;
+}
+
+section#project-top div#picture {
+	float: right;
+	width: 7em;
+	height: 7em;
+	margin-bottom: 2em;
+	margin-left: 3em;
+	position: relative;
+	top: -1em;
 }
 
 section#introduction div#picture + span {
@@ -171,7 +182,8 @@ div#lines img {
 	width: 7em;
 }
 
-section#introduction a {
+section#introduction a,
+section#project-top a {
 	color: #ffffff;
 	text-decoration: none;
 	position: relative;
