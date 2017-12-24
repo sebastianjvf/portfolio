@@ -28,7 +28,7 @@
 		width: 100%;
 		top: -2em;
 		left: -1.5em;
-		content: url(../img/caption-left-blue.svg);
+		content: url(../img/caption-left.svg);
 	}
 	
 	section.content div.inner .right span {
@@ -47,7 +47,7 @@
 		left: auto;
 		right: -2em;
 		bottom: -1.5em;
-		content: url(../img/caption-right-blue.svg);
+		content: url(../img/caption-right.svg);
 	}
 	
 	section.content div.inner .left-bottom span {
@@ -66,7 +66,7 @@
 		right: auto;
 		left: -2em;
 		bottom: -1.5em;
-		content: url(../img/caption-left-bottom-blue.svg);
+		content: url(../img/caption-left-bottom.svg);
 	}
 	
 	section.content div.inner .right-top span {
@@ -80,7 +80,7 @@
 		z-index: -1;
 		left: auto;
 		right: -1.5em;
-		content: url(../img/caption-right-top-blue.svg);
+		content: url(../img/caption-right-top.svg);
 	}
 }	
 	
