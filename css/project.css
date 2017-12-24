@@ -78,10 +78,6 @@ section.content div.inner p + p {
 	margin-top: -1em;
 }
 
-section.content div.inner p:first-of-type {
-	margin-bottom: 3em;
-}
-
 section.content div.inner p + ol {
 	margin-top: -1em;
 	margin-bottom: 3em;
@@ -221,7 +217,7 @@ section.content div.inner .img-caption span {
 
 /* Set the margin bottom of the last element to 0 */
 section.content div.inner *:last-child  {
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
 }
 
 footer {
