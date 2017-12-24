@@ -1,7 +1,7 @@
 <?php 
 
 	// Set the title
-	$project_title = '- Stanley Robotics';
+	$project_title = '- Stanley Robotics Internship';
 
 	// Set the description
 	$project_description = '

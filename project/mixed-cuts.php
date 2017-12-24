@@ -86,7 +86,7 @@
 			<li>Reference point (<span>Used for the calculation of euclidean distances</span>)</li>
 		</ol>
 		
-		<img src="../../img/project/mixed-cuts-1.svg">
+		<img src="../../img/project/mixed-cuts-1.svg" alt="Diagram showing each token.">
 	</div>
 </section>
 
@@ -125,7 +125,7 @@
 		</p>
 		
 		<div class="img-caption right">
-			<img src="../../img/project/mixed-cuts-final.png">
+			<img src="../../img/project/mixed-cuts-final.png" alt="Image showing the physical tokens, a laptop and a camera on a table.">
 			<span>System interface containing each of the interactive elements as exhibited.</span>
 		</div>
 </section>
