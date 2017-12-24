@@ -8,10 +8,6 @@ section#project-top {
 	padding-bottom: 2.5em;
 }
 
-section#project-top div.inner {
-	padding-bottom: 0;
-}
-
 section#project-top:after {
 	content: url(../img/arrow-down.svg);
 	width: 1.5em;
