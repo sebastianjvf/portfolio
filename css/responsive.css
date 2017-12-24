@@ -14,8 +14,6 @@
 		width: 50%;
 		height: 50%;
 		color: #ffffff;
-		line-height: 1.1;
-		font-size: 0.9em;
 		text-align: left;
 		line-height: 1.5;
 		font-size: 0.85em;
@@ -50,6 +48,39 @@
 		right: -2em;
 		bottom: -1.5em;
 		content: url(../img/caption-right-blue.svg);
+	}
+	
+	section.content div.inner .left-bottom span {
+		top: auto;
+		left: auto;
+		bottom: 0;
+		left: 0;
+		height: auto;
+		text-align: left;
+		padding: 0 7em 1em 1em;
+	}
+	
+	section.content div.inner .left-bottom span:before {
+		top: auto;
+		bottom: 0;
+		right: auto;
+		left: -2em;
+		bottom: -1.5em;
+		content: url(../img/caption-left-bottom-blue.svg);
+	}
+	
+	section.content div.inner .right-top span {
+		left: auto;
+		right: 0;
+		padding: 1em 1em 0 8em;
+		text-align: right;
+	}
+	
+	section.content div.inner .right-top span:before {
+		z-index: -1;
+		left: auto;
+		right: -1.5em;
+		content: url(../img/caption-right-top-blue.svg);
 	}
 }	
 	
