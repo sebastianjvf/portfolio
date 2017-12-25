@@ -5,7 +5,7 @@
 
 	// Set the description
 	$project_description = '
-	<span class="date">August - Oktober 2017</span>
+	<span class="date">August 2017 - Oktober 2017</span>
 	<h1>Tick Tock</h1>
 	<p>
 		Set in the domain of industrial design, Tick tock is a tangible time-keeping device. Build using Arduino, a 3D printer and a laser cutter, the device was designed to help users focus on the task at hand. The time can be set by turning the dial, flipping the device over stops the time from running out.
