@@ -305,6 +305,10 @@ section#projects-experience div.inner a span:before {
 	transition: all 0.2s ease-in-out;
 }
 
+section#projects-experience div.inner a:after {
+	display: none !important;
+}
+
 section#projects-experience div.inner a:hover span:before {
 	transform: scale(1);
 	background-color: #F9C776;

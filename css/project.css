@@ -122,14 +122,14 @@ section.content div.inner h2 {
 }
 
 section.content a {
-	color: #888888;
+	color: #292928;
 	display: inline-block;
 	position: relative;
 	transition: all 0.2s ease-in-out;
 }
 
 section.content a:after {
-	background-color: #888888;
+	background-color: #292928;
 	transition: all 0.2s ease-in-out;
 }
 
