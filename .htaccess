@@ -13,4 +13,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^/about/$ about.php [L,QSA]
 
 # redirect html pages to the root domain
-RewriteRule ^index\.html$ / [NC,R,L]
+RewriteRule ^index\.php$ / [NC,R,L]
