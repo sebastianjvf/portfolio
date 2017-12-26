@@ -61,7 +61,7 @@
 			</a>
 			<a href="project/val-app/">
 				<h1>Val App</h1>
-				<span class="type">An application to facilitate voting</span>
+				<span class="type">An application which facilitates voting</span>
 				<img src="img/project/val-app-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>

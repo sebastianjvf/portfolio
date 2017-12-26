@@ -5,7 +5,7 @@
 
 	// Set the description
 	$project_description = '
-	<span class="date">February 2017</span>
+	<span class="date">Feb 2017</span>
 	<h1>Trip Lens</h1>
 	
 	<p>
