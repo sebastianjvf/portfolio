@@ -14,7 +14,7 @@
 	
 	// Set the links
 	$previous_project = '../../project/tick-tock/';
-	$next_project = '../../project/trip-lense/';
+	$next_project = '../../project/trip-lens/';
 	
 	// include header
 	include('project-header.php');
