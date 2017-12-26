@@ -13,7 +13,7 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../experience/stanley-robotics/';
+	$previous_project = '../../project/mixed-cuts/';
 	$next_project = '../../project/val-app/';
 	
 	// include header
