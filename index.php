@@ -24,7 +24,7 @@
 				<div id="picture"></div>
 				<span>Hello there!</span>
 				<p>
-					My name is <span>Sebastian John von Freyend</span> and I am a user experience design (graduate) student at KTH Royal Institute of Technology, Stockholm. I am about to be a design intern at <a href="experience/stanley-robotics/">Stanley Robotics</a>.
+					My name is <span>Sebastian John von Freyend</span> and I am a user experience design (graduate) student at KTH Royal Institute of Technology, Stockholm. I am about to be a design intern at <a href="http://stanley-robotics.com/" target="_blank">Stanley Robotics</a>.
 				</p>
 				<a href="about/" class="more">More about me</a>
 			</div>
@@ -53,12 +53,6 @@
 		</span>
 		
 		<div class="inner">
-			<a href="experience/stanley-robotics/">
-				<h1>Stanley Robotics</h1>
-				<span class="type">Service &amp; interaction design</span>
-				<img src="img/experience/stanley-robotics-preview.svg" alt="Preview">
-				<span class="internship">Internship</span>
-			</a>
 			<a href="project/tick-tock/">
 				<h1>Tick Tock</h1>
 				<span class="type">An augmented time keeper</span>
