@@ -69,7 +69,7 @@
 		<div class="inner">
 			<h1>Interests and curriculum</h1>
 			<p>
-				Originally, I come from Munich, Germany. After having moved to Lyon and then Paris for my studies, I am now based in Stockholm. I am interested in modern art and impressionalism (the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I also enjoy playing Squash in my free time or going snowboarding in the Alpes and the Pyrenees.
+				Originally, I come from Munich, Germany. After having moved to Lyon and then Paris for my studies, I am now based in Stockholm. I am interested in modern art and impressionalism (the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I also enjoy playing Squash or going snowboarding in the Alpes and the Pyrenees.
 			</p>
 			
 			<p>
