@@ -14,7 +14,7 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/val-app/';
+	$previous_project = '../../project/tick-tock/';
 	$next_project = '../../project/mixed-cuts/';
 	
 	// include header

@@ -13,8 +13,8 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/tick-tock/';
-	$next_project = '../../project/trip-lens/';
+	$previous_project = '../../project/mixed-cuts/';
+	$next_project = '../../project/tick-tock/';
 	
 	// include header
 	include('project-header.php');

@@ -13,8 +13,8 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/mixed-cuts/';
-	$next_project = '../../project/val-app/';
+	$previous_project = '../../project/val-app/';
+	$next_project = '../../project/trip-lens/';
 	
 	// include header
 	include('../project-header.php');

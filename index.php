@@ -53,16 +53,16 @@
 		</span>
 		
 		<div class="inner">
-			<a href="project/tick-tock/">
-				<h1>Tick Tock</h1>
-				<span class="type">An augmented time keeper</span>
-				<img src="img/project/tick-tock-preview.png" alt="Preview">
-				<span>Project</span>
-			</a>
 			<a href="project/val-app/">
 				<h1>Val App</h1>
 				<span class="type">An application which facilitates voting</span>
 				<img src="img/project/val-app-preview.png" alt="Preview">
+				<span>Project</span>
+			</a>
+			<a href="project/tick-tock/">
+				<h1>Tick Tock</h1>
+				<span class="type">An augmented time keeper</span>
+				<img src="img/project/tick-tock-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
 			<a href="project/trip-lens/">
