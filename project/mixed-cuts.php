@@ -115,7 +115,7 @@
 
 <section id="project-four" class="content">
 	<div class="inner">
-		<h1>Lessons learnt</h1>
+		<h1>Lessons learned</h1>
 		<p>
 			Mapping real-world to virtual positions turned out to be a challenging task. The set-up was quite sensitive to change; the webcam position had to be at an exact height of 30cm so that the position of each token could be calculated correctly. The group constructed a device to which the webcam was attached.
 		</p>
