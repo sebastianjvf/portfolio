@@ -262,10 +262,6 @@ section#projects-experience div.inner a img {
 	transition: opacity 0.2s ease-in-out;
 }
 
-section#projects-experience div.inner a:last-of-type {
-	margin-bottom: 0;
-}
-
 section#projects-experience div.inner a:nth-of-type(2n) {
 	break-after: always;
 	margin-right: 0;

@@ -32,7 +32,7 @@
 </head>
 <body>
 	
-	<a href="index.html">
+	<a href="/">
 	<header>
 	<div class="inner">
 			Sebastian John von Freyend
@@ -50,7 +50,7 @@
 			</p>
 			
 			<p>
-				I am currently reading <a href="http://danbrown.com/deception-point/">Deception point</a> and <a href="http://thisisservicedesignthinking.com/">This is service design thinking</a>.
+				I am currently reading <a href="http://danbrown.com/deception-point/" target="_blank">Deception point</a> and <a href="http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking</a>.
 			</p>
 		</div>
 		
@@ -88,7 +88,7 @@
 				This website was greatly inspired by Scandinavia, Sweden and Stockholm, where I currently live. The main colours, royal blue and yellow, are a hint to the colours of the Swedish national flag. The wave symbol, which can be found on most pages, represents the baltic sea. In fact, the capitol of Stockholm uses the same symbol for an interactive statue indicating water quality of the sea in the bay of the city.
 			</p>
 			<p>
-				The type used on this website is called <a href="http://monokrom.no/fonts/aften">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/">Monokrom</a>, inspired by older fonts used throughout Scandinavia. It was developed especially for reading on screens. Motion on the website was designed according to Google's <a href="https://material.io/guidelines/motion/material-motion.html">Material Design motion guidelines</a>.
+				The type used on this website is called <a href="http://monokrom.no/fonts/aften" target="_blank">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/" target="_blank">Monokrom</a>, inspired by older fonts used throughout Scandinavia. It was developed especially for reading on screens. Motion on the website was designed according to Google's <a href="https://material.io/guidelines/motion/material-motion.html" target="_blank">Material Design motion guidelines</a>.
 			</p>
 	</section>
 	
