@@ -194,7 +194,7 @@
 	div#instafeed div span {
 		opacity: 1 !important;
 		left: 0em !important;
-		margin: -22% auto 11% auto; /* Half of the margin at the bottom to move element */
+		margin: -21% auto 10.5% auto; /* Half of the margin at the bottom to move element */
 		position: relative !important;
 		width: auto !important;
 		font-size: 1em !important;
