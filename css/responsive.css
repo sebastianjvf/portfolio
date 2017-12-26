@@ -193,12 +193,15 @@
 	
 	div#instafeed div span {
 		opacity: 1 !important;
-		top: auto !important;
-		bottom: 0;
+		left: 0em !important;
+		margin: -20% auto 20% auto;
+		position: relative !important;
+		width: auto !important;
 		font-size: 1em !important;
-		padding: 0.4em 0.4em 0.3em 0.4em !important;
+		padding: 0.4em 2em 0.3em 2em !important;
 		height: auto !important;
-		display: block;
+		display: table !important;
+		border-radius: 3em;
 	}
 	
 	footer a {
