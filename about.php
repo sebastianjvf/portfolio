@@ -8,12 +8,26 @@
 	<link rel="stylesheet" href="../css/typography.css?version=new">
 	<link rel="stylesheet" href="../css/presentation.css?version=new">
 	<link rel="stylesheet" href="../css/project.css?version=new">
+	<link rel="stylesheet" href="../css/instagram.css?version=new">
 	<link rel="stylesheet" href="../css/responsive.css?version=new">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="../js/events.js" type="text/javascript"></script>
 	<script src="../js/smooth-scroll.js" type="text/javascript"></script>
 	<script src="../js/parallax.js" type="text/javascript"></script>
+	<script src="../js/instafeed.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var feed = new Instafeed({
+			get: 'user',
+			userId: '670488427',
+			clientId: '333fc448b819432da696bc00122dd13f',
+			accessToken: '670488427.333fc44.1b41263a45034511a8cc0bd536000121',
+			resolution: 'standard_resolution',
+			limit: '3',
+			template: '<div><a href="{{link}}"><img src="{{image}}"><span>{{location}}</span></div></a>'
+		});
+		feed.run();
+	</script>
 	
 </head>
 <body>
@@ -51,7 +65,7 @@
 		</div>
 	</section>
 	
-	<section id="project-three" class="content">
+	<section id="project-two" class="content">
 		<div class="inner">
 			<h1>Interests and curriculum</h1>
 			<p>
@@ -67,15 +81,23 @@
 			</p>
 	</section>
 	
-	<section id="project-four" class="content">
+	<section id="project-three" class="content">
 		<div class="inner">
 			<h1>About this website</h1>
 			<p>
 				This website was greatly inspired by Scandinavia, Sweden and Stockholm, where I currently live. The main colours, royal blue and yellow, are a hint to the colours of the Swedish national flag. The wave symbol, which can be found on most pages, represents the baltic sea. In fact, the capitol of Stockholm uses the same symbol for an interactive statue indicating water quality of the sea in the bay of the city.
 			</p>
 			<p>
-				The type used on this website is called <a href="http://monokrom.no/fonts/aften">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/">Monokrom</a>, inspired by older fonts used throughout Scandinavia. It was developed especially for reading on screens. Motion on the website was designed according to the <a href="https://material.io/guidelines/motion/material-motion.html">Google's Material Design Motion guidelines</a>.
+				The type used on this website is called <a href="http://monokrom.no/fonts/aften">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/">Monokrom</a>, inspired by older fonts used throughout Scandinavia. It was developed especially for reading on screens. Motion on the website was designed according to Google's <a href="https://material.io/guidelines/motion/material-motion.html">Material Design motion guidelines</a>.
 			</p>
+	</section>
+	
+	<section id="project-four" class="content">
+		<div class="inner">
+			<h1>From my Instagram</h1>
+			<div id="instafeed">
+			</div>
+		</div>
 	</section>
 
 </body>

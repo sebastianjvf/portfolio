@@ -181,6 +181,26 @@
 		width: 70%;
 	}
 	
+	div#instafeed {
+		flex-direction: column;
+	}
+	
+	div#instafeed div {
+		width: 60%;
+		padding-top: 3em;
+		margin: 0 auto 2em auto !important;
+	}
+	
+	div#instafeed div span {
+		opacity: 1 !important;
+		top: auto !important;
+		bottom: 0;
+		font-size: 1em !important;
+		padding: 0.4em 0.4em 0.3em 0.4em !important;
+		height: auto !important;
+		display: block;
+	}
+	
 	footer a {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
