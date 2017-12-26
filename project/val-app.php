@@ -101,7 +101,7 @@
 		
 		<div class="img-caption right">
 			<img src="../../img/project/val-app-2.png" alt="A sketch of two screens showing shapes which were mapped to answers.">
-			<span>Initially, shapes were mapped to answers.<br>(Here: phone screen)</span>
+			<span>Initially, shapes were mapped to answers.</span>
 		</div>
 		
 		<p>
@@ -110,7 +110,7 @@
 		
 		<blockquote>
 			Wait, I just voted 'no'?
-			<span>A participant after mistaking an answer related a shape for another</span>
+			<span>A participant after mistaking an answer related to a shape for another</span>
 		</blockquote>
 		
 		<h2>Medium-fidelity prototyping</h2>
