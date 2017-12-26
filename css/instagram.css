@@ -5,19 +5,19 @@ div#instafeed {
 	width: 100%;
 }
 
+div#instafeed div {
+	margin-right: 2em;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 div#instafeed div a {
 	display: block;
-	overflow: hidden;
 	transition: all 0.2s ease-in-out;
 }
 
 div#instafeed div a:after {
 	display: none;
-}
-
-div#instafeed div {
-	margin-right: 2em;
-	position: relative;
 }
 
 div#instafeed div:last-of-type {

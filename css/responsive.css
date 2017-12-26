@@ -186,19 +186,19 @@
 	}
 	
 	div#instafeed div {
-		width: 60%;
-		padding-top: 3em;
-		margin: 0 auto 2em auto !important;
+		width: 80%;
+		padding-top: 2em !important;
+		margin: 0 auto 3em auto !important;
 	}
 	
 	div#instafeed div span {
 		opacity: 1 !important;
 		left: 0em !important;
-		margin: -20% auto 20% auto;
+		margin: -22% auto 11% auto; /* Half of the margin at the bottom to move element */
 		position: relative !important;
 		width: auto !important;
 		font-size: 1em !important;
-		padding: 0.4em 2em 0.3em 2em !important;
+		padding: 0.4em 0.8em 0.3em 0.8em !important;
 		height: auto !important;
 		display: table !important;
 		border-radius: 3em;
