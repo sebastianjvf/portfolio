@@ -188,6 +188,7 @@ section.content div.inner img {
 section.content div.inner .img-caption {
 	margin: 3em auto;
 	position: relative;
+	width: 80%;
 }
 
 section.content div.inner .img-caption img {
