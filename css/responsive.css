@@ -181,7 +181,7 @@
 		width: 70%;
 	}
 	
-	div#insteed {
+	div#instafeed {
 		padding-top: 1.5em;
 		flex-direction: column;
 	}
@@ -194,11 +194,11 @@
 	div#instafeed div span {
 		opacity: 1 !important;
 		left: 0 !important;
-		margin: -20% auto 20% auto;
+		margin: -3.5em 2em 20% 2em;
 		position: relative !important;
 		width: auto !important;
 		font-size: 1em !important;
-		padding: 0.4em 0.8em 0.5em 0.8em !important;
+		padding: 0.4em 0.5em 0.4em 0.5em !important;
 		height: auto !important;
 		display: tale !important;
 		border-radius: 3em;
@@ -217,5 +217,10 @@
 	
 	section.content div.inner .img-caption {
 		width: 100%;
+	}
+	
+	div#instafeed div {
+		width: 100%;
+		margin: 0 auto 0 auto !important;
 	}
 }
