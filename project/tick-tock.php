@@ -8,7 +8,7 @@
 	<span class="date">Aug 2017 - Oct 2017</span>
 	<h1>Tick Tock</h1>
 	<p>
-		Set in the domain of industrial design, Tick tock is a tangible time-keeping device. Build using Arduino, a 3D printer and a laser cutter, the device was designed to help users focus on the task at hand. The time can be set by turning the dial, flipping the device over stops the time from running out.
+		Set in the domain of industrial design, Tick tock is a tangible time-keeping device. Build using an Arduino, a 3D printer and a laser cutter, the device was designed to help users focus on the task at hand. The time can be set by turning the dial, flipping the device over stops the time from running out.
 	</p>
 	';
 	

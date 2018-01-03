@@ -74,7 +74,7 @@
 		
 		<h2>Interaction design</h2>
 		<p>
-			Functionalities by the tokens were sketched out to include common video controls such as play/pause, play speed, volume, crop and black-and-white filter. A reference point is used to calculate the position and Euclidean distance of a token in the interface. Thus, users can adjust their workspace by arranging the tokens as desired on the surface. The system is composed of the following 6 tokens which are mapped to digital commands:
+			Functionalities by the tokens were sketched out to include common video controls such as play/pause, play speed, volume, crop and black-and-white filter. A reference point is used to calculate the position and Euclidean distance of a token in the interface. Thus, users can adjust their workspace by arranging the tokens as desired on the surface. The system is composed of 6 tokens which are mapped to the following digital commands:
 		</p>
 		
 		<ol>
@@ -83,7 +83,7 @@
 			<li>Volume slider (<span>Bring tokens closer together to increase volume</span>)</li>
 			<li>Cropping points (<span>Arrange tokens on the top edge of the clip to crop</span>)</li>
 			<li>Filter (<span>Transparent piece of plastic, put on the video projection to add a black-and-white filter</span>)</li>
-			<li>Reference point (<span>Used for the calculation of euclidean distances</span>)</li>
+			<li>Reference point (<span>Used for the calculation of Euclidean distances</span>)</li>
 		</ol>
 		
 		<img src="../../img/project/mixed-cuts-1.svg" alt="Diagram showing each token.">
@@ -95,7 +95,7 @@
 		<h1>Iterative prototyping</h1>
 		<h2>Wizard-of-Oz prototyping and interviews</h2>
 		<p>
-			According to the sketches, a Wizard-of-Oz prototype was fabricated. The prototype featured a limited set of functionalities; only play/pause and volume were part of the prototype. The play/pause button and volume slider were made of paper, while the video was shown on a laptop screen. When a user interacted with the paper tokens, the group would execute the interactions on the laptop to imitate a working prototype.
+			According to the sketches a Wizard-of-Oz prototype was made. The prototype featured a limited set of functionalities; only play/pause and volume were part of the prototype. The play/pause button and volume slider were made of paper, while the video was shown on a laptop screen. When a user interacted with the paper tokens, the group would execute the interactions on the laptop to imitate a working prototype.
 		</p>
 		
 		<p>
@@ -121,7 +121,7 @@
 		</p>
 		
 		<p>
-			Secondly, the implementation was quite complicated and took up most of our time. Even though we did not execute a second formal round of interviews due to the time restriction, we conducted another Cognitive Walkthrough with one of our teachers. As a result, we slightly changed the behaviour of the volume slider: since it could be moved around freely, some participants seemed to turn it upside down, resulting in wrong feedback and responses from the system. The volume slider now behaved slightly differently when the reference point was above the slider.
+			Secondly, the implementation proved to be quite complicated and took up most of our time. Even though we did not execute a second formal round of interviews due to time restrictions, we conducted another Cognitive Walkthrough with one of our teachers. As a result, we slightly changed the behaviour of the volume slider: since it could be moved around freely, some participants seemed to turn it upside down, resulting in wrong feedback and responses from the system. We calculated the Euclidean distance between the two points, moving them closer together would turn up the volume, no matter how the slider was positioned.
 		</p>
 		
 		<div class="img-caption right">

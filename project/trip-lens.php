@@ -121,7 +121,7 @@
 		
 		<div class="img-caption">
 			<img src="../../img/project/trip-lens-2.svg" alt="A lense were bubbles representing user profiles can be attached.">
-			<span>A user profile was designed to be attached and detached from the lens.</span>
+			<span>A user profile was designed to be attached to and detached from the lens.</span>
 		</div>
 		
 		<p>
@@ -134,7 +134,7 @@
 		
 		<h2>Video prototyping</h2>
 		<p>
-			Our scenario was finally rewritten into a story board, describing how our design changed the way the users approached their problem and how it supported common situations. We also created a paper interfaces for the phones. Finally, a video was created showing how the design works in detail.
+			Our scenario was finally rewritten into a story board, describing how our design changed the way the users approached their problem and how it supported common situations. We created the interface as a paper prototype for the phones. Finally, a video was created showing how the design works in detail.
 		</p>
 </section>
 
