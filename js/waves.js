@@ -11,7 +11,7 @@
 			let mouseY	= event.clientY;
 			
 			// Selet all imgs in lines
-			let waves = document.querySelectorAll('div#lines img');
+			let lines = document.querySelectorAll('div#lines img');
 			
 			waves.forEach(function (element) {
 				

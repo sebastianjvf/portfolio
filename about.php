@@ -4,17 +4,17 @@
 
 	<title>Sebastian John von Freyend - User experience design student - About</title>
 	
-	<link rel="stylesheet" href="../css/reset.css?version=update">
-	<link rel="stylesheet" href="../css/typography.css?version=update">
-	<link rel="stylesheet" href="../css/presentation.css?version=update">
-	<link rel="stylesheet" href="../css/project.css?version=update">
-	<link rel="stylesheet" href="../css/instagram.css?version=update">
-	<link rel="stylesheet" href="../css/responsive.css?version=update">
+	<link rel="stylesheet" href="../css/reset.css?version=update-2">
+	<link rel="stylesheet" href="../css/typography.css?version=update-2">
+	<link rel="stylesheet" href="../css/presentation.css?version=update-2">
+	<link rel="stylesheet" href="../css/project.css?version=update-2">
+	<link rel="stylesheet" href="../css/instagram.css?version=update-2">
+	<link rel="stylesheet" href="../css/responsive.css?version=update-2">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="../js/events.js" type="text/javascript"></script>
 	<script src="../js/smooth-scroll.js" type="text/javascript"></script>
-	<script src="../js/parallax.js" type="text/javascript"></script>
+	<script src="../js/parallax-waves.js" type="text/javascript"></script>
 	<script src="../js/instafeed.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var feed = new Instafeed({
@@ -54,15 +54,7 @@
 			</p>
 		</div>
 		
-		<div id="lines">
-			<img src="../img/wave.svg" style="top: 5%; left: 70%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 10%; left: 20%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 80%; left: 90%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 70%; left: -1%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 45%; left: 60%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 90%; left: 20%;" alt="Decorative wave">
-			<img src="../img/wave.svg" style="top: 100%; left: 50%;" alt="Decorative wave">
-		</div>
+		<?php include('waves.php'); ?>
 	</section>
 	
 	<section id="project-two" class="content">

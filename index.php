@@ -4,16 +4,16 @@
 
 	<title>Sebastian John von Freyend - User experience design student</title>
 	
-	<link rel="stylesheet" href="css/reset.css?version=update">
-	<link rel="stylesheet" href="css/typography.css?version=update">
-	<link rel="stylesheet" href="css/presentation.css?version=update">
-	<link rel="stylesheet" href="css/responsive.css?version=update">
+	<link rel="stylesheet" href="css/reset.css?version=update-2">
+	<link rel="stylesheet" href="css/typography.css?version=update-2">
+	<link rel="stylesheet" href="css/presentation.css?version=update-2">
+	<link rel="stylesheet" href="css/responsive.css?version=update-2">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="js/events.js" type="text/javascript"></script>
 	<script src="js/table-of-contents.js" type="text/javascript"></script>
 	<script src="js/smooth-scroll.js" type="text/javascript"></script>
-	<script src="js/parallax.js" type="text/javascript"></script>
+	<script src="js/parallax-waves.js" type="text/javascript"></script>
 	
 </head>
 <body>
@@ -30,18 +30,7 @@
 			</div>
 		</div>
 	
-		<div id="lines">
-			<img src="img/wave.svg" style="top: 5%; left: 70%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 10%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 30%; left: 5%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 70%; left: 40%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 80%; left: 70%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 70%; left: -1%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 40%; left: 80%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 45%; left: 30%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 90%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 100%; left: 50%;" alt="Decorative wave">
-		</div>
+		<?php include('waves.php'); ?>
 	</section>
 	
 	
@@ -53,6 +42,7 @@
 		</span>
 		
 		<div class="inner">
+			<h2>2017</h2>
 			<a href="project/val-app/">
 				<h1>Val App</h1>
 				<span class="type">An application which facilitates voting</span>
@@ -71,6 +61,8 @@
 				<img src="img/project/trip-lens-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
+			
+			<h2>2016</h2>
 			<a href="project/mixed-cuts/">
 				<h1>Mixed Cuts</h1>
 				<span class="type">An augmented tangible video editor</span>
