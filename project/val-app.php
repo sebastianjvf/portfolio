@@ -54,7 +54,7 @@
 		
 		<h2>Observations</h2>
 		<p>
-			We noticed that apps used during the observations fell into two broad categories: social networking and music. Apps used for social networking proved to deliver to most interesting insights. Instead of communicating, people adapted them to plan their projects and day. We saw tabs in a browser being used as reminders, group discussions about planning projects and social gatherings, messengers as note applications. Unexpectedly, no one seemed to use navigation apps.
+			We noticed that apps used during the observations fell into two broad categories: social networking and music. Apps used for social networking proved to deliver the most interesting insights. Instead of communicating, people adapted them to plan their projects and day. We saw tabs in a browser being used as reminders, group discussions about planning projects and social gathering and messengers as a way of taking notes. Unexpectedly, no one seemed to use navigation apps.
 		</p>
 		
 		<h2>Interviews</h2>
@@ -70,7 +70,7 @@
 		
 		<h2>Design brief</h2>
 		<p>
-			During a final brainstorming session where informations was collected and coded using a Grounded Theory Analysis, the group decided to create an application to support decision-making in groups. A host leads users through a group meeting and creates questions accordingly.
+			During a final brainstorming session where information was collected and coded using a Grounded Theory Analysis, the group decided to create an application to support decision-making in groups. A host leads users through a group meeting and creates questions accordingly.
 		</p>
 	</div>
 </section>
@@ -158,7 +158,7 @@
 		
 		<h1>Conclusion</h1>
 		<p>
-			The project was interesting on several levels. First, the project was executed from start to finish: Ideation, prototyping, implementation and an evaluation were conducted. Secondly, designing mobile apps is a common task for modern designers and is an important skill to master. Hereby, new technologies were used to implement the application. Finally, work was split well amongst group members and communication proved to be excellent.
+			The project was interesting from several viewpoints. Firstly, the project was executed from start to finish: Ideation, prototyping, implementation and a final evaluation were conducted. Secondly, designing mobile apps is a common task for modern designers and is an important skill to master. New technologies were used to implement the application. Finally, work was split well amongst group members and communication proved to be excellent.
 		</p>
 </section>
 
