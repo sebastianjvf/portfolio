@@ -48,4 +48,6 @@ table {
 * {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform-style: preserve-3d;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
 }
