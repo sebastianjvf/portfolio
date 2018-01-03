@@ -16,6 +16,36 @@ section#project-top:after {
 	left: calc(50% - 0.75em);
 }
 
+section.content div.inner img.scaled {
+	width: 60%;
+	margin: 2em auto 3em auto;
+}
+
+section.content div.inner ul.topics {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section.content div.inner span.date,
+section.content div.inner ul.topics li {
+	display: inline-block;
+	padding: 0.2em 1em;
+	margin: 0 0.5em 0.5em 0;
+	border-radius: 9999rem;
+	white-space: nowrap;
+	color: #ffffff;
+	background-color: #2854A7;
+}
+
+section.content div.inner span.date {
+	margin-left: auto;
+	margin-right: 0;
+	display: table;
+	margin-bottom: 2em;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 section#project-one,
 section#project-one span.section-header {
 	background-color: #E1E3E6;
@@ -23,16 +53,35 @@ section#project-one span.section-header {
 
 section#project-two,
 section#project-two span.section-header {
-	background-color: #EFF1F3;
+	background-color: #eceef0;
 }
 
 section#project-three,
 section#project-three span.section-header {
+	background-color: #f3f5f6;
+}
+
+section#project-four,
+section#project-four span.section-header {
 	background-color: #ffffff;
 }
 
 section.content div.inner p {
-	margin-bottom: 1em;
+	margin-bottom: 3em;
+}
+
+section.content div.inner p + p {
+	margin-top: -1em;
+}
+
+section.content div.inner p + ol {
+	margin-top: -1em;
+	margin-bottom: 3em;
+}
+
+section.content div.inner ol + p {
+	margin-top: -1em;
+	margin-bottom: 3em;
 }
 
 section.content div.inner ol {
@@ -73,16 +122,54 @@ section.content div.inner h2 {
 }
 
 section.content a {
-	color: #888888;
+	color: #282829;
+	display: inline-block;
 	position: relative;
-	border-bottom: 0.1rem solid;
+	transition: all 0.2s ease-in-out;
+}
+
+section.content a:after {
+	background-color: #282829;
 	transition: all 0.2s ease-in-out;
 }
 
 section.content a:hover,
 section.content a:focus {
-	color: #000000;
-	padding-bottom: 0.3rem;
+	color: #282829;
+}
+
+section.content a:hover:after,
+section.content a:focus:after  {
+	background-color: #000000;
+}
+
+section#project-top a {
+	color: #ffffff;
+}
+
+section#project-top a.more {
+	display: table;
+	margin: 0 auto;
+}
+
+section#project-top a:after {
+	background-color: #ffffff;
+}
+
+section.content div.inner blockquote {
+	font-size: 1.7em;
+	width: 80%;
+	font-style: italic;
+	margin: 1.5em auto 2.5em auto;
+	position: relative;
+}
+
+section.content div.inner blockquote span {
+	position: relative;
+	display: inline-block;
+	font-style: normal;
+	margin-top: 1em;
+	font-size: 0.5882352941em;
 }
 
 section.content div.inner img {
@@ -93,8 +180,13 @@ section.content div.inner img {
 }
 
 section.content div.inner .img-caption {
-	margin: 2.5em auto;
+	margin: 3em auto;
 	position: relative;
+	width: 80%;
+}
+
+section.content div.inner .img-caption img {
+	width: 100%;
 }
 
 section.content div.inner .img-caption span {
@@ -112,6 +204,11 @@ section.content div.inner .img-caption span {
 	background-color: rgba(40, 84, 167, .9);
 	line-height: 1.3;
 	font-size: 0.95em;
+}
+
+/* Set the margin bottom of the last element to 0 */
+section.content div.inner *:last-child  {
+	margin-bottom: 0;
 }
 
 footer {

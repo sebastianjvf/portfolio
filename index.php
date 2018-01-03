@@ -4,16 +4,16 @@
 
 	<title>Sebastian John von Freyend - User experience design student</title>
 	
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/typography.css">
-	<link rel="stylesheet" href="css/presentation.css">
-	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/reset.css?version=update-2">
+	<link rel="stylesheet" href="css/typography.css?version=update-2">
+	<link rel="stylesheet" href="css/presentation.css?version=update-2">
+	<link rel="stylesheet" href="css/responsive.css?version=update-2">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="js/events.js" type="text/javascript"></script>
 	<script src="js/table-of-contents.js" type="text/javascript"></script>
 	<script src="js/smooth-scroll.js" type="text/javascript"></script>
-	<script src="js/parallax.js" type="text/javascript"></script>
+	<script src="js/parallax-waves.js" type="text/javascript"></script>
 	
 </head>
 <body>
@@ -24,24 +24,13 @@
 				<div id="picture"></div>
 				<span>Hello there!</span>
 				<p>
-					My name is  <span>Sebastian John von Freyend</span> and I am a user experience design (graduate) student at KTH Royal Institute of Technology, Stockholm. I am about to intern at <a href="http://www.stanley-robotics.com/">Stanley Robotics</a>.
+					My name is <span>Sebastian John von Freyend</span> and I am a user experience design (graduate) student at KTH Royal Institute of Technology, Stockholm. I am about to be a design intern at <a href="http://stanley-robotics.com/" target="_blank">Stanley Robotics</a>.
 				</p>
-				<a href="" class="more">More about me</a>
+				<a href="about/" class="more">More about me</a>
 			</div>
 		</div>
 	
-		<div id="lines">
-			<img src="img/wave.svg" style="top: 5%; left: 70%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 10%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 30%; left: 5%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 70%; left: 40%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 80%; left: 70%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 70%; left: -1%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 40%; left: 80%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 45%; left: 30%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 90%; left: 20%;" alt="Decorative wave">
-			<img src="img/wave.svg" style="top: 100%; left: 50%;" alt="Decorative wave">
-		</div>
+		<?php include('waves.php'); ?>
 	</section>
 	
 	
@@ -53,22 +42,31 @@
 		</span>
 		
 		<div class="inner">
-			<a href="project.html">
-				<h1>Stanley Robotics</h1>
-				<span class="type">Service &amp; Interaction Design</span>
-				<img src="img/test-preview.jpg" alt="Preview">
-				<span class="internship">Internship</span>
-			</a>
-			<a href="project.html">
-				<h1>Sample #2</h1>
-				<span class="type">Industrial Design</span>
-				<img src="img/test-preview.jpg" alt="Preview">
+			<h2>2017</h2>
+			<a href="project/val-app/">
+				<h1>Val App</h1>
+				<span class="type">An application which facilitates voting</span>
+				<img src="img/project/val-app-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
-			<a href="project.html">
-				<h1>Sample #3</h1>
-				<span class="type">Service Design</span>
-				<img src="img/test-preview.jpg" alt="Preview">
+			<a href="project/tick-tock/">
+				<h1>Tick Tock</h1>
+				<span class="type">An augmented time keeper</span>
+				<img src="img/project/tick-tock-preview.png" alt="Preview">
+				<span>Project</span>
+			</a>
+			<a href="project/trip-lens/">
+				<h1>Trip Lens</h1>
+				<span class="type">A travel planning tool</span>
+				<img src="img/project/trip-lens-preview.png" alt="Preview">
+				<span>Project</span>
+			</a>
+			
+			<h2>2016</h2>
+			<a href="project/mixed-cuts/">
+				<h1>Mixed Cuts</h1>
+				<span class="type">An augmented tangible video editor</span>
+				<img src="img/project/mixed-cuts-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
 		</div>

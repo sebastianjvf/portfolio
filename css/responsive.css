@@ -14,8 +14,6 @@
 		width: 50%;
 		height: 50%;
 		color: #ffffff;
-		line-height: 1.1;
-		font-size: 0.9em;
 		text-align: left;
 		line-height: 1.5;
 		font-size: 0.85em;
@@ -30,13 +28,13 @@
 		width: 100%;
 		top: -2em;
 		left: -1.5em;
-		content: url(../img/caption-left-blue.svg);
+		content: url(../img/caption-left.svg);
 	}
 	
 	section.content div.inner .right span {
 		top: auto;
 		left: auto;
-		bottom: 0;
+		ottom: 0;
 		right: 0;
 		height: auto;
 		text-align: right;
@@ -49,7 +47,40 @@
 		left: auto;
 		right: -2em;
 		bottom: -1.5em;
-		content: url(../img/caption-right-blue.svg);
+		content: url(../img/caption-right.svg);
+	}
+	
+	section.content div.inner .left-bottom span {
+		top: auto;
+		left: auto;
+		bottom: 0;
+		left: 0;
+		height: auto;
+		text-align: left;
+		padding: 0 7em 1em 1em;
+	}
+	
+	section.content div.inner .left-bottom span:before {
+		top: auto;
+		bottom: 0;
+		right: auto;
+		left: -2em;
+		bottom: -1.5em;
+		content: url(../img/caption-left-bottom.svg);
+	}
+	
+	section.content div.inner .right-top span {
+		left: auto;
+		right: 0;
+		padding: 1em 1em 0 8em;
+		text-align: right;
+	}
+	
+	section.content div.inner .right-top span:before {
+		z-index: -1;
+		left: auto;
+		right: -1.5em;
+		content: url(../img/caption-right-top.svg);
 	}
 }	
 	
@@ -75,6 +106,10 @@
 		padding: 1.8rem;
 	}
 	
+	section.content div.inner span.date {
+		margin-bottom: 3em;
+	}
+	
 }
 
 @media (max-width: 750px) {
@@ -95,6 +130,12 @@
 	
 	div#welcome-text {
 		width: 100%;
+	}
+	
+	section#project-top div#picture {
+		float: none;
+		position: static;
+		margin: 2em auto 2em auto;
 	}
 	
 	section#projects-experience div.inner a {
@@ -136,8 +177,45 @@
 		padding-bottom: 2em;
 	}
 	
+	section.content div.inner img.scaled {
+		width: 70%;
+	}
+	
+	div#insteed {
+		padding-top: 1.5em;
+		flex-direction: column;
+	}
+	
+	div#instafeed div {
+		width: 80%;
+		margin: 0 auto 0 auto !important;
+	}
+	
+	div#instafeed div span {
+		opacity: 1 !important;
+		left: 0 !important;
+		margin: -20% auto 20% auto;
+		position: relative !important;
+		width: auto !important;
+		font-size: 1em !important;
+		padding: 0.4em 0.8em 0.5em 0.8em !important;
+		height: auto !important;
+		display: tale !important;
+		border-radius: 3em;
+	}
+	
 	footer a {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
+	}
+}
+
+@media (max-width: 600px) {
+	section.content div.inner img.scaled {
+		width: 90%;
+	}
+	
+	section.content div.inner .img-caption {
+		width: 100%;
 	}
 }

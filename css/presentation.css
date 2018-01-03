@@ -18,8 +18,9 @@ body a.toc-item,
 header {
 	display: block;
 	width: 100%;
-	font-size: 1em;
+	font-size: 0.9em;
 	padding-top: 0.6em;
+	font-weight: bold;
 	padding-bottom: 0.6em;
 	text-decoration: none;
 }
@@ -53,7 +54,12 @@ body span.section-header {
 
 section > div.inner {
 	padding-top: 3em;
-	padding-bottom: 1.7em;
+	padding-bottom: 3em;
+}
+
+section#introduction div.inner,
+section#project-top div.inner {
+	padding-bottom: 2.5em;
 }
 
 section#introduction, 
@@ -133,7 +139,8 @@ section#introduction div.inner div#welcome-text p {
 	font-size: 1.2em;
 }
 
-section#introduction div#picture {
+section#introduction div#picture,
+section#project-top div#picture {
 	width: 8em;
 	height: 8em;
 	position: relative;
@@ -144,13 +151,23 @@ section#introduction div#picture {
 	z-index: 1;
 }
 
+section#project-top div#picture {
+	float: right;
+	width: 7em;
+	height: 7em;
+	margin-bottom: 2em;
+	margin-left: 3em;
+	position: relative;
+	top: -1em;
+}
+
 section#introduction div#picture + span {
 	display: block;
 	font-size: 1em;
 	margin-bottom: 2em;
 }
 
-div#lines {
+div#waves {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -160,16 +177,34 @@ div#lines {
 	opacity: 0.15;
 }
 
-div#lines img {
+div#waves img {
 	display: block;
 	position: absolute;
 	width: 7em;
 }
 
-section#introduction a {
+section a {
 	color: #ffffff;
-	text-decoration: underline;
+	display: inline-block;
+	text-decoration: none;
 	position: relative;
+}
+
+section a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 0.1rem;
+	bottom: 7%;
+	left: 0;
+	background-color: #ffffff;
+	transition: all 0.2s ease-in-out;
+}
+
+section a:hover:after,
+section a:focus:after {
+	transform: translateY(0.3rem);
 }
 
 section a.more {
@@ -193,6 +228,10 @@ section a.more:focus {
 	box-shadow: 0.3em 0.3em 0 rgba(0, 0, 0, 0.15);
 }
 
+section a.more:after {
+	display: none !important;
+}
+
 /* PROJECTS AND EXPERIENCE */
 section#projects-experience > div.inner {
 	display: flex;
@@ -212,23 +251,16 @@ section#projects-experience div.inner a {
 	color: #282829;
 	position: relative;
 	overflow: hidden;
-	/* box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.05); */
+	box-shadow: 0.4em 0.4em rgba(0, 0, 0, 0.04);
 }
 
 section#projects-experience div.inner a img {
 	width: calc(100% + 1.4em + 1.5em);
-	opacity: 0.8;
 	display: block;
 	margin: 0.7em 0;
 	margin-left: -1.4em;
 	margin-right: -1.3em;
-	border-top: 0.3em solid #EEEFF1;
-	border-bottom: 0.3em solid #EEEFF1;
 	transition: opacity 0.2s ease-in-out;
-}
-
-section#projects-experience div.inner a:last-of-type {
-	margin-bottom: 0;
 }
 
 section#projects-experience div.inner a:nth-of-type(2n) {
@@ -241,10 +273,25 @@ div.inner h2 {
 	font-size: 1.0em;
 }
 
+section#projects-experience > div.inner {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 section#projects-experience div.inner a h1 {
 	text-align: left;
 	position: relative;
 	line-height: 1.5;
+}
+
+section#projects-experience div.inner h2 {
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 0.7em;
+}
+
+section#projects-experience div.inner a + h2 {
+	margin-top: 0.5em;
 }
 
 section#projects-experience div.inner a span {
@@ -268,6 +315,10 @@ section#projects-experience div.inner a span:before {
 	transform: scale(0.5);
 	background-color: transparent;
 	transition: all 0.2s ease-in-out;
+}
+
+section#projects-experience div.inner a:after {
+	display: none !important;
 }
 
 section#projects-experience div.inner a:hover span:before {
@@ -344,13 +395,14 @@ section#contact div#icons a {
 	transition: all 0.2s ease-in-out;
 }
 
+section#contact div#icons a:after,
 section#contact div#icons a:before {
 	display: none;
 }
 
 section#contact div#icons a:hover,
 section#contact div#icons a:focus {
-	transform: scale(1.05);
+	transform: scale(1.1);
 	background-color: #2854A7;
 }
 
