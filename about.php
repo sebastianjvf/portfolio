@@ -50,7 +50,7 @@
 			</p>
 			
 			<p>
-				I am currently reading <a href="http://danbrown.com/deception-point/" target="_blank">Deception point</a> and <a href="http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking</a>.
+				At the moment, I read <a href="http://danbrown.com/deception-point/" target="_blank">Deception point</a> and <a href="http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking</a>.
 			</p>
 		</div>
 		
@@ -61,15 +61,15 @@
 		<div class="inner">
 			<h1>Interests and curriculum</h1>
 			<p>
-				Originally, I come from Munich, Germany. After having moved to Lyon and then Paris for my studies, I am now based in Stockholm. I am interested in modern art and impressionalism (the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I also enjoy playing Squash or going snowboarding in the Alpes and the Pyrenees.
+				Originally, I come from Munich, Germany. After living in Lyon and then Paris for my studies, I am now based in Stockholm. I am interested in modern art and impressionalism (the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I also enjoy playing Squash and snowboarding in the Alpes and Pyrenees.
 			</p>
 			
 			<p>
-				Driven by compassion and user needs, I impact people's lives by bridging the gap between them and the products they use. I enjoy both the technological and psychological aspects of user experience design and its relation to art.
+				I started my journey to become a user experience design during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. I decided to specialise in user experience design and thus started my double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
 			</p>
 			
 			<p>
-				I started my journey to becoming a user experience design during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. I decided to specialise in user experience design and thus started my double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
+				Now, driven by compassion and user needs, I impact people's lives by bridging the gap between them and the products they use. I enjoy both the technological and psychological aspects of user experience design and its relation to art.
 			</p>
 	</section>
 	
@@ -77,10 +77,10 @@
 		<div class="inner">
 			<h1>About this website</h1>
 			<p>
-				This website was greatly inspired by Scandinavia, Sweden and Stockholm, where I currently live. The main colours, royal blue and yellow, are a hint to the colours of the Swedish national flag. The wave symbol, which can be found on most pages, represents the baltic sea. In fact, the capitol of Stockholm uses the same symbol for an interactive statue displaying information about the water quality of the sea in the bay of the city.
+				This website was greatly inspired by Scandinavia, Sweden and Stockholm, where I currently live. The main colours, royal blue and yellow, allude to the colours of the Swedish national flag. The wave symbol, which can be found on most pages, represents the baltic sea. In fact, the capitol of Stockholm uses the same symbol for an interactive statue displaying information about the water quality of the sea in the bay of the city.
 			</p>
 			<p>
-				The type used on this website is <a href="http://monokrom.no/fonts/aften" target="_blank">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/" target="_blank">Monokrom</a>, inspired by older fonts used throughout Scandinavia. It was developed especially for reading on screens. Motion on the website was designed according to Google's <a href="https://material.io/guidelines/motion/material-motion.html" target="_blank">Material Design motion guidelines</a>.
+				The type used on this website is <a href="http://monokrom.no/fonts/aften" target="_blank">Aften Screen</a>. It is a font developed by Norwegian typefoundry <a href="http://monokrom.no/" target="_blank">Monokrom</a>, and is distinctly inspired by fonts used throughout Scandinavia. It was developed specifically for reading on screens. Motion on the website was designed according to Google's <a href="https://material.io/guidelines/motion/material-motion.html" target="_blank">Material Design motion guidelines</a>. Oh, and coding was done in vanilla HTML5, CSS3 and JavaScript (ES6). The Instagram feed below is generated using <a href="http://instafeedjs.com" target="_blank">Instafeed.js</a>.
 			</p>
 	</section>
 	
