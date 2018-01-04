@@ -3,12 +3,13 @@ html {
 }
 
 body {
+	color: #000000;
 	font-size: 2.1rem;
 	line-height: 1.7;
 }
 
 a {
-	color: #282829;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -70,7 +71,6 @@ section#introduction span.section-header {
 
 section#projects-experience, 
 section#projects-experience span.section-header {
-	color: #282829;
 	background-color: #EEEFF1;
 }
 
@@ -330,7 +330,7 @@ section#projects-experience div.inner a:hover span.internship:before {
 	background-color: #76a8f9;
 }
 
-section#projects-experience div.inner a span.type {
+#projects-experience div.inner a span.type {
 	color: #888888;
 	display: table;
 	font-weight: normal;

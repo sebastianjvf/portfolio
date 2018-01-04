@@ -122,20 +122,20 @@ section.content div.inner h2 {
 }
 
 section.content a {
-	color: #282829;
+	color: #000000;
 	display: inline-block;
 	position: relative;
 	transition: all 0.2s ease-in-out;
 }
 
 section.content a:after {
-	background-color: #282829;
+	background-color: #000000;
 	transition: all 0.2s ease-in-out;
 }
 
 section.content a:hover,
 section.content a:focus {
-	color: #282829;
+	color: #000000;
 }
 
 section.content a:hover:after,

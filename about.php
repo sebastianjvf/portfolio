@@ -65,7 +65,7 @@
 			</p>
 			
 			<p>
-				I started my journey to become a user experience design during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. I decided to specialise in user experience design and thus started my double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
+				I started my journey to become a user experience designer during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. I decided to specialise in user experience design and thus started a double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
 			</p>
 			
 			<p>
