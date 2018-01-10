@@ -37,11 +37,12 @@
 			<li>Interviews</li>
 			<li>User flows</li>
 			<li>Groupware</li>
+			<li>Coll</li>
 			<li>Wizard-of-Oz prototyping</li>
 			<li>Unity</li>
 			<li>Vuforia</li>
 			<li>Laser cutting</li>
-			<li>C++</li>
+			<li>C#</li>
 		</ul>
 	</div>
 </section>

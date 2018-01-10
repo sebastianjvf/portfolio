@@ -1,7 +1,7 @@
 <?php 
 
 	// Set the title
-	$project_title = '- Mixed Cuts';
+	$project_title = '- Once Upon A Shadow';
 
 	// Set the description
 	$project_description = '
@@ -28,9 +28,19 @@
 		<h1>Role</h1>
 		<h2>Tasks</h2>
 		<p>
+			Once Upon A Shadow is a group projected which came to life in a class called 'Multimodal Interaction and Interfaces'. Executed in a group of four, the goal was to explore the space of multimodal input and output and how they can foster interaction. The focus of my role lay on interaction design and prototyping, but I was also responsible for animating characters in Unity using the animation state engine.
 		</p>
 		<h2>Methods and tools</h2>
 		<ul class="topics">
+			<li>Cognitive Walkthroughs</li>
+			<li>Interviews</li>
+			<li>User flows</li>
+			<li>Groupware</li>
+			<li>3D sound</li>
+			<li>Paper prototyping</li>
+			<li>Wizard-of-Oz prototyping</li>
+			<li>Unity</li>
+			<li>C#</li>
 		</ul>
 	</div>
 </section>
