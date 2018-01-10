@@ -9,7 +9,7 @@
 	<h1>Once Upon A Shadow</h1>
 	
 	<p>
-		Once Upon A Shadow is a collaborative environment which uses several modalities, such as touch, sound, haptics and inertia, as input and output. A scene is shown via a projector. While a host triggers events related to the scene using a tablet, participants control characters in the scene using a smartphone. Tilting and shaking moves the character and triggers actions, respectively, while haptics and sound are used as feedback.
+		Once Upon A Shadow is a collaborative environment which uses several modalities, such as touch, sound, haptics and proprioception, as input and output. A scene is shown via a projector. While a host triggers events related to the scene using a tablet, participants control characters in the scene using a smartphone. Tilting and shaking moves the character and triggers actions, respectively, while haptics and sound are used as feedback.
 	</p>
 	';
 	
@@ -28,7 +28,7 @@
 		<h1>Role</h1>
 		<h2>Tasks</h2>
 		<p>
-			Once Upon A Shadow is a group projected which came to life in a class called 'Multimodal Interaction and Interfaces'. Executed in a group of four, the goal was to explore the space of multimodal input and output and how they can foster interaction. The focus of my role lay on interaction design and prototyping, but I was also responsible for animating characters in Unity using the animation state engine.
+			Executed in a group of four, the group went through two iterations in the design cycle. The focus of my role lay on interaction design and prototyping. I was also responsible for animating characters in Unity using the animation state engine.
 		</p>
 		<h2>Methods and tools</h2>
 		<ul class="topics">
@@ -50,6 +50,7 @@
 		<h1>Ideation</h1>
 		<h2>Task</h2>
 		<p>
+			Once Upon A Shadow is a group project which came to life in a class called 'Multimodal Interaction and Interfaces'. The goal was to explore the space of multimodal input and output, how they can foster interaction and develop an interactive system using these concepts.
 		</p>
 		
 		<h2>Problem analysis and brainstorming</h2>
