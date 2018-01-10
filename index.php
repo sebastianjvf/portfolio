@@ -40,8 +40,14 @@
 			Projects &amp; Experience
 		</div>
 		</span>
-		
 		<div class="inner">
+			<h2>2018</h2>
+			<a href="project/once-upon-a-shadow/">
+				<h1>Once Upon A Shadow</h1>
+				<span class="type">A collaborative, multimodal environment</span>
+				<img src="img/project/once-upon-a-shadow-preview.png" alt="Preview">
+				<span>Project</span>
+			</a>
 			<h2>2017</h2>
 			<a href="project/val-app/">
 				<h1>Val App</h1>

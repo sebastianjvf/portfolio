@@ -5,7 +5,7 @@
 
 	// Set the description
 	$project_description = '
-	<span class="date">Oct 2017 - Jan 2018</span>
+	<span class="date">Oct 2017 - Dezember 2017</span>
 	<h1>Val App</h1>
 	<p>
 		Val, meaning \'choice\' in Swedish, is a mobile application designed to improve the decision-making process in meetings. Users can easily set up a peer-to-peer network to vote anonymously. A host guides connected users through the meeting and creates questions. After voting, the results are shown on connected devices.
@@ -13,7 +13,7 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/mixed-cuts/';
+	$previous_project = '../../project/once-upon-a-shadow/';
 	$next_project = '../../project/tick-tock/';
 	
 	// include header

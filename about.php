@@ -61,11 +61,11 @@
 		<div class="inner">
 			<h1>Interests and curriculum</h1>
 			<p>
-				Originally, I come from Munich, Germany. After living in Lyon and then Paris for my studies, I am now based in Stockholm. I am interested in modern art and impressionalism (the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I also enjoy playing Squash and snowboarding in the Alpes and Pyrenees.
+				Originally, I come from Munich, Germany. After living in Lyon and then Paris, I am now based in Stockholm. I am interested in modern art and impressionalism (The collection of the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I fluently speak and write German, English and French. I also enjoy playing Squash and snowboarding in the Alpes and Pyrenees.
 			</p>
 			
 			<p>
-				I started my journey to become a user experience designer during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. I decided to specialise in user experience design and thus started a double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
+				I started my journey to become a user experience designer during my Bachelor's in Media informatics, a practice-oriented variation of a traditional computer science degree with a focus on user-centred design. Thus, I started a double Master's degree in Human-Computer Interaction and Design at Universit&eacute; Paris-Saclay and KTH Royal Institute of Technology, Stockholm. I also became quite interested in cognitive and behavioural psychology.
 			</p>
 			
 			<p>
