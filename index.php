@@ -44,7 +44,7 @@
 			<h2>2018</h2>
 			<a href="project/once-upon-a-shadow/">
 				<h1>Once Upon A Shadow</h1>
-				<span class="type">A collaborative, multimodal environment</span>
+				<span class="type">A collaborative multimodal environment</span>
 				<img src="img/project/once-upon-a-shadow-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
