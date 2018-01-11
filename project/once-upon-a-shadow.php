@@ -85,6 +85,8 @@
 		<p>
 			
 		</p>
+	</div>
+</section>
 
 <section id="project-four" class="content">
 	<div class="inner">
@@ -92,6 +94,7 @@
 		<p>
 			
 		</p>
+	</div>
 </section>
 
 <?php 
