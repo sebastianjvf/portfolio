@@ -237,6 +237,8 @@ section#projects-experience > div.inner {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 section#projects-experience div.inner a {
@@ -257,7 +259,7 @@ section#projects-experience div.inner a {
 section#projects-experience div.inner a img {
 	width: calc(100% + 1.4em + 1.5em);
 	display: block;
-	margin: 0.7em 0;
+	margin: 0.8em 0 0.7em 0;
 	margin-left: -1.4em;
 	margin-right: -1.3em;
 	transition: opacity 0.2s ease-in-out;
@@ -270,11 +272,6 @@ section#projects-experience div.inner a:nth-of-type(3n) {
 
 div.inner h1 {
 	font-size: 1.0em;
-}
-
-section#projects-experience > div.inner {
-	padding-top: 2em;
-	padding-bottom: 2em;
 }
 
 section#projects-experience div.inner a h1 {
@@ -300,6 +297,7 @@ section#projects-experience div.inner a span {
 	z-index: 0;
 	font-size: 0.8em;
 	text-align: left;
+	font-weight: bold;
 }
 
 section#projects-experience div.inner a span:before {

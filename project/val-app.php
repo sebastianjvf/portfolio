@@ -60,13 +60,13 @@
 		<h2>Interviews</h2>
 		<p>
 			Interviews where conducted using the Critical Incident Technique. We asked users to tell us about the last time they used a mobile application to resolve a daily task which involved file sharing and got several responses.
-			<ol>
-				<li>Facebook Messenger was used to quickly share files with groups of people</li>
-				<li>Citymapper was used to measure the shortest distance between three locations</li>
-				<li>Facebook Messenger was used to take notes during lectures at university by sending messages to oneself</li>
-				<li>Google's role a dice was used to take a decision in a group</li>
-			</ol>
 		</p>
+		<ol>
+			<li>Facebook Messenger was used to quickly share files with groups of people</li>
+			<li>Citymapper was used to measure the shortest distance between three locations</li>
+			<li>Facebook Messenger was used to take notes during lectures at university by sending messages to oneself</li>
+			<li>Google's role a dice was used to take a decision in a group</li>
+		</ol>
 		
 		<h2>Design brief</h2>
 		<p>
