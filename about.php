@@ -50,7 +50,7 @@
 			</p>
 			
 			<p>
-				At the moment, I read <a href="http://danbrown.com/deception-point/" target="_blank">Deception point</a> and <a href="http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking</a>.
+				At the moment I read <a href="http://danbrown.com/deception-point/" target="_blank">Deception point</a> and <a href="http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking</a>.
 			</p>
 		</div>
 		
@@ -61,7 +61,7 @@
 		<div class="inner">
 			<h1>Interests and curriculum</h1>
 			<p>
-				Originally, I come from Munich, Germany. After living in Lyon and then Paris, I am now based in Stockholm. I am interested in modern art and impressionalism (The collection of the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I fluently speak and write German, English and French. I also enjoy playing Squash and snowboarding in the Alpes and Pyrenees.
+				Originally, I come from Munich, Germany. After living in Lyon and then Paris, I am now based in Stockholm. I am interested in modern art and impressionalism (the collection of the Mus&eacute;e d'Orsay in Paris is still my favourite), travel and languages. I fluently speak and write German, English and French. I also enjoy playing Squash and snowboarding in the Alpes and Pyrenees.
 			</p>
 			
 			<p>
