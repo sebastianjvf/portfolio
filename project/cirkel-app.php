@@ -107,7 +107,7 @@
 		<div class="mobile-only">
 			<div class="img-caption left">		
 				<img src="../../img/project/cirkel-app-1.png">
-				<span></span>
+				<span>The main screen of the application showing the user bubble and music around.</span>
 			</div>
 		</div>
 	</div>
