@@ -90,15 +90,21 @@ section.content div.inner ol {
 }
 
 section.content div.inner ol li {
-	margin: 0 0 0.2em 0.7em;
+	margin: 0 0 0.6em 0.7em;
+	padding-left: 1em;
 	text-indent: 0;
+}
+
+section.content div.inner ol li span.bold {
+	font-weight: bold;
 }
 
 section.content div.inner ol li:before {
 	font-size: 1em;
 	color: #aaaaaa;
-	position: relative;
-	left: -1.1rem;
+	position: absolute;
+	top: 0.3em;
+	left: -1.2rem;
 	line-height: 1em;
 	transition: all 0.1s ease-in-out;
 	counter-increment: section;
