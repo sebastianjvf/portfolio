@@ -211,7 +211,7 @@ section a:focus:after {
 section a.more {
 	display: table;
 	color: #ffffff !important;
-	margin: 2em auto 0 auto;
+	margin: 2em auto 0.4em auto !important;
 	padding: 0.3em 0.8em !important;
 	text-decoration: none !important;
 	z-index: 5;
