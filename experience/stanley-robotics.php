@@ -12,7 +12,7 @@
 		Stanley Robotics is a company based in Paris. Stan, their product, is a valet robotic plattform which autonomously parks cars at airport parking lots. The end-users of the system scan their boarding card at a vending machine, then leave their car in a designated garage. While away, the robot will safely park the car, optimise space in the parking lot and bring the car back to the garage, ready for the user to pick it up when returning.
 	</p>
 	
-	<a href="http://www.stanley-robotics.com/" class="more">Go to website</a>
+	<a href="http://www.stanley-robotics.com/" target="_blank" class="more">Go to website</a>
 	';
 	
 	// Set the links
