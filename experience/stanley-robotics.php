@@ -33,8 +33,8 @@
 		</p>
 		
 		<div class="img-caption">
-			<img src="../../img/experience/stanley-robotics-1.png" alt="A robotic plattforms picking up a car.">
-			<span>The robot, named Stan, picks up cars and parks them (Photo courtesy of Stanley Robotics).</span>
+			<img src="../../img/experience/stanley-robotics-1.png" alt="A robotic platform picking up a car.">
+			<span>The robot, named Stan, picks up cars and parks them (photo courtesy of Stanley Robotics).</span>
 		</div>
 </section>
 

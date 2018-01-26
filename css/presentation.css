@@ -265,7 +265,7 @@ section#projects-experience div.inner a img {
 	transition: opacity 0.2s ease-in-out;
 }
 
-section#projects-experience div.inner a:nth-of-type(3n) {
+section#projects-experience div.inner a:nth-of-type(3n + 10) {
 	break-after: always;
 	margin-right: 0;
 }
