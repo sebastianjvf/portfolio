@@ -51,8 +51,8 @@
 			<h2>2017</h2>
 			<a href="project/cirkel-app/">
 				<h1>Cirkel App</h1>
-				<span class="type">An app for discovering music<span>
-				<img src="img/project/val-app-preview.png" alt="Preview">
+				<span class="type">An app for local music discovery</span>
+				<img src="img/project/cirkel-app-preview.png" alt="Preview">
 				<span>Project</span>
 			</a>
 			<a href="project/val-app/">
