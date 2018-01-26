@@ -87,7 +87,7 @@
 		
 		<div class="inner">
 			<p>
-				Want to get in touch or connect?<br>
+				Want to get in touch?<br>
 				<a href="mailto:hello@sebastianjvf.net">hello@sebastianjvf.net</a>
 			</p>
 			<div id="icons">
