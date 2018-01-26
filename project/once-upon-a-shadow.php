@@ -14,7 +14,7 @@
 	';
 	
 	// Set the li
-	$previous_project = '../../project/mixed-cuts/';
+	$previous_project = '../../experience/stanley-robotics/';
 	$next_project = '../../project/cirkel-app/';
 	
 	// include header
