@@ -46,7 +46,7 @@
 				<h1>Stanley Robotics</h1>
 				<span class="type">Internship</span>
 				<img src="img/experience/stanley-robotics-preview.png" alt="Preview">
-				<span>Experience</span>
+				<span class="internship">Experience</span>
 			</a>
 			<a href="project/once-upon-a-shadow/">
 				<h1>Once Upon A Shadow</h1>
