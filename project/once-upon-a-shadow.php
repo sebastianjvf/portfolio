@@ -15,7 +15,7 @@
 	
 	// Set the li
 	$previous_project = '../../project/mixed-cuts/';
-	$next_project = '../../project/val-app/';
+	$next_project = '../../project/cirkel-app/';
 	
 	// include header
 	include('../project-header.php');

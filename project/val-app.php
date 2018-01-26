@@ -13,7 +13,7 @@
 	';
 	
 	// Set the links
-	$previous_project = '../../project/once-upon-a-shadow/';
+	$previous_project = '../../project/cirkel-app/';
 	$next_project = '../../project/tick-tock/';
 	
 	// include header
