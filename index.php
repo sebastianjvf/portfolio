@@ -4,10 +4,10 @@
 
 	<title>Sebastian John von Freyend - User experience design student</title>
 	
-	<link rel="stylesheet" href="css/reset.css?version=update-2">
-	<link rel="stylesheet" href="css/typography.css?version=update-2">
-	<link rel="stylesheet" href="css/presentation.css?version=update-2">
-	<link rel="stylesheet" href="css/responsive.css?version=update-2">
+	<link rel="stylesheet" href="css/reset.css?version=update-3">
+	<link rel="stylesheet" href="css/typography.css?version=update-3">
+	<link rel="stylesheet" href="css/presentation.css?version=update-3">
+	<link rel="stylesheet" href="css/responsive.css?version=update-3">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<script src="js/events.js" type="text/javascript"></script>
