@@ -220,6 +220,10 @@
 	section.content .desktop-only {
 		display: none;
 	}
+	
+	section.content .mobile-only {
+		display: block;
+	}
 }
 
 @media (max-width: 600px) {

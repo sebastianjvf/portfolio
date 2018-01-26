@@ -191,6 +191,10 @@ section.content div.inner .img-caption {
 	width: 80%;
 }
 
+section.content div.inner .img-caption:last-child {
+	margin-bottom: 0;
+}
+
 section.content div.inner .img-caption img {
 	width: 100%;
 }
@@ -219,6 +223,10 @@ section.content div.inner *:last-child  {
 
 section.content .desktop-only {
 	display: block;
+}
+
+section.content .mobile-only {
+	display: none;
 }
 
 section.content .phone {
