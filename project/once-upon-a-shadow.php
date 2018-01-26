@@ -36,6 +36,7 @@
 			<li>Interviews</li>
 			<li>User flows</li>
 			<li>Groupware</li>
+			<li>Multimodality</li>
 			<li>3D sound</li>
 			<li>Paper prototyping</li>
 			<li>Wizard-of-Oz prototyping</li>
