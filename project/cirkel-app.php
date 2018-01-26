@@ -83,11 +83,6 @@
 			While the other members started setting up the technical ecosystem, I started sketching out ideas for the user interface. As users came from the Spotify platform, I wanted to keep the colours and the look of icons close to Spotify's own UI. This consistency in the design language would help the user stay in the loop and reduce the cognitive load - little learning would be needed coming from the Spotify platform.
 		</p>
 		
-		<div class="img-caption left-bottom">
-			<img src="../../img/project/cirkel-app-1.png" alt="A sketch showing a big bubble in the middle and smaller bubbles around. A finger touches a small bubble reavealing a slide-up menu.">
-			<span>A first sketch showing the user as a bubble and small bubbles around him/her.</span>
-		</div>
-		
 		<p>
 			I also changed the idea of colours a little: Rather than a playlist being added automatically, users could click on bubbles of other users and, on demand, they could add the last-heard title of that user to the playlist.
 		</p>
@@ -96,17 +91,24 @@
 
 <section id="project-three" class="content">
 	<div class="inner">
-		<div class="desktop-only">
-			<h1>Development</h1>
-			<p>
-				The user interfaces was implemented in vanilla HTML5, CSS3 and JavaScript6. The icons were created in Affinity Designer and colours where chosen to fit in with Spotify's colour scheme. The environment was tested on an iPhone 8 and a Google Nexus 5X. A small animation to analysing the environment was added to show visualise the system status to the user.
-			</p>
+		<h1>Development</h1>
+		<p>
+			The user interfaces was implemented in vanilla HTML5, CSS3 and JavaScript6. The icons were created in Affinity Designer and colours where chosen to fit in with Spotify's colour scheme. The environment was tested on an iPhone 8 and a Google Nexus 5X. A small animation to analysing the environment was added to show visualise the system status to the user.
+		</p>
 			
+		<div class="desktop-only">
 			<h1>Try the application</h1>
 				An interactive, non-functional prototype of the user interface can be tested below. Note that interaction is designed for a touch screen, so no hover effects will be visible.
 				<div class="phone">
 					<iframe src="https://sebastianjvf.github.io/cirkel-app/"></iframe>
 				</div>
+		</div>
+		
+		<div class="mobile-only">
+			<div class="img-caption left">		
+				<img src="../../img/project/cirkel-app-1.png">
+				<span></span>
+			</div>
 		</div>
 	</div>
 </section>
@@ -114,7 +116,7 @@
 <section id="project-four" class="content">
 	<div class="inner">
 		<h1>Evaluation</h1>
-		<h2>Cognitive walkthroughs</h2>
+		<h2>Cognitive walkthrough</h2>
 		<p>
 			As a way of evaluating the usability of and user experience with the application, I conducted a short cognitive walkthrough according to Norman's and Nielsen's 10 usability heuristics.
 		</p>
