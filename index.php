@@ -44,9 +44,9 @@
 			<h2>2018</h2>
 			<a href="experience/stanley-robotics/">
 				<h1>Stanley Robotics</h1>
-				<span class="type">A collaborative multimodal environment</span>
+				<span class="type">Internship</span>
 				<img src="img/experience/stanley-robotics-preview.png" alt="Preview">
-				<span>Internship</span>
+				<span>Experience</span>
 			</a>
 			<a href="project/once-upon-a-shadow/">
 				<h1>Once Upon A Shadow</h1>
