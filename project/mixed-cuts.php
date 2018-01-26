@@ -33,7 +33,7 @@
 		<h2>Methods and tools</h2>
 		<ul class="topics">
 			<li>Cognitive Walkthroughs</li>
-			<li>Natural User Interface</li>
+			<li>Natural user interfaces</li>
 			<li>Interviews</li>
 			<li>User flows</li>
 			<li>Groupware</li>
