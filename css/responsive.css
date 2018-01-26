@@ -216,6 +216,10 @@
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 	}
+	
+	section.content .desktop-only {
+		display: none;
+	}
 }
 
 @media (max-width: 600px) {

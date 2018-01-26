@@ -211,6 +211,25 @@ section.content div.inner *:last-child  {
 	margin-bottom: 0;
 }
 
+section.content .desktop-only {
+	display: block;
+}
+
+section.content .phone {
+	width: 400px;
+	height: 800px;
+	margin: 2em auto;
+	display: block;
+	padding: 4em 1em 5em 1em;
+	background: no-repeat url(../img/project/phone.svg);
+	background-size: cover/cover;
+}
+
+section.content .phone iframe {
+	width: 100%;
+	height: 100%;
+}
+
 footer {
 	position: sticky;
 	position: -webkit-sticky;
