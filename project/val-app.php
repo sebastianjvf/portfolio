@@ -66,7 +66,7 @@
 			<li>Citymapper was used to measure the shortest distance between three locations</li>
 			<li>Facebook Messenger was used to take notes during lectures at university by sending messages to oneself</li>
 			<li>Google's role a dice was used to take a decision in a group</li>
-		</ol>git
+		</ol>
 		
 		<h2>Design brief</h2>
 		<p>

@@ -93,11 +93,11 @@
 	<div class="inner">
 		<h1>Development</h1>
 		<p>
-			The user interfaces was implemented in vanilla HTML5, CSS3 and JavaScript6. The icons were created in Affinity Designer and colours where chosen to fit in with Spotify's colour scheme. The environment was tested on an iPhone 8 and a Google Nexus 5X. A small animation to analysing the environment was added to show visualise the system status to the user.
+			The user interface was implemented in vanilla HTML5, CSS3 and JavaScript6. The icons were created in Affinity Designer and colours where chosen to fit in with Spotify's colour scheme. The environment was tested on an iPhone 8 and a Google Nexus 5X. A small animation to analysing the environment was added to show visualise the system status to the user.
 		</p>
 			
 		<div class="desktop-only">
-			<h1>Try the application</h1>
+			<h2>Try the application</h2>
 				An interactive, non-functional prototype of the user interface can be tested below. Note that interaction is designed for a touch screen, so no hover effects will be visible.
 				<div class="phone">
 					<iframe src="https://sebastianjvf.github.io/cirkel-app/"></iframe>
@@ -118,12 +118,12 @@
 		<h1>Evaluation</h1>
 		<h2>Cognitive walkthrough</h2>
 		<p>
-			As a way of evaluating the usability of and user experience with the application, I conducted a short cognitive walkthrough according to Norman's and Nielsen's 10 usability heuristics.
+			As a way of evaluating and improving the usability of the application, I conducted a short cognitive walkthrough according to Norman's and Nielsen's 10 usability heuristics.
 		</p>
 		
 		<ol>
 			<li><span class="bold">Visibility of system status</span>: The system status is updated in real time.</li>
-			<li><span class="bold">Match between system and the real world</span>: This could be improved; the bubbles are not mapped directly to the users' actual positions</li>
+			<li><span class="bold">Match between system and the real world</span>: This could be improved; the bubbles are not mapped directly to the users' actual positions.</li>
 			<li><span class="bold">User control and freedom</span>: A button was missing to close the individual title of a user and open up the menu again.</li>
 			<li><span class="bold">Consistency and standards</span>: According to the Spotify advocates present at the event, the design nicely resembled the design of Spotify.</li>
 			<li><span class="bold">Error prevention</span>: In this version, no error prevention from a usability point of view was implemented. Something to think about for the next version.</li>

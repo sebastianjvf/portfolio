@@ -24,7 +24,7 @@
 				<div id="picture"></div>
 				<span>Hello there!</span>
 				<p>
-					My name is <span>Sebastian John von Freyend</span> and I am a user experience design (graduate) student at KTH Royal Institute of Technology, Stockholm. I am about to be a design intern at <a href="http://stanley-robotics.com/" target="_blank">Stanley Robotics</a>.
+					My name is <span>Sebastian John von Freyend</span> and I am a (graduate) student at KTH Royal Institute of Technology, Stockholm, majoring in Human-Computer Interaction and Design. I am a UX design intern at <a href="http://stanley-robotics.com/" target="_blank">Stanley Robotics</a>.
 				</p>
 				<a href="about/" class="more">More about me</a>
 			</div>
@@ -42,12 +42,6 @@
 		</span>
 		<div class="inner">
 			<h2>2018</h2>
-			<a href="experience/stanley-robotics/">
-				<h1>Stanley Robotics</h1>
-				<span class="type">Internship</span>
-				<img src="img/experience/stanley-robotics-preview.png" alt="Preview">
-				<span class="internship">Experience</span>
-			</a>
 			<a href="project/once-upon-a-shadow/">
 				<h1>Once Upon A Shadow</h1>
 				<span class="type">A collaborative multimodal environment</span>

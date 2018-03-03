@@ -103,7 +103,7 @@
 		
 		<h2>User interface</h2>
 		<p>
-			While users during our tests were usually focused on the projected image, we expected the situation to be different when they use phones. As people are used to looking at their phones rather than simply using them as a remote, they tend to look at their phones occasionally - especially so if things go wrong. We therefore kept the user interface clean, allowing for quick glances rather than focus attention. The user interface mirrored the character associated with a phone. When a character was moving, or something happened to him, e.g. he was on fire, so was the character on the phone. Arrow icons indicated in which direction a character was able to move, a small icon indicated that an action was triggered (e.g. the phone was shaken).
+			Users during our tests were focused on the projected image. However, we expected the situation to be different when they use their phones - people are used to looking at their phones rather than simply using them as a remote. Especially so if things go wrong. We therefore kept the user interface clean, allowing for quick glances which require no focused attention. The user interface mirrored the character associated with a phone. When a character was moving, or something happened to him, e.g. he was on fire, so was the character on the phone. Arrow icons indicated in which direction a character was able to move, a small icon indicated that an action was triggered (e.g. the phone was shaken).
 		</p>
 		
 		<h2>Implementation in Unity</h2>
@@ -134,7 +134,7 @@
 			The most challenging aspect was to coordinate sensorial channels. Network connectivity had a big influence on when output was given on any part of the system. However, timing was essential, only a small amount of lag would make the system seem unstable and confuse the user. Another important aspect was volume. The team worked a lot on scaling volume of each sound to an appropriate level so that every sound could be heard equally well.
 		</p>
 		<p>
-			On a good note, people during our interviews and observations seemed to enjoy the system and quickly learned how to interact with the system and interpreted feedback as we expected them to. The multimodal aspect augmented the experience and proved to be of value.
+			On a good note, people during our interviews and observations seemed to enjoy the system. They quickly learned how to interact with the system and interpreted feedback as intended. The multimodal aspect augmented the experience and proved to be of value.
 		</p>
 	</div>
 </section>
