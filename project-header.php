@@ -4,7 +4,7 @@
 
 	<title>Sebastian John von Freyend - User experience design student - Project <?php echo $project_title; ?></title>
 	
-	<link rel="stylesheet" href="../../css/reset.css?version=update-3">
+	<link rel="stylesheet" href="../../css/reset.css?version=update-4">
 	<link rel="stylesheet" href="../../css/typography.css?version=update-3">
 	<link rel="stylesheet" href="../../css/presentation.css?version=update-3">
 	<link rel="stylesheet" href="../../css/project.css?version=update-3">
